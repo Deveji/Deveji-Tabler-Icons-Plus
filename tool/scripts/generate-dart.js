@@ -19,10 +19,12 @@ function safeName(name) {
 
 const fields = Object.entries(map)
   .sort(([a], [b]) => a.localeCompare(b))
-  .map(([name, cp]) =>
-    `  static const IconData ${safeName(name)} = ` +
-    `IconData(0x${cp.toString(16)}, fontFamily: _kFontFam, fontPackage: _kFontPkg);`
-  ).join('\n');
+  .map(([name, cp]) => {
+    const dartName = safeName(name);
+    return `  /// Tabler icon: "${name}"\n` +
+    `  static const IconData ${dartName} = ` +
+    `IconData(0x${cp.toString(16)}, fontFamily: _kFontFam, fontPackage: _kFontPkg);`;
+  }).join('\n\n');
 
 const src = `// GENERATED — do not edit by hand.
 // Run: cd tool && npm run build
