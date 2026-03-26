@@ -1,0 +1,10 @@
+node_modules/
+icons/
+tool/node_modules/
+.dart_tool/
+.packages
+pubspec.lock
+*.iml
+.idea/
+.vscode/
+build/
