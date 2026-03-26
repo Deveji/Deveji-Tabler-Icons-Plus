@@ -74,10 +74,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="v${{ steps.meta.outputs.version }}"
-          if ! git tag "$TAG" 2>/dev/null; then
-            echo "Tag $TAG already exists, skipping release."
+          if git ls-remote --tags origin | grep -q "refs/tags/$TAG$"; then
+            echo "Tag $TAG already exists on remote, skipping release."
             exit 0
           fi
+          git tag "$TAG"
           git push origin "$TAG"
           gh release create "$TAG" \
             --title "v${{ steps.meta.outputs.version }}" \
