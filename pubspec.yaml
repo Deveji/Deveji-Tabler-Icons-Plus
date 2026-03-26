@@ -2,7 +2,7 @@ name: tabler_icons_plus
 description: >-
   Tabler Icons as a Flutter icon font — 6,074 open-source icons available
   as typed IconData constants. Fully compatible with the Icon widget and themes.
-version: 3.40.0+1
+version: 3.40.0
 homepage: https://deveji.com/
 repository: https://github.com/Deveji/Deveji-Tabler-Icons-Plus
 issue_tracker: https://github.com/Deveji/Deveji-Tabler-Icons-Plus/issues
