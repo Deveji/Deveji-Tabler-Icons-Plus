@@ -6,6 +6,9 @@ on:
       tabler_version:
         description: '@tabler/icons version (blank = latest)'
         required: false
+      package_version:
+        description: 'Package version override (blank = use tabler version)'
+        required: false
   schedule:
     - cron: '0 6 * * 1'
   push:
@@ -45,13 +48,20 @@ jobs:
         working-directory: tool
         run: npm run build
 
+      - name: Override package version
+        if: github.event.inputs.package_version != ''
+        run: |
+          sed -i "s/^version: .*/version: ${{ github.event.inputs.package_version }}/" pubspec.yaml
+
       - name: Read build metadata
         id: meta
         run: |
-          VERSION=$(node -p "require('./tool/node_modules/@tabler/icons/package.json').version")
+          TABLER_VERSION=$(node -p "require('./tool/node_modules/@tabler/icons/package.json').version")
           COUNT=$(node -p "Object.keys(require('./tool/output/TablerIcons.json')).length")
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          PKG_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //')
+          echo "tabler_version=$TABLER_VERSION" >> $GITHUB_OUTPUT
           echo "count=$COUNT" >> $GITHUB_OUTPUT
+          echo "version=$PKG_VERSION" >> $GITHUB_OUTPUT
 
       - name: Check for changes
         id: diff
@@ -65,7 +75,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: update Tabler Icons to v${{ steps.meta.outputs.version }}"
+          git commit -m "chore: update Tabler Icons to v${{ steps.meta.outputs.tabler_version }}"
           git push
 
       - name: Create release
@@ -82,4 +92,4 @@ jobs:
           git push origin "$TAG"
           gh release create "$TAG" \
             --title "v${{ steps.meta.outputs.version }}" \
-            --notes "Updated to @tabler/icons v${{ steps.meta.outputs.version }} — ${{ steps.meta.outputs.count }} icons."
+            --notes "Updated to @tabler/icons v${{ steps.meta.outputs.tabler_version }} — ${{ steps.meta.outputs.count }} icons."
