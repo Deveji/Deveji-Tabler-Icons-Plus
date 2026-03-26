@@ -19,9 +19,10 @@
   <a href="https://tabler.io/icons"><strong>Browse all icons &rarr;</strong></a>
 </p>
 
-<blockquote>
-<p><strong>Always Up-to-Date</strong> &mdash; Every new Tabler Icons release is automatically synced and published to <a href="https://pub.dev/packages/tabler_icons_plus">pub.dev</a> daily. Enjoy a continuously refreshed icon library requiring zero manual maintenance.</p>
-</blockquote>
+<div align="center">
+  <h3>✨ Always Up-to-Date</h3>
+  <p>Every new Tabler Icons release is automatically synced and published to <a href="https://pub.dev/packages/tabler_icons_plus">pub.dev</a> daily. <br>Enjoy a continuously refreshed icon library requiring zero manual maintenance.</p>
+</div>
 
 ---
 
