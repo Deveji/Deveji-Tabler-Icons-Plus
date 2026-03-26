@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.40.0+2
+
+- Added dartdoc comments to all 6,074 icon constants
+- Fixed homepage URL for pub.dev validation
+
 ## 3.40.0+1
 
 - Added 1,053 filled icon variants (e.g. `TablerIcons.heartFilled`)
