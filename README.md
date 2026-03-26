@@ -5,20 +5,23 @@
 <h1 align="center">Tabler Icons for Flutter</h1>
 
 <p align="center">
+  <a href="https://pub.dev/packages/tabler_icons_plus"><img src="https://img.shields.io/pub/v/tabler_icons_plus?color=blue&label=pub.dev" alt="pub.dev"></a>
   <a href="https://www.npmjs.com/package/@tabler/icons"><img src="https://img.shields.io/badge/@tabler/icons-v3.40.0-066fd1" alt="@tabler/icons version"></a>
-  <a href="https://tabler.io/icons"><img src="https://img.shields.io/badge/icons-5%2C021-blue" alt="Icon count"></a>
-  <a href="https://flutter.dev"><img src="https://img.shields.io/badge/flutter-%3E%3D3.0-02569B" alt="Flutter"></a>
-  <a href="https://github.com/tabler/tabler-icons/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT"></a>
+  <a href="https://tabler.io/icons"><img src="https://img.shields.io/badge/icons-6%2C074-blue" alt="Icon count"></a>
 </p>
 
 <p align="center">
-  <strong>5,021 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter.<br>
+  <strong>6,074 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter.<br>
   Drop-in compatible with the <code>Icon</code> widget and theme system.
 </p>
 
 <p align="center">
   <a href="https://tabler.io/icons"><strong>Browse all icons &rarr;</strong></a>
 </p>
+
+<blockquote>
+<p><strong>Always Up-to-Date</strong> &mdash; Every new Tabler Icons release is automatically synced and published to <a href="https://pub.dev/packages/tabler_icons_plus">pub.dev</a> daily. Enjoy a continuously refreshed icon library requiring zero manual maintenance.</p>
+</blockquote>
 
 ---
 

@@ -3,6 +3,10 @@ const { generateFonts, FontAssetType, OtherAssetType } = require('fantasticon');
 
 fs.mkdirSync('./output', { recursive: true });
 
+// Save previous map before overwrite — used by generate-dart.js for changelog
+const prevMap = loadExistingCodepoints();
+fs.writeFileSync('./output/TablerIcons.prev.json', JSON.stringify(prevMap));
+
 generateFonts({
   inputDir:   '../icons',
   outputDir:  './output',

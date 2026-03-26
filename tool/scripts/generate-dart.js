@@ -12,7 +12,8 @@ const dartRenames = {
 };
 
 function safeName(name) {
-  const camel = toCamel(name);
+  let camel = toCamel(name);
+  if (/^[0-9]/.test(camel)) camel = `icon${camel}`;
   return dartRenames[camel] || camel;
 }
 
@@ -115,6 +116,59 @@ if (fs.existsSync(pubspecPath2)) {
     `${iconCount.toLocaleString('en-US')} open-source`
   );
   fs.writeFileSync(pubspecPath2, pubspec2);
+}
+
+// Update CHANGELOG.md
+const changelogPath = path.join(rootDir, 'CHANGELOG.md');
+if (fs.existsSync(changelogPath)) {
+  let prevMap = {};
+  try { prevMap = JSON.parse(fs.readFileSync(path.join(__dirname, '../output/TablerIcons.prev.json'), 'utf8')); }
+  catch {}
+
+  const prevKeys = new Set(Object.keys(prevMap));
+  const currKeys = new Set(Object.keys(map));
+  const added   = [...currKeys].filter(k => !prevKeys.has(k)).sort();
+  const removed = [...prevKeys].filter(k => !currKeys.has(k)).sort();
+
+  if (added.length || removed.length) {
+    const outlineAdded = added.filter(n => !n.endsWith('-filled'));
+    const filledAdded  = added.filter(n => n.endsWith('-filled'));
+    const outlineCount = [...currKeys].filter(n => !n.endsWith('-filled')).length;
+    const filledCount  = [...currKeys].filter(n => n.endsWith('-filled')).length;
+
+    let entry = `## ${tablerVersion}\n\n`;
+    entry += `- Updated to @tabler/icons v${tablerVersion}\n`;
+    entry += `- ${iconCount.toLocaleString('en-US')} icons (${outlineCount.toLocaleString('en-US')} outline + ${filledCount.toLocaleString('en-US')} filled)\n`;
+
+    if (added.length) {
+      entry += `- Added ${added.length} new icon${added.length > 1 ? 's' : ''}`;
+      if (outlineAdded.length && filledAdded.length) {
+        entry += ` (${outlineAdded.length} outline, ${filledAdded.length} filled)`;
+      }
+      entry += '\n';
+      // List up to 20 new icons as examples
+      const examples = added.slice(0, 20).map(n => `\`${safeName(n)}\``).join(', ');
+      entry += `  - ${examples}`;
+      if (added.length > 20) entry += `, and ${added.length - 20} more`;
+      entry += '\n';
+    }
+
+    if (removed.length) {
+      entry += `- Removed ${removed.length} icon${removed.length > 1 ? 's' : ''}\n`;
+      const removedExamples = removed.slice(0, 20).map(n => `\`${safeName(n)}\``).join(', ');
+      entry += `  - ${removedExamples}`;
+      if (removed.length > 20) entry += `, and ${removed.length - 20} more`;
+      entry += '\n';
+    }
+
+    let changelog = fs.readFileSync(changelogPath, 'utf8');
+    // Only prepend if this version isn't already in the changelog
+    if (!changelog.includes(`## ${tablerVersion}\n`)) {
+      changelog = changelog.replace('# Changelog\n', `# Changelog\n\n${entry}`);
+      fs.writeFileSync(changelogPath, changelog);
+      console.log('CHANGELOG.md updated.');
+    }
+  }
 }
 
 // Format the generated Dart file

@@ -8,3 +8,4 @@ pubspec.lock
 .idea/
 .vscode/
 build/
+tool/output/TablerIcons.prev.json
