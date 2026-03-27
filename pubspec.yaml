@@ -1,8 +1,8 @@
 name: tabler_icons_plus
 description: >-
-  Tabler Icons as a Flutter icon font — 6,074 open-source icons available
+  Tabler Icons as a Flutter icon font — 6,149 open-source icons available
   as typed IconData constants. Fully compatible with the Icon widget and themes.
-version: 3.40.0+2
+version: 3.41.0
 homepage: https://github.com/Deveji/Deveji-Tabler-Icons-Plus
 repository: https://github.com/Deveji/Deveji-Tabler-Icons-Plus
 issue_tracker: https://github.com/Deveji/Deveji-Tabler-Icons-Plus/issues
@@ -34,6 +34,9 @@ dev_dependencies:
 
 flutter:
   fonts:
-    - family: TablerIcons
+    - family: tabler-icons
       fonts:
-        - asset: lib/fonts/TablerIcons.ttf
+        - asset: lib/fonts/tabler-icons.ttf
+    - family: tabler-icons-filled
+      fonts:
+        - asset: lib/fonts/tabler-icons-filled.ttf

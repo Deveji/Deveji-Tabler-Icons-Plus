@@ -2,13 +2,11 @@
   "name": "tabler-icon-pipeline",
   "private": true,
   "scripts": {
-    "filter": "node scripts/filter-icons.js",
-    "font": "node scripts/generate-font.js",
+    "assets": "node scripts/copy-assets.js",
     "dart": "node scripts/generate-dart.js",
-    "build": "npm run filter && npm run font && npm run dart"
+    "build": "npm run assets && npm run dart"
   },
   "dependencies": {
-    "@tabler/icons": "^3.31.0",
-    "fantasticon": "^3.0.0"
+    "@tabler/icons-webfont": "^3.31.0"
   }
 }

@@ -9,3 +9,4 @@ pubspec.lock
 .vscode/
 build/
 tool/output/TablerIcons.prev.json
+lib/.DS_Store

@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.41.0
+
+- Updated to @tabler/icons-webfont v3.41.0
+- 6,149 icons (5,093 outline + 1,056 filled)
+- Added 6149 new icons
+
 ## 3.40.0+2
 
 - Added dartdoc comments to all 6,074 icon constants
