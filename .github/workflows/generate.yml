@@ -41,7 +41,7 @@ jobs:
         run: |
           VERSION=${{ github.event.inputs.tabler_version }}
           if [ -n "$VERSION" ]; then
-            npm install @tabler/icons@$VERSION
+            npm install @tabler/icons-webfont@$VERSION
           else
             npm install
           fi
@@ -58,8 +58,8 @@ jobs:
       - name: Read build metadata
         id: meta
         run: |
-          TABLER_VERSION=$(node -p "require('./tool/node_modules/@tabler/icons/package.json').version")
-          COUNT=$(node -p "Object.keys(require('./tool/output/TablerIcons.json')).length")
+          TABLER_VERSION=$(node -p "require('./tool/node_modules/@tabler/icons-webfont/package.json').version")
+          COUNT=$(node -p "JSON.parse(require('fs').readFileSync('./tool/output/prev-counts.json','utf8')).outline + JSON.parse(require('fs').readFileSync('./tool/output/prev-counts.json','utf8')).filled")
           PKG_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //')
           echo "tabler_version=$TABLER_VERSION" >> $GITHUB_OUTPUT
           echo "count=$COUNT" >> $GITHUB_OUTPUT
