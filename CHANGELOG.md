@@ -2,13 +2,14 @@
 
 ## 3.41.0
 
-- Updated to @tabler/icons-webfont v3.41.0
+- Switched to pre-built Tabler webfonts (fixes broken/glitched glyphs)
+- Two font families: outline + filled
 - 6,149 icons (5,093 outline + 1,056 filled)
-- Added 6149 new icons
+- Changelog now includes Tabler's GitHub release notes
 
 ## 3.40.0+2
 
-- Added dartdoc comments to all 6,074 icon constants
+- Added dartdoc comments to all icon constants
 - Fixed homepage URL for pub.dev validation
 
 ## 3.40.0+1
@@ -16,11 +17,9 @@
 - Added 1,053 filled icon variants (e.g. `TablerIcons.heartFilled`)
 - Total icons: 6,074 (5,021 outline + 1,053 filled)
 - Added automated pub.dev publishing via OIDC
-- Digit-prefixed icon name guard for future-proofing
 
 ## 3.40.0
 
 - Initial release
 - 5,021 outline icons from @tabler/icons v3.40.0
-- Stable codepoint pipeline with fantasticon
 - GitHub Actions workflow for automated updates

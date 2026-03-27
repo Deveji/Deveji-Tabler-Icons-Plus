@@ -103,9 +103,26 @@ if (fs.existsSync(pubspecPath2)) {
   fs.writeFileSync(pubspecPath2, pubspec2);
 }
 
-// Update CHANGELOG.md
-var changelogPath = path.join(rootDir, 'CHANGELOG.md');
-if (fs.existsSync(changelogPath)) {
+// Update CHANGELOG.md (async — fetch release notes from GitHub)
+updateChangelog().then(function() {
+  // Format the generated Dart file after changelog is done
+  var dartFile = path.join(rootDir, 'lib/tabler_icons_plus.dart');
+  require('child_process').execSync('dart format "' + dartFile + '"', { stdio: 'inherit' });
+
+  console.log('Dart class written (' + iconCount + ' icons: ' + outlineCount + ' outline + ' + filledCount + ' filled).');
+});
+
+async function updateChangelog() {
+  var changelogPath = path.join(rootDir, 'CHANGELOG.md');
+  if (!fs.existsSync(changelogPath)) return;
+
+  var changelog = fs.readFileSync(changelogPath, 'utf8');
+  if (changelog.indexOf('## ' + tablerVersion + '\n') !== -1) {
+    // Already has this version
+    saveCounts();
+    return;
+  }
+
   var prevOutline = 0, prevFilled = 0;
   try {
     var prevData = JSON.parse(fs.readFileSync(path.join(__dirname, '../output/prev-counts.json'), 'utf8'));
@@ -116,31 +133,62 @@ if (fs.existsSync(changelogPath)) {
   var prevTotal = prevOutline + prevFilled;
   var newIcons = iconCount - prevTotal;
 
-  if (newIcons > 0) {
-    var entry = '## ' + tablerVersion + '\n\n';
-    entry += '- Updated to @tabler/icons-webfont v' + tablerVersion + '\n';
-    entry += '- ' + iconCount.toLocaleString('en-US') + ' icons (' + outlineCount.toLocaleString('en-US') + ' outline + ' + filledCount.toLocaleString('en-US') + ' filled)\n';
-    entry += '- Added ' + newIcons + ' new icons\n';
+  // Fetch release notes from Tabler GitHub
+  var releaseNotes = await fetchReleaseNotes(tablerVersion);
 
-    var changelog = fs.readFileSync(changelogPath, 'utf8');
-    if (changelog.indexOf('## ' + tablerVersion + '\n') === -1) {
-      changelog = changelog.replace('# Changelog\n', '# Changelog\n\n' + entry);
-      fs.writeFileSync(changelogPath, changelog);
-      console.log('CHANGELOG.md updated.');
-    }
+  var entry = '## ' + tablerVersion + '\n\n';
+  entry += '- ' + iconCount.toLocaleString('en-US') + ' icons (' + outlineCount.toLocaleString('en-US') + ' outline + ' + filledCount.toLocaleString('en-US') + ' filled)\n';
+  if (newIcons > 0) {
+    entry += '- Added ' + newIcons + ' new icons\n';
+  }
+  if (releaseNotes) {
+    entry += '\n### Tabler Icons release notes\n\n' + releaseNotes + '\n';
   }
 
-  // Save current counts for next run
+  changelog = changelog.replace('# Changelog\n', '# Changelog\n\n' + entry);
+  fs.writeFileSync(changelogPath, changelog);
+  console.log('CHANGELOG.md updated with release notes.');
+
+  saveCounts();
+}
+
+function saveCounts() {
   fs.mkdirSync(path.join(__dirname, '../output'), { recursive: true });
   fs.writeFileSync(path.join(__dirname, '../output/prev-counts.json'),
     JSON.stringify({ outline: outlineCount, filled: filledCount }));
 }
 
-// Format the generated Dart file
-var dartFile = path.join(rootDir, 'lib/tabler_icons_plus.dart');
-require('child_process').execSync('dart format "' + dartFile + '"', { stdio: 'inherit' });
+async function fetchReleaseNotes(version) {
+  try {
+    var https = require('https');
+    var url = 'https://api.github.com/repos/tabler/tabler-icons/releases/tags/v' + version;
 
-console.log('Dart class written (' + iconCount + ' icons: ' + outlineCount + ' outline + ' + filledCount + ' filled).');
+    var body = await new Promise(function(resolve, reject) {
+      https.get(url, {
+        headers: {
+          'Accept': 'application/vnd.github.v3+json',
+          'User-Agent': 'tabler-icons-plus-pipeline',
+        },
+      }, function(res) {
+        var chunks = [];
+        res.on('data', function(c) { chunks.push(c); });
+        res.on('end', function() { resolve(Buffer.concat(chunks).toString()); });
+      }).on('error', reject);
+    });
+
+    var json = JSON.parse(body);
+    var notes = (json.body || '').trim();
+    if (!notes) return null;
+
+    // Clean up: remove image tags, normalize line endings
+    notes = notes.replace(/\r\n/g, '\n');
+    notes = notes.replace(/<img[^>]*\/?>/gi, '');
+    return notes.trim() || null;
+  } catch(e) {
+    console.log('Could not fetch release notes: ' + e.message);
+    return null;
+  }
+}
 
 // --- Helper functions ---
 

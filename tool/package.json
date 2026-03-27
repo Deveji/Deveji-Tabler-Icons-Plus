@@ -7,6 +7,6 @@
     "build": "npm run assets && npm run dart"
   },
   "dependencies": {
-    "@tabler/icons-webfont": "^3.31.0"
+    "@tabler/icons-webfont": "^3.41.0"
   }
 }
