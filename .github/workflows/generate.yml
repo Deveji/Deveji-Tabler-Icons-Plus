@@ -43,7 +43,7 @@ jobs:
           if [ -n "$VERSION" ]; then
             npm install @tabler/icons-webfont@$VERSION
           else
-            npm install
+            npm install @tabler/icons-webfont@latest
           fi
 
       - name: Run pipeline
