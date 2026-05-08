@@ -103,4 +103,22 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="v${{ steps.meta.outputs.version }}"
-          gh workflow run publish.yml --ref "$TAG"
+          if ! err=$(gh workflow run publish.yml --ref "$TAG" 2>&1); then
+            if echo "$err" | grep -q "HTTP 500"; then
+              echo "Dispatch API returned HTTP 500; verifying via run list."
+              echo "$err"
+            else
+              echo "::error::$err"
+              exit 1
+            fi
+          fi
+          for i in 1 2 3 4 5 6; do
+            RUN=$(gh run list --workflow=publish.yml --branch "$TAG" --event workflow_dispatch --limit 1 --json databaseId --jq '.[0].databaseId // ""')
+            if [ -n "$RUN" ]; then
+              echo "Publish workflow dispatched: run $RUN"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::Publish dispatch not observed within 30s for tag $TAG"
+          exit 1
