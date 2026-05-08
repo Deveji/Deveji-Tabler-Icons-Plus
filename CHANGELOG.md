@@ -1,5 +1,35 @@
 # Changelog
 
+## 3.43.0
+
+- 6,185 icons (5,129 outline + 1,056 filled)
+- Added 36 new icons
+
+### Tabler Icons release notes
+
+### 18 new icons:
+
+- `outline/acorn`
+- `outline/acrobatic`
+- `outline/banana`
+- `outline/brand-audible`
+- `outline/building-eiffel-tower`
+- `outline/car-door`
+- `outline/car-lifter`
+- `outline/chocolate`
+- `outline/dumbbell`
+- `outline/exercise-ball`
+- `outline/flood`
+- `outline/hula-hoop`
+- `outline/leaf-maple`
+- `outline/notdef`
+- `outline/rugby`
+- `outline/taiwan-dollar`
+- `outline/target-2`
+- `outline/unicycle`
+
+Fixed icons: `outline/bike`, `outline/cliff-jumping`, `outline/currency-dong`, `outline/karate`, `outline/olympic-torch`, `outline/play-basketball`, `outline/play-football`, `outline/play-handball`, `outline/play-volleyball`, `outline/run`, `outline/skateboarding`, `outline/ski-jumping`, `outline/stretching-2`, `outline/waterpolo`, `outline/yoga`
+
 ## 3.41.0
 
 - Switched to pre-built Tabler webfonts (fixes broken/glitched glyphs)

@@ -1,12 +1,12 @@
 /*!
- * Tabler Icons 3.41.0 by tabler - https://tabler.io
+ * Tabler Icons 3.43.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.woff2?v3.41.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v3.41.0") format("truetype");
+  src: url("./fonts/tabler-icons.woff2?v3.43.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v3.43.0") format("truetype");
 }
 .ti {
   font-family: "tabler-icons" !important;
@@ -59,6 +59,14 @@
 
 .ti-accessible-off:before {
   content: "\f0a7";
+}
+
+.ti-acorn:before {
+  content: "\10255";
+}
+
+.ti-acrobatic:before {
+  content: "\10254";
 }
 
 .ti-activity:before {
@@ -1629,6 +1637,10 @@
   content: "\ea2e";
 }
 
+.ti-banana:before {
+  content: "\10253";
+}
+
 .ti-bandage:before {
   content: "\eb7a";
 }
@@ -2641,6 +2653,10 @@
   content: "\fdb9";
 }
 
+.ti-brand-audible:before {
+  content: "\10252";
+}
+
 .ti-brand-auth0:before {
   content: "\fcb3";
 }
@@ -3633,6 +3649,10 @@
   content: "\ed6f";
 }
 
+.ti-brand-stellar:before {
+  content: "\10243";
+}
+
 .ti-brand-stocktwits:before {
   content: "\fd78";
 }
@@ -3819,6 +3839,10 @@
 
 .ti-brand-valorant:before {
   content: "\f39f";
+}
+
+.ti-brand-vechain:before {
+  content: "\10242";
 }
 
 .ti-brand-vercel:before {
@@ -4199,6 +4223,10 @@
 
 .ti-building-cottage:before {
   content: "\ee1b";
+}
+
+.ti-building-eiffel-tower:before {
+  content: "\10251";
 }
 
 .ti-building-estate:before {
@@ -4661,6 +4689,10 @@
   content: "\efa4";
 }
 
+.ti-car-door:before {
+  content: "\10250";
+}
+
 .ti-car-fan:before {
   content: "\fdb3";
 }
@@ -4683,6 +4715,10 @@
 
 .ti-car-garage:before {
   content: "\fc77";
+}
+
+.ti-car-lifter:before {
+  content: "\1024f";
 }
 
 .ti-car-off:before {
@@ -5235,6 +5271,10 @@
 
 .ti-chisel:before {
   content: "\f383";
+}
+
+.ti-chocolate:before {
+  content: "\1024e";
 }
 
 .ti-christmas-ball:before {
@@ -5935,6 +5975,14 @@
 
 .ti-clear-formatting:before {
   content: "\ebe5";
+}
+
+.ti-clef:before {
+  content: "\10240";
+}
+
+.ti-clef-staff:before {
+  content: "\10241";
 }
 
 .ti-click:before {
@@ -6985,6 +7033,10 @@
   content: "\f372";
 }
 
+.ti-currency-husd:before {
+  content: "\1023f";
+}
+
 .ti-currency-iranian-rial:before {
   content: "\fa58";
 }
@@ -7117,6 +7169,10 @@
   content: "\f37d";
 }
 
+.ti-currency-tether:before {
+  content: "\1023e";
+}
+
 .ti-currency-tugrik:before {
   content: "\ee6a";
 }
@@ -7139,6 +7195,10 @@
 
 .ti-currency-yuan:before {
   content: "\f29a";
+}
+
+.ti-currency-zcash:before {
+  content: "\1023d";
 }
 
 .ti-currency-zloty:before {
@@ -7339,6 +7399,10 @@
 
 .ti-device-computer-camera:before {
   content: "\ee76";
+}
+
+.ti-device-computer-camera-2:before {
+  content: "\1023c";
 }
 
 .ti-device-computer-camera-off:before {
@@ -8329,6 +8393,10 @@
   content: "\ef4d";
 }
 
+.ti-door-hanger:before {
+  content: "\1023b";
+}
+
 .ti-door-off:before {
   content: "\f11b";
 }
@@ -8481,6 +8549,10 @@
   content: "\fa59";
 }
 
+.ti-dumbbell:before {
+  content: "\1024d";
+}
+
 .ti-dumpling:before {
   content: "\feb5";
 }
@@ -8499,6 +8571,10 @@
 
 .ti-ear-scan:before {
   content: "\fd57";
+}
+
+.ti-earphone-bluetooth:before {
+  content: "\1023a";
 }
 
 .ti-ease-in:before {
@@ -8651,6 +8727,10 @@
 
 .ti-exclamation-mark-off:before {
   content: "\f124";
+}
+
+.ti-exercise-ball:before {
+  content: "\1024c";
 }
 
 .ti-explicit:before {
@@ -9677,6 +9757,10 @@
   content: "\ebb3";
 }
 
+.ti-flood:before {
+  content: "\1024b";
+}
+
 .ti-flower:before {
   content: "\eff6";
 }
@@ -10141,6 +10225,10 @@
   content: "\ee92";
 }
 
+.ti-grape:before {
+  content: "\10239";
+}
+
 .ti-graph:before {
   content: "\f288";
 }
@@ -10243,6 +10331,10 @@
 
 .ti-hammer:before {
   content: "\ef91";
+}
+
+.ti-hammer-drill:before {
+  content: "\10238";
 }
 
 .ti-hammer-off:before {
@@ -11069,6 +11161,10 @@
   content: "\100de";
 }
 
+.ti-hula-hoop:before {
+  content: "\1024a";
+}
+
 .ti-ice-cream:before {
   content: "\eac2";
 }
@@ -11147,6 +11243,10 @@
 
 .ti-infinity:before {
   content: "\eb69";
+}
+
+.ti-infinity-2:before {
+  content: "\10237";
 }
 
 .ti-infinity-off:before {
@@ -11469,6 +11569,10 @@
   content: "\ff46";
 }
 
+.ti-lawn-mower:before {
+  content: "\10236";
+}
+
 .ti-layers-difference:before {
   content: "\eac8";
 }
@@ -11667,6 +11771,10 @@
 
 .ti-leaf-2:before {
   content: "\ff44";
+}
+
+.ti-leaf-maple:before {
+  content: "\10249";
 }
 
 .ti-leaf-off:before {
@@ -12043,6 +12151,10 @@
 
 .ti-loader-3:before {
   content: "\f513";
+}
+
+.ti-loader-4:before {
+  content: "\10235";
 }
 
 .ti-loader-quarter:before {
@@ -13649,6 +13761,10 @@
   content: "\ecbc";
 }
 
+.ti-mosque:before {
+  content: "\10234";
+}
+
 .ti-motorbike:before {
   content: "\eeb6";
 }
@@ -13963,6 +14079,10 @@
 
 .ti-north-star:before {
   content: "\f014";
+}
+
+.ti-notdef:before {
+  content: "\10248";
 }
 
 .ti-note:before {
@@ -14785,6 +14905,10 @@
   content: "\fc0e";
 }
 
+.ti-pendulum:before {
+  content: "\10233";
+}
+
 .ti-pennant:before {
   content: "\ed7d";
 }
@@ -15479,6 +15603,10 @@
 
 .ti-plug-x:before {
   content: "\f0a1";
+}
+
+.ti-plunger:before {
+  content: "\10232";
 }
 
 .ti-plus:before {
@@ -16383,6 +16511,10 @@
 
 .ti-rubber-stamp-off:before {
   content: "\f5aa";
+}
+
+.ti-rugby:before {
+  content: "\10247";
 }
 
 .ti-ruler:before {
@@ -18429,6 +18561,10 @@
   content: "\efc1";
 }
 
+.ti-taiwan-dollar:before {
+  content: "\10246";
+}
+
 .ti-tallymark-1:before {
   content: "\ec46";
 }
@@ -18455,6 +18591,10 @@
 
 .ti-target:before {
   content: "\eb35";
+}
+
+.ti-target-2:before {
+  content: "\10245";
 }
 
 .ti-target-arrow:before {
@@ -19203,6 +19343,10 @@
 
 .ti-underline:before {
   content: "\eba2";
+}
+
+.ti-unicycle:before {
+  content: "\10244";
 }
 
 .ti-universe:before {
