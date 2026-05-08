@@ -22,6 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
 
     steps:
       - uses: actions/checkout@v4
@@ -95,3 +96,11 @@ jobs:
           gh release create "$TAG" \
             --title "v${{ steps.meta.outputs.version }}" \
             --notes "Updated to @tabler/icons v${{ steps.meta.outputs.tabler_version }} — ${{ steps.meta.outputs.count }} icons."
+
+      - name: Trigger publish workflow
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v${{ steps.meta.outputs.version }}"
+          gh workflow run publish.yml --ref "$TAG"
