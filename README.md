@@ -6,12 +6,12 @@
 
 <p align="center">
   <a href="https://pub.dev/packages/tabler_icons_plus"><img src="https://img.shields.io/pub/v/tabler_icons_plus?color=blue&label=pub.dev" alt="pub.dev"></a>
-  <a href="https://www.npmjs.com/package/@tabler/icons"><img src="https://img.shields.io/badge/@tabler/icons-v3.43.0-066fd1" alt="@tabler/icons version"></a>
-  <a href="https://tabler.io/icons"><img src="https://img.shields.io/badge/icons-6%2C185-blue" alt="Icon count"></a>
+  <a href="https://www.npmjs.com/package/@tabler/icons"><img src="https://img.shields.io/badge/@tabler/icons-v3.44.0-066fd1" alt="@tabler/icons version"></a>
+  <a href="https://tabler.io/icons"><img src="https://img.shields.io/badge/icons-6%2C203-blue" alt="Icon count"></a>
 </p>
 
 <p align="center">
-  <strong>6,185 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter.<br>
+  <strong>6,203 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter.<br>
   Drop-in compatible with the <code>Icon</code> widget and theme system.
 </p>
 
