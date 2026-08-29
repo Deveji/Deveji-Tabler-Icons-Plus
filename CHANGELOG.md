@@ -1,5 +1,35 @@
 # Changelog
 
+## 3.46.0
+
+- 6,250 icons (5,193 outline + 1,057 filled)
+- Added 47 new icons
+
+### Tabler Icons release notes
+
+### 18 new icons:
+
+- `outline/play-bug`
+- `outline/play-bugs`
+- `outline/remote-control`
+- `outline/rocking-chair`
+- `outline/run-sprint`
+- `outline/sparkles-2-off`
+- `outline/tabs`
+- `outline/tags-chevron-down`
+- `outline/tags-chevron-left`
+- `outline/tags-chevron-right`
+- `outline/tags-chevron-up`
+- `outline/thinking-high`
+- `outline/thinking-low`
+- `outline/thinking-medium`
+- `outline/treasure-chest`
+- `outline/twig`
+- `outline/vault`
+- `outline/yarn`
+
+Fixed icons: `outline/credits`, `outline/currency-tether`, `outline/device-3d-camera`, `outline/device-screen`, `outline/home-lock`, `outline/map-lock`, `outline/notdef`, `outline/queue-pop-in`, `outline/server-bolt`, `outline/server`, `outline/sparkles-2`, `outline/transform-point-bottom-left`, `outline/transform-point-bottom-right`, `outline/transform-point-top-left`, `outline/transform-point-top-right`
+
 ## 3.44.0
 
 - 6,203 icons (5,147 outline + 1,056 filled)
