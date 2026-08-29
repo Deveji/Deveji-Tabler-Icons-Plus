@@ -122,3 +122,24 @@ jobs:
           done
           echo "::error::Publish dispatch not observed within 30s for tag $TAG"
           exit 1
+
+      # GitHub disables `schedule` triggers after 60 days of repository
+      # inactivity. Upstream can stay quiet longer than that (3.44.0 -> 3.45.0
+      # was 69 days), so a run that finds no icon changes never commits and the
+      # cron silently dies. Push a stamp commit well before the deadline.
+      - name: Keepalive
+        if: steps.diff.outputs.changed == 'false' && github.event_name == 'schedule'
+        run: |
+          MAX_IDLE_DAYS=45
+          IDLE_DAYS=$(( ( $(date -u +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+          if [ "$IDLE_DAYS" -lt "$MAX_IDLE_DAYS" ]; then
+            echo "Last commit $IDLE_DAYS day(s) ago; schedule is safe."
+            exit 0
+          fi
+          echo "Last commit $IDLE_DAYS day(s) ago; pushing keepalive commit."
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          date -u +%Y-%m-%dT%H:%M:%SZ > .github/last-keepalive
+          git add .github/last-keepalive
+          git commit -m "chore: keepalive to keep the scheduled workflow enabled"
+          git push
