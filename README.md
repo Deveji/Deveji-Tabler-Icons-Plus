@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <strong>6,268 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter.<br>
-  Drop-in compatible with the <code>Icon</code> widget and theme system.
+  <strong>6,268 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter,<br>
+  in all three stroke widths plus filled. Drop-in compatible with the <code>Icon</code> widget and theme system.
 </p>
 
 <p align="center">
@@ -68,6 +68,33 @@ IconTheme(
     ],
   ),
 )
+```
+
+---
+
+## Stroke Widths
+
+Tabler draws its outline icons at three stroke widths, and this package ships all
+of them. Every class carries the **same 5,211 names**, so you change stroke by
+changing class:
+
+```dart
+Icon(TablerIcons.home)       // stroke 2 — the Tabler default
+Icon(TablerIconsLight.home)  // stroke 1.5
+Icon(TablerIconsThin.home)   // stroke 1
+Icon(TablerIcons.homeFilled) // filled — no stroke variants
+```
+
+| Class | Stroke | Upstream font | Icons |
+|:--|:--|:--|:--|
+| `TablerIcons` | 2 | `tabler-icons` | 5,211 outline + 1,057 filled |
+| `TablerIconsLight` | 1.5 | `tabler-icons-300` | 5,211 outline |
+| `TablerIconsThin` | 1 | `tabler-icons-200` | 5,211 outline |
+
+Choosing between them at runtime is fine — both branches are still `const`:
+
+```dart
+Icon(compact ? TablerIconsThin.home : TablerIcons.home)
 ```
 
 ---
