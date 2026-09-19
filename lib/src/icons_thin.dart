@@ -16,7 +16,7 @@ import 'package:flutter/widgets.dart';
 /// Icon(TablerIconsThin.home)  // stroke 1
 /// ```
 ///
-/// Filled icons have no stroke variants — they live on `TablerIcons` only.
+/// Filled icons have no stroke variants. They live on `TablerIcons` only.
 @staticIconProvider
 abstract final class TablerIconsThin {
   static const _kFontFam = 'tabler-icons-200';

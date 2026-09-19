@@ -79,10 +79,10 @@ of them. Every class carries the **same 5,211 names**, so you change stroke by
 changing class:
 
 ```dart
-Icon(TablerIcons.home)       // stroke 2 — the Tabler default
+Icon(TablerIcons.home)       // stroke 2 (the Tabler default)
 Icon(TablerIconsLight.home)  // stroke 1.5
 Icon(TablerIconsThin.home)   // stroke 1
-Icon(TablerIcons.homeFilled) // filled — no stroke variants
+Icon(TablerIcons.homeFilled) // filled, no stroke variants
 ```
 
 | Class | Stroke | Upstream font | Icons |
@@ -91,11 +91,45 @@ Icon(TablerIcons.homeFilled) // filled — no stroke variants
 | `TablerIconsLight` | 1.5 | `tabler-icons-300` | 5,211 outline |
 | `TablerIconsThin` | 1 | `tabler-icons-200` | 5,211 outline |
 
-Choosing between them at runtime is fine — both branches are still `const`:
+Choosing between them at runtime is fine, since both branches stay `const`:
 
 ```dart
 Icon(compact ? TablerIconsThin.home : TablerIcons.home)
 ```
+
+### App size
+
+Every icon constant is `const`, so release builds subset each font down to the
+icons you reference, so a stroke you use costs about a kilobyte.
+
+A font you *never* reference is the exception: it is not subsetted at all, and
+ships whole (~1.8 MB per outline font). Unused *assets* are not removed from a
+build: that is [flutter#64106](https://github.com/flutter/flutter/issues/64106)
+("Tree shake unused assets"), open since 2020, and it affects every multi-style
+icon package.
+
+You can shrink them anyway. Reference one icon from each font in code that runs,
+and every font collapses to a single glyph. Nothing needs to be displayed:
+
+```dart
+const keepStrokes = <IconData>[
+  TablerIcons.home,
+  TablerIcons.homeFilled,
+  TablerIconsLight.home,
+  TablerIconsThin.home,
+];
+
+void main() {
+  debugPrint('${keepStrokes.length}');
+  runApp(const MyApp());
+}
+```
+
+Measured in a release APK, that took an otherwise-unused outline font from
+1,826,040 bytes down to 860. What matters is reachability, not rendering: a
+top-level `const` that nothing references is stripped by the AOT compiler before
+the tree shaker runs, and the font ships whole. `Offstage(child: Icon(...))`
+works too, since it stays in the widget tree without being laid out or painted.
 
 ---
 

@@ -151,7 +151,7 @@ updateChangelog().then(function() {
 
   console.log('Dart written (' + iconCount + ' icons: ' + outlineCount + ' outline + ' + filledCount + ' filled).');
   outlines.forEach(function(f) {
-    console.log('  ' + f.dartClass + ' — stroke ' + f.stroke + ' (' + f.family + ')' +
+    console.log('  ' + f.dartClass + ': stroke ' + f.stroke + ' (' + f.family + ')' +
       (f.mergesFilled ? ' + ' + filledCount + ' filled' : ''));
   });
 });
@@ -262,7 +262,7 @@ function classDoc(font, count) {
       '/// Icon(' + font.dartClass + '.home)  // stroke ' + font.stroke,
       '/// ```',
       '///',
-      '/// Filled icons have no stroke variants — they live on `TablerIcons` only.'
+      '/// Filled icons have no stroke variants. They live on `TablerIcons` only.'
     );
   }
   return lines.join('\n');

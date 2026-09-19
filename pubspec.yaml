@@ -34,19 +34,19 @@ dev_dependencies:
 
 flutter:
   fonts:
-    # Outline, stroke 2 — TablerIcons
+    # Outline, stroke 2 (TablerIcons)
     - family: tabler-icons
       fonts:
         - asset: lib/fonts/tabler-icons.ttf
-    # Outline, stroke 1.5 — TablerIconsLight
+    # Outline, stroke 1.5 (TablerIconsLight)
     - family: tabler-icons-300
       fonts:
         - asset: lib/fonts/tabler-icons-300.ttf
-    # Outline, stroke 1 — TablerIconsThin
+    # Outline, stroke 1 (TablerIconsThin)
     - family: tabler-icons-200
       fonts:
         - asset: lib/fonts/tabler-icons-200.ttf
-    # Filled — TablerIcons.<name>Filled
+    # Filled (TablerIcons.<name>Filled)
     - family: tabler-icons-filled
       fonts:
         - asset: lib/fonts/tabler-icons-filled.ttf
