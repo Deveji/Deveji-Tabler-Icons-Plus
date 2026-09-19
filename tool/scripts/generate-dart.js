@@ -1,7 +1,8 @@
 const fs   = require('fs');
 const path = require('path');
 
-const { families, outlines, filled, defaultOutline } = require('../config/fonts');
+const { families, outlines, filled, defaultOutline, codepointDelta } = require('../config/fonts');
+const { parseCss } = require('../config/css');
 
 const rootDir = path.join(__dirname, '../..');
 const cssDir  = path.join(__dirname, '../assets/css');
@@ -31,18 +32,24 @@ outlines.forEach(function(font) {
   }
 });
 
+// Merged strokes live at an offset; the delta is derived from the lowest
+// codepoint upstream uses, exactly as merge-fonts.js does it.
+const minCodepoint = Math.min.apply(null, outlineIcons.map(function(e) { return parseInt(e[1], 16); }));
+
 const outlineCount = outlineIcons.length;
 const filledCount  = filledIcons.length;
 const iconCount    = outlineCount + filledCount;
 
 // One Dart file per outline stroke; the default one also carries the filled icons.
 outlines.forEach(function(font) {
+  var delta = codepointDelta(font, minCodepoint);
   var entries = outlineIcons.map(function(e) {
-    return { name: e[0], cp: e[1], fam: '_kFontFam' };
+    return { name: e[0], cp: (parseInt(e[1], 16) + delta).toString(16), fam: '_kFontFam' };
   });
+  var filledFam = filled.family === font.family ? '_kFontFam' : '_kFontFamFilled';
   if (font.mergesFilled) {
     filledIcons.forEach(function(e) {
-      entries.push({ name: e[0] + 'Filled', cp: e[1], fam: '_kFontFamFilled' });
+      entries.push({ name: e[0] + 'Filled', cp: e[1], fam: filledFam });
     });
   }
   entries.sort(function(a, b) { return a.name.localeCompare(b.name); });
@@ -54,7 +61,7 @@ outlines.forEach(function(font) {
   }).join('\n\n');
 
   var famConsts = ["  static const _kFontFam = '" + font.family + "';"];
-  if (font.mergesFilled) {
+  if (font.mergesFilled && filledFam === '_kFontFamFilled') {
     famConsts.push("  static const _kFontFamFilled = '" + filled.family + "';");
   }
   famConsts.push("  static const _kFontPkg = 'tabler_icons_plus';");
@@ -268,19 +275,6 @@ function classDoc(font, count) {
   return lines.join('\n');
 }
 
-function parseCss(filePath) {
-  var css = fs.readFileSync(filePath, 'utf8');
-  var regex = /\.ti-([\w-]+):before\s*\{\s*content:\s*"\\([0-9a-fA-F]+)";\s*\}/g;
-  var icons = [];
-  var match;
-  while ((match = regex.exec(css)) !== null) {
-    var name = toCamel(match[1]);
-    var codepoint = match[2];
-    icons.push([name, codepoint]);
-  }
-  return icons;
-}
-
 // Returns a human-readable description of the first difference, or null.
 function diffMaps(a, b) {
   if (a.length !== b.length) return a.length + ' vs ' + b.length + ' icons';
@@ -304,13 +298,6 @@ function compareVersions(a, b) {
     if (da !== db) return da > db ? 1 : -1;
   }
   return 0;
-}
-
-function toCamel(s) {
-  var camel = s.replace(/-([a-z0-9])/g, function(_, c) { return c.toUpperCase(); });
-  if (/^[0-9]/.test(camel)) camel = 'icon' + camel;
-  if (camel === 'switch') camel = 'switch1';
-  return camel;
 }
 
 function getTablerVersion() {

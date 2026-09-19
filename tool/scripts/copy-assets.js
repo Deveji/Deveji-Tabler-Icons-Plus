@@ -1,7 +1,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const { families } = require('../config/fonts');
+const { families, bundles } = require('../config/fonts');
 
 const rootDir  = path.join(__dirname, '../..');
 const fontsDir = path.join(rootDir, 'lib/fonts');
@@ -13,9 +13,16 @@ fs.mkdirSync(cssDir, { recursive: true });
 
 const files = {};
 families.forEach((font) => {
-  files[`${webfont}/fonts/${font.ttf}`] = `${fontsDir}/${font.ttf}`;
-  files[`${webfont}/${font.css}`]       = `${cssDir}/${font.css}`;
+  files[`${webfont}/${font.css}`] = `${cssDir}/${font.css}`;
 });
+
+// Fonts built from several upstream files are produced by merge-fonts.js; the
+// rest are copied through untouched.
+bundles
+  .filter((bundle) => bundle.sources.length === 1)
+  .forEach((bundle) => {
+    files[`${webfont}/fonts/${bundle.sources[0].source}`] = `${fontsDir}/${bundle.ttf}`;
+  });
 
 Object.entries(files).forEach(([src, dest]) => {
   if (!fs.existsSync(src)) {
@@ -29,7 +36,7 @@ Object.entries(files).forEach(([src, dest]) => {
 
 // Report any font upstream ships that this package does not handle yet, so a
 // new stroke width does not sit unnoticed in node_modules for months.
-const known = new Set(families.map((f) => f.ttf));
+const known = new Set(families.map((f) => f.source));
 const shipped = fs.readdirSync(`${webfont}/fonts`).filter((f) => f.endsWith('.ttf'));
 const unhandled = shipped.filter((f) => !known.has(f));
 if (unhandled.length) {
