@@ -1,5 +1,35 @@
 # Changelog
 
+## 3.47.0
+
+- 6,268 icons (5,211 outline + 1,057 filled)
+- Added 18 new icons
+
+### Tabler Icons release notes
+
+### 18 new icons:
+
+- `outline/airpods-l`
+- `outline/airpods-r`
+- `outline/cash-coin`
+- `outline/edit-bulk`
+- `outline/folder-stats`
+- `outline/folder-user`
+- `outline/gpu-2`
+- `outline/gpu`
+- `outline/map-pinned`
+- `outline/orbit-vertical`
+- `outline/orbit`
+- `outline/orbits`
+- `outline/reduce-motion`
+- `outline/reference-image`
+- `outline/secret-phrases`
+- `outline/sticker-smile`
+- `outline/voice-2`
+- `outline/voice`
+
+Fixed icon: `outline/align-right-2`
+
 ## 3.46.0
 
 - 6,250 icons (5,193 outline + 1,057 filled)

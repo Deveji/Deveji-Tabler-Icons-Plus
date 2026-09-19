@@ -1,7 +1,7 @@
 // GENERATED — do not edit by hand.
 // Run: cd tool && npm run build
-// Source: @tabler/icons-webfont v3.46.0
-// Icons: 6250 (5193 outline + 1057 filled)
+// Source: @tabler/icons-webfont v3.47.0
+// Icons: 6268 (5211 outline + 1057 filled)
 
 /// Tabler Icons for Flutter.
 ///
@@ -15,14 +15,14 @@
 ///
 /// Browse the full icon set at [tabler.io/icons](https://tabler.io/icons).
 ///
-/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.46.0.
+/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.47.0.
 library;
 
 import 'package:flutter/widgets.dart';
 
 /// Identifiers for the icons available in the Tabler Icons font.
 ///
-/// Contains 6250 icons from [Tabler Icons](https://tabler.io/icons) v3.46.0.
+/// Contains 6268 icons from [Tabler Icons](https://tabler.io/icons) v3.47.0.
 ///
 /// Outline icons use the default name (e.g. [home], [star]).
 /// Filled variants are suffixed with `Filled` (e.g. [homeFilled], [starFilled]).
@@ -462,6 +462,20 @@ class TablerIcons {
   /// Tabler icon: "airConditioningDisabled"
   static const IconData airConditioningDisabled = IconData(
     0xf542,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "airpodsL"
+  static const IconData airpodsL = IconData(
+    0x102a0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "airpodsR"
+  static const IconData airpodsR = IconData(
+    0x1029f,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -958,7 +972,7 @@ class TablerIcons {
 
   /// Tabler icon: "alignRight2"
   static const IconData alignRight2 = IconData(
-    0xfeff,
+    0x1028e,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -10231,6 +10245,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cashCoin"
+  static const IconData cashCoin = IconData(
+    0x1029e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cashEdit"
   static const IconData cashEdit = IconData(
     0x10143,
@@ -18442,6 +18463,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "editBulk"
+  static const IconData editBulk = IconData(
+    0x1029d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "editCircle"
   static const IconData editCircle = IconData(
     0xee85,
@@ -21249,6 +21277,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "folderStats"
+  static const IconData folderStats = IconData(
+    0x1029c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "folderSymlink"
   static const IconData folderSymlink = IconData(
     0xf91b,
@@ -21259,6 +21294,13 @@ class TablerIcons {
   /// Tabler icon: "folderUp"
   static const IconData folderUp = IconData(
     0xf91c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "folderUser"
+  static const IconData folderUser = IconData(
+    0x1029b,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -21974,6 +22016,20 @@ class TablerIcons {
   static const IconData gpsFilled = IconData(
     0xfe48,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "gpu"
+  static const IconData gpu = IconData(
+    0x10299,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "gpu2"
+  static const IconData gpu2 = IconData(
+    0x1029a,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -27549,6 +27605,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "mapPinned"
+  static const IconData mapPinned = IconData(
+    0x10298,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "mapPinOff"
   static const IconData mapPinOff = IconData(
     0xecf3,
@@ -31259,6 +31322,27 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "orbit"
+  static const IconData orbit = IconData(
+    0x10296,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "orbits"
+  static const IconData orbits = IconData(
+    0x10295,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "orbitVertical"
+  static const IconData orbitVertical = IconData(
+    0x10297,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "outbound"
   static const IconData outbound = IconData(
     0xf249,
@@ -34374,6 +34458,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "reduceMotion"
+  static const IconData reduceMotion = IconData(
+    0x10294,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "referenceImage"
+  static const IconData referenceImage = IconData(
+    0x10293,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "refresh"
   static const IconData refresh = IconData(
     0xeb13,
@@ -35623,6 +35721,13 @@ class TablerIcons {
   /// Tabler icon: "searchOff"
   static const IconData searchOff = IconData(
     0xf19c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "secretPhrases"
+  static const IconData secretPhrases = IconData(
+    0x10292,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -39526,6 +39631,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "stickerSmile"
+  static const IconData stickerSmile = IconData(
+    0x10291,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "stopwatch"
   static const IconData stopwatch = IconData(
     0xff9b,
@@ -42497,6 +42609,20 @@ class TablerIcons {
   /// Tabler icon: "vocabularyOff"
   static const IconData vocabularyOff = IconData(
     0xf43b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "voice"
+  static const IconData voice = IconData(
+    0x1028f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "voice2"
+  static const IconData voice2 = IconData(
+    0x10290,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
