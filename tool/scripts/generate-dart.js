@@ -1,7 +1,9 @@
 const fs   = require('fs');
 const path = require('path');
 
-const { families, outlines, filled, defaultOutline, codepointDelta } = require('../config/fonts');
+const {
+  families, outlines, filled, defaultOutline, codepointDelta, isDefaultIgnorable, rescueCodepoint,
+} = require('../config/fonts');
 const { parseCss } = require('../config/css');
 
 const rootDir = path.join(__dirname, '../..');
@@ -44,20 +46,32 @@ const iconCount    = outlineCount + filledCount;
 outlines.forEach(function(font) {
   var delta = codepointDelta(font, minCodepoint);
   var entries = outlineIcons.map(function(e) {
-    return { name: e[0], cp: (parseInt(e[1], 16) + delta).toString(16), fam: '_kFontFam' };
+    return { name: e[0], cp: rescueCodepoint(parseInt(e[1], 16) + delta), fam: '_kFontFam' };
   });
   var filledFam = filled.family === font.family ? '_kFontFam' : '_kFontFamFilled';
   if (font.mergesFilled) {
     filledIcons.forEach(function(e) {
-      entries.push({ name: e[0] + 'Filled', cp: e[1], fam: filledFam });
+      entries.push({ name: e[0] + 'Filled', cp: rescueCodepoint(parseInt(e[1], 16)), fam: filledFam });
     });
   }
   entries.sort(function(a, b) { return a.name.localeCompare(b.name); });
 
+  // The font and this file are generated from the same codepoints, so an icon
+  // that shipped on an unrenderable one would be invisible in every app with no
+  // build-time signal at all. Refuse to emit one.
+  entries.forEach(function(e) {
+    if (isDefaultIgnorable(e.cp)) {
+      throw new Error(
+        font.dartClass + '.' + e.name + ' would ship on U+' + e.cp.toString(16).toUpperCase() +
+        ', which HarfBuzz hides while shaping. tool/config/fonts.js must rescue it.'
+      );
+    }
+  });
+
   var fields = entries.map(function(e) {
     return '  /// Tabler icon: "' + e.name + '"\n' +
       '  static const IconData ' + e.name + ' = ' +
-      'IconData(0x' + e.cp + ', fontFamily: ' + e.fam + ', fontPackage: _kFontPkg);';
+      'IconData(0x' + e.cp.toString(16) + ', fontFamily: ' + e.fam + ', fontPackage: _kFontPkg);';
   }).join('\n\n');
 
   var famConsts = ["  static const _kFontFam = '" + font.family + "';"];

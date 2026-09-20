@@ -6,7 +6,7 @@ const fs    = require('fs');
 const path  = require('path');
 const { spawnSync } = require('child_process');
 
-const { bundles, defaultOutline, codepointDelta } = require('../config/fonts');
+const { bundles, defaultOutline, codepointDelta, rescueCodepoint } = require('../config/fonts');
 const { parseCss } = require('../config/css');
 
 const rootDir  = path.join(__dirname, '../..');
@@ -45,6 +45,17 @@ merged.forEach((bundle) => {
     .forEach((f) => {
       args.push('--add', `${path.join(upstream, f.source)}:${codepointDelta(f, minCodepoint)}`);
     });
+
+  // Icons upstream put on a codepoint that cannot be drawn move into private-use
+  // space. The Dart generator reads the same rescue, so the two stay in step.
+  bundle.sources.forEach((f) => {
+    const delta = codepointDelta(f, minCodepoint);
+    parseCss(path.join(cssDir, f.css)).forEach((entry) => {
+      const cp = parseInt(entry[1], 16) + delta;
+      const moved = rescueCodepoint(cp);
+      if (moved !== cp) args.push('--relocate', `${cp}:${moved}`);
+    });
+  });
 
   const result = spawnSync(python, args, { stdio: 'inherit' });
   if (result.error && result.error.code === 'ENOENT') {

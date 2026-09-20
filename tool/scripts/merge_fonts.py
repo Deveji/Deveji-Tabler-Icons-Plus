@@ -12,10 +12,13 @@ actually used, and an unused stroke costs nothing.
 The base font keeps its codepoints untouched, so icons that already shipped keep
 their values. Each additional stroke is remapped into a private-use plane.
 
-  usage: merge_fonts.py --base BASE.ttf --add FONT.ttf:DELTA ... --out OUT.ttf
+  usage: merge_fonts.py --base BASE.ttf --add FONT.ttf:DELTA ...
+                        [--relocate OLD:NEW ...] --out OUT.ttf
 
-Codepoint deltas are computed by the caller (tool/config/fonts.js) so the Dart
-generator and this script cannot disagree about where a stroke landed.
+Codepoint deltas and relocations are computed by the caller (tool/config/fonts.js)
+so the Dart generator and this script cannot disagree about where a glyph landed.
+A relocation moves one codepoint after the merge, for icons upstream assigned to
+a codepoint that cannot be drawn; fonts.js explains which and why.
 """
 
 import argparse
@@ -33,6 +36,28 @@ def parse_add(value):
     if not path:
         raise argparse.ArgumentTypeError('expected FONT.ttf:DELTA, got %r' % value)
     return path, int(delta, 0)
+
+
+def parse_relocate(value):
+    old, _, new = value.partition(':')
+    if not old or not new:
+        raise argparse.ArgumentTypeError('expected OLD:NEW, got %r' % value)
+    return int(old, 0), int(new, 0)
+
+
+def relocate(mapping, moves):
+    """Move finished codepoints, after every source font has merged in.
+
+    Applied last so it covers the base font and the merged strokes alike, and so
+    a move cannot land on a codepoint that a later merge would have taken.
+    """
+    for old, new in sorted(moves):
+        if old not in mapping:
+            sys.exit('relocate: U+%04X is not in the merged font' % old)
+        if new in mapping:
+            sys.exit('relocate: U+%04X is already taken by %r' % (new, mapping[new]))
+        mapping[new] = mapping.pop(old)
+    return mapping
 
 
 def build_cmap(font, mapping):
@@ -67,7 +92,7 @@ def load(path):
     return TTFont(path, recalcBBoxes=False, recalcTimestamp=False)
 
 
-def merge(base_path, additions, out_path):
+def merge(base_path, additions, out_path, moves=()):
     base = load(base_path)
     glyf, hmtx = base['glyf'], base['hmtx']
     order = list(base.getGlyphOrder())
@@ -99,6 +124,8 @@ def merge(base_path, additions, out_path):
 
         report.append((prefix, path, delta, added))
 
+    mapping = relocate(mapping, moves)
+
     base.setGlyphOrder(order)
     base['maxp'].numGlyphs = len(order)
     build_cmap(base, mapping)
@@ -106,6 +133,8 @@ def merge(base_path, additions, out_path):
 
     for prefix, path, delta, count in report:
         print('  %-6s %-24s delta=+0x%05X glyphs=%d' % (prefix, path.split('/')[-1], delta, count))
+    if moves:
+        print('  rescued: %d codepoint(s) that cannot be drawn where upstream put them' % len(moves))
     print('  merged: %d glyphs, %d codepoints -> %s' % (len(order), len(mapping), out_path))
 
 
@@ -113,9 +142,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--base', required=True)
     parser.add_argument('--add', action='append', type=parse_add, default=[])
+    parser.add_argument('--relocate', action='append', type=parse_relocate, default=[])
     parser.add_argument('--out', required=True)
     args = parser.parse_args()
-    merge(args.base, args.add, args.out)
+    merge(args.base, args.add, args.out, args.relocate)
 
 
 if __name__ == '__main__':

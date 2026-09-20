@@ -11040,7 +11040,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "fileBitcoin"
   static const IconData fileBitcoin =
-      IconData(0xffa0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9fa0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "fileBroken"
   static const IconData fileBroken =
@@ -16556,7 +16556,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "microphoneFilled"
   static const IconData microphoneFilled =
-      IconData(0xfe0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "microphoneOff"
   static const IconData microphoneOff =
@@ -16580,7 +16580,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "microwaveFilled"
   static const IconData microwaveFilled =
-      IconData(0xfe0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "microwaveOff"
   static const IconData microwaveOff =
@@ -19480,7 +19480,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "radarFilled"
   static const IconData radarFilled =
-      IconData(0xfe0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "radarOff"
   static const IconData radarOff =
@@ -19736,7 +19736,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "relationManyToManyFilled"
   static const IconData relationManyToManyFilled =
-      IconData(0xfe0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "relationOneToMany"
   static const IconData relationOneToMany =
@@ -19744,7 +19744,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "relationOneToManyFilled"
   static const IconData relationOneToManyFilled =
-      IconData(0xfe0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "relationOneToOne"
   static const IconData relationOneToOne =
@@ -19752,7 +19752,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "relationOneToOneFilled"
   static const IconData relationOneToOneFilled =
-      IconData(0xfe0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "reload"
   static const IconData reload =
@@ -20424,7 +20424,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "sectionFilled"
   static const IconData sectionFilled =
-      IconData(0xfe09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "sectionSign"
   static const IconData sectionSign =
@@ -21280,7 +21280,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "soupFilled"
   static const IconData soupFilled =
-      IconData(0xfe08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "soupOff"
   static const IconData soupOff =
@@ -21692,7 +21692,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterAFilled"
   static const IconData squareLetterAFilled =
-      IconData(0xfe07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterB"
   static const IconData squareLetterB =
@@ -21700,7 +21700,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterBFilled"
   static const IconData squareLetterBFilled =
-      IconData(0xfe06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterC"
   static const IconData squareLetterC =
@@ -21708,7 +21708,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterCFilled"
   static const IconData squareLetterCFilled =
-      IconData(0xfe05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterD"
   static const IconData squareLetterD =
@@ -21716,7 +21716,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterDFilled"
   static const IconData squareLetterDFilled =
-      IconData(0xfe04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterE"
   static const IconData squareLetterE =
@@ -21724,7 +21724,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterEFilled"
   static const IconData squareLetterEFilled =
-      IconData(0xfe03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterF"
   static const IconData squareLetterF =
@@ -21732,7 +21732,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterFFilled"
   static const IconData squareLetterFFilled =
-      IconData(0xfe02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterG"
   static const IconData squareLetterG =
@@ -21740,7 +21740,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterGFilled"
   static const IconData squareLetterGFilled =
-      IconData(0xfe01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterH"
   static const IconData squareLetterH =
@@ -21748,7 +21748,7 @@ abstract final class TablerIcons {
 
   /// Tabler icon: "squareLetterHFilled"
   static const IconData squareLetterHFilled =
-      IconData(0xfe00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf9e00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "squareLetterI"
   static const IconData squareLetterI =

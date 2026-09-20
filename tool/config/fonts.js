@@ -76,11 +76,52 @@ const families = [
     family: 'tabler-icons',
     // Filled codepoints do not collide with the outline ones, so they merge in
     // unchanged; merge_fonts.py fails the build if upstream ever changes that.
+    // Those that are default ignorable are rescued into plane 15 — see below.
     plane: null,
     mergesFilled: false,
     doc: 'solid icons, which have no stroke variants',
   },
 ];
+
+// Unicode's "default ignorable" codepoints. HarfBuzz replaces these with an
+// invisible glyph while shaping, whatever the font maps them to, so an icon that
+// lands on one renders as nothing at all — Flutter draws Icon as text, so this
+// hits every app that names it. Upstream assigns icons by walking up from the
+// private-use area and runs past its end (U+F8FF) into assigned characters,
+// landing on a handful of these.
+const defaultIgnorable = [
+  [0x00ad, 0x00ad], [0x034f, 0x034f], [0x061c, 0x061c], [0x115f, 0x1160],
+  [0x17b4, 0x17b5], [0x180b, 0x180f], [0x200b, 0x200f], [0x202a, 0x202e],
+  [0x2060, 0x206f], [0x3164, 0x3164], [0xfe00, 0xfe0f], [0xfeff, 0xfeff],
+  [0xffa0, 0xffa0], [0xfff0, 0xfff8], [0x1bca0, 0x1bca3], [0x1d173, 0x1d17a],
+  [0xe0000, 0xe0fff],
+];
+
+// Where a rescued icon goes: private-use plane 15, above the merged strokes.
+// Shifting by a fixed delta rather than packing rescued icons in order keeps
+// each one's codepoint stable if upstream ever puts another icon on an ignorable
+// codepoint — an icon that has shipped never moves twice.
+const rescueDelta = 0xea000;
+const rescuePlane = [0xf0000, 0xffffd];
+
+function isDefaultIgnorable(cp) {
+  return defaultIgnorable.some((range) => cp >= range[0] && cp <= range[1]);
+}
+
+// Only fonts that keep their upstream codepoints (plane === null) can land on an
+// ignorable one; a font merged into a plane cannot, because planes 15 and 16 are
+// private use end to end.
+function rescueCodepoint(cp) {
+  if (!isDefaultIgnorable(cp)) return cp;
+  var moved = cp + rescueDelta;
+  if (moved < rescuePlane[0] || moved > rescuePlane[1]) {
+    throw new Error(
+      'U+' + cp.toString(16).toUpperCase() + ' rescues to U+' + moved.toString(16).toUpperCase() +
+      ', outside private-use plane 15. tool/config/fonts.js needs a different rescueDelta.'
+    );
+  }
+  return moved;
+}
 
 const outlines = families.filter((f) => f.kind === 'outline');
 const filled = families.find((f) => f.kind === 'filled');
@@ -106,4 +147,7 @@ function codepointDelta(font, minCodepoint) {
   return font.plane === null ? 0 : font.plane - minCodepoint;
 }
 
-module.exports = { families, outlines, filled, defaultOutline, bundles, codepointDelta };
+module.exports = {
+  families, outlines, filled, defaultOutline, bundles, codepointDelta,
+  isDefaultIgnorable, rescueCodepoint,
+};
