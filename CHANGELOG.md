@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.47.1
+
+- Added the two lighter stroke widths Tabler publishes: `TablerIconsLight`
+  (stroke 1.5) and `TablerIconsThin` (stroke 1), carrying the same 5,211 icon
+  names as `TablerIcons`
+- Every stroke width and the filled icons now ship in a single font file, so an
+  app is never charged for a variant it does not use. Icons keep the codepoints
+  they had; the filled icons moved to the `tabler-icons` font family
+- Icon classes are now annotated `@staticIconProvider`, so release builds subset
+  the bundled font down to the icons an app actually references
+
 ## 3.47.0
 
 - 6,268 icons (5,211 outline + 1,057 filled)

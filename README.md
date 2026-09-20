@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <strong>6,268 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter.<br>
-  Drop-in compatible with the <code>Icon</code> widget and theme system.
+  <strong>6,268 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter,<br>
+  in all three stroke widths plus filled. Drop-in compatible with the <code>Icon</code> widget and theme system.
 </p>
 
 <p align="center">
@@ -69,6 +69,44 @@ IconTheme(
   ),
 )
 ```
+
+---
+
+## Stroke Widths
+
+Tabler draws its outline icons at three stroke widths, and this package ships all
+of them. Every class carries the **same 5,211 names**, so you change stroke by
+changing class:
+
+```dart
+Icon(TablerIcons.home)       // stroke 2 (the Tabler default)
+Icon(TablerIconsLight.home)  // stroke 1.5
+Icon(TablerIconsThin.home)   // stroke 1
+Icon(TablerIcons.homeFilled) // filled, no stroke variants
+```
+
+| Class | Stroke | Icons |
+|:--|:--|:--|
+| `TablerIcons` | 2 | 5,211 outline + 1,057 filled |
+| `TablerIconsLight` | 1.5 | 5,211 outline |
+| `TablerIconsThin` | 1 | 5,211 outline |
+
+Choosing between them at runtime is fine, since both branches stay `const`:
+
+```dart
+Icon(compact ? TablerIconsThin.home : TablerIcons.home)
+```
+
+### App size
+
+Every stroke and the filled icons ship in one font file, and every icon constant
+is `const`, so a release build subsets that font down to the icons you reference
+and nothing else. Measured on release APKs:
+
+| What the app uses | Font in the APK |
+|:--|--:|
+| One icon (`TablerIcons.home`) | 868 B |
+| Four icons: one per stroke, plus filled | 1,604 B |
 
 ---
 
