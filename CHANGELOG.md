@@ -1,5 +1,33 @@
 # Changelog
 
+## 3.48.0
+
+- 6,286 icons (5,229 outline + 1,057 filled)
+- Added 18 new icons
+
+### Tabler Icons release notes
+
+### 18 new icons:
+
+- `outline/duplicate`
+- `outline/folder-ai`
+- `outline/folder-sparkle`
+- `outline/git-branch-check`
+- `outline/git-branch-x`
+- `outline/git-merge-queue`
+- `outline/git-pull-request-locked`
+- `outline/git-pull-request-unlisted`
+- `outline/message-2-ai`
+- `outline/message-2-sparkle`
+- `outline/message-ai`
+- `outline/message-sparkle`
+- `outline/model-ai`
+- `outline/pencil-ai`
+- `outline/stack-check`
+- `outline/stack-minus`
+- `outline/stack-plus`
+- `outline/stack-x`
+
 ## 3.47.0
 
 - 6,268 icons (5,211 outline + 1,057 filled)
