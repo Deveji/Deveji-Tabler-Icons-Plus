@@ -1,12 +1,12 @@
 // GENERATED — do not edit by hand.
 // Run: cd tool && npm run build
-// Source: @tabler/icons-webfont v3.47.0 (tabler-icons-300.css)
+// Source: @tabler/icons-webfont v3.48.0 (tabler-icons-300.css)
 
 import 'package:flutter/widgets.dart';
 
 /// Identifiers for the icons available in the Tabler Icons font, at stroke width 1.5.
 ///
-/// Contains 5,211 icons from [Tabler Icons](https://tabler.io/icons) v3.47.0.
+/// Contains 5,229 icons from [Tabler Icons](https://tabler.io/icons) v3.48.0.
 ///
 /// Drawn with a lighter line than the default. The names match `TablerIcons` exactly, so
 /// swapping the class swaps the stroke width:
@@ -8690,6 +8690,10 @@ abstract final class TablerIconsLight {
   static const IconData dumpling =
       IconData(0xf14b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "duplicate"
+  static const IconData duplicate =
+      IconData(0xf18b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "ear"
   static const IconData ear =
       IconData(0xf01cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -9938,6 +9942,10 @@ abstract final class TablerIconsLight {
   static const IconData folder =
       IconData(0xf00ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "folderAi"
+  static const IconData folderAi =
+      IconData(0xf18af, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "folderBolt"
   static const IconData folderBolt =
       IconData(0xf0f0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -10021,6 +10029,10 @@ abstract final class TablerIconsLight {
   /// Tabler icon: "foldersOff"
   static const IconData foldersOff =
       IconData(0xf0731, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "folderSparkle"
+  static const IconData folderSparkle =
+      IconData(0xf18ae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "folderStar"
   static const IconData folderStar =
@@ -10290,9 +10302,17 @@ abstract final class TablerIconsLight {
   static const IconData gitBranch =
       IconData(0xf00b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "gitBranchCheck"
+  static const IconData gitBranchCheck =
+      IconData(0xf18ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "gitBranchDeleted"
   static const IconData gitBranchDeleted =
       IconData(0xf0b7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "gitBranchX"
+  static const IconData gitBranchX =
+      IconData(0xf18ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "gitCherryPick"
   static const IconData gitCherryPick =
@@ -10314,6 +10334,10 @@ abstract final class TablerIconsLight {
   static const IconData gitMerge =
       IconData(0xf00b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "gitMergeQueue"
+  static const IconData gitMergeQueue =
+      IconData(0xf18ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "gitPullRequest"
   static const IconData gitPullRequest =
       IconData(0xf00b4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -10329,6 +10353,14 @@ abstract final class TablerIconsLight {
   /// Tabler icon: "gitPullRequestDraft"
   static const IconData gitPullRequestDraft =
       IconData(0xf05b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "gitPullRequestLocked"
+  static const IconData gitPullRequestLocked =
+      IconData(0xf18aa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "gitPullRequestUnlisted"
+  static const IconData gitPullRequestUnlisted =
+      IconData(0xf18a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "gizmo"
   static const IconData gizmo =
@@ -13362,6 +13394,10 @@ abstract final class TablerIconsLight {
   static const IconData message2 =
       IconData(0xf00ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "message2Ai"
+  static const IconData message2Ai =
+      IconData(0xf18a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "message2Bolt"
   static const IconData message2Bolt =
       IconData(0xf0f5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -13430,6 +13466,10 @@ abstract final class TablerIconsLight {
   static const IconData message2Share =
       IconData(0xf0675, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "message2Sparkle"
+  static const IconData message2Sparkle =
+      IconData(0xf18a7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "message2Star"
   static const IconData message2Star =
       IconData(0xf0f68, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -13441,6 +13481,10 @@ abstract final class TablerIconsLight {
   /// Tabler icon: "message2X"
   static const IconData message2X =
       IconData(0xf0f6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "messageAi"
+  static const IconData messageAi =
+      IconData(0xf18a6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "messageBolt"
   static const IconData messageBolt =
@@ -13634,6 +13678,10 @@ abstract final class TablerIconsLight {
   static const IconData messagesOff =
       IconData(0xf0340, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "messageSparkle"
+  static const IconData messageSparkle =
+      IconData(0xf18a5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "messageStar"
   static const IconData messageStar =
       IconData(0xf0f8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -13773,6 +13821,10 @@ abstract final class TablerIconsLight {
   /// Tabler icon: "mobiledataOff"
   static const IconData mobiledataOff =
       IconData(0xf0ff2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "modelAi"
+  static const IconData modelAi =
+      IconData(0xf18a4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "moneybag"
   static const IconData moneybag =
@@ -15117,6 +15169,10 @@ abstract final class TablerIconsLight {
   /// Tabler icon: "pencil"
   static const IconData pencil =
       IconData(0xf0102, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "pencilAi"
+  static const IconData pencilAi =
+      IconData(0xf18a3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "pencilBolt"
   static const IconData pencilBolt =
@@ -18618,6 +18674,10 @@ abstract final class TablerIconsLight {
   static const IconData stackBackward =
       IconData(0xf1325, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "stackCheck"
+  static const IconData stackCheck =
+      IconData(0xf18a2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "stackForward"
   static const IconData stackForward =
       IconData(0xf1326, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -18630,6 +18690,14 @@ abstract final class TablerIconsLight {
   static const IconData stackMiddle =
       IconData(0xf1328, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Tabler icon: "stackMinus"
+  static const IconData stackMinus =
+      IconData(0xf18a1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "stackPlus"
+  static const IconData stackPlus =
+      IconData(0xf18a0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Tabler icon: "stackPop"
   static const IconData stackPop =
       IconData(0xf0832, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -18637,6 +18705,10 @@ abstract final class TablerIconsLight {
   /// Tabler icon: "stackPush"
   static const IconData stackPush =
       IconData(0xf0833, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
+  /// Tabler icon: "stackX"
+  static const IconData stackX =
+      IconData(0xf189f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Tabler icon: "stairs"
   static const IconData stairs =

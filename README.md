@@ -6,12 +6,12 @@
 
 <p align="center">
   <a href="https://pub.dev/packages/tabler_icons_plus"><img src="https://img.shields.io/pub/v/tabler_icons_plus?color=blue&label=pub.dev" alt="pub.dev"></a>
-  <a href="https://www.npmjs.com/package/@tabler/icons"><img src="https://img.shields.io/badge/@tabler/icons-v3.47.0-066fd1" alt="@tabler/icons version"></a>
-  <a href="https://tabler.io/icons"><img src="https://img.shields.io/badge/icons-6%2C268-blue" alt="Icon count"></a>
+  <a href="https://www.npmjs.com/package/@tabler/icons"><img src="https://img.shields.io/badge/@tabler/icons-v3.48.0-066fd1" alt="@tabler/icons version"></a>
+  <a href="https://tabler.io/icons"><img src="https://img.shields.io/badge/icons-6%2C286-blue" alt="Icon count"></a>
 </p>
 
 <p align="center">
-  <strong>6,268 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter,<br>
+  <strong>6,286 open-source <a href="https://tabler.io/icons">Tabler Icons</a></strong> as typed <code>IconData</code> constants for Flutter,<br>
   in all three stroke widths plus filled. Drop-in compatible with the <code>Icon</code> widget and theme system.
 </p>
 
@@ -75,7 +75,7 @@ IconTheme(
 ## Stroke Widths
 
 Tabler draws its outline icons at three stroke widths, and this package ships all
-of them. Every class carries the **same 5,211 names**, so you change stroke by
+of them. Every class carries the **same 5,229 names**, so you change stroke by
 changing class:
 
 ```dart
@@ -87,9 +87,9 @@ Icon(TablerIcons.homeFilled) // filled, no stroke variants
 
 | Class | Stroke | Icons |
 |:--|:--|:--|
-| `TablerIcons` | 2 | 5,211 outline + 1,057 filled |
-| `TablerIconsLight` | 1.5 | 5,211 outline |
-| `TablerIconsThin` | 1 | 5,211 outline |
+| `TablerIcons` | 2 | 5,229 outline + 1,057 filled |
+| `TablerIconsLight` | 1.5 | 5,229 outline |
+| `TablerIconsThin` | 1 | 5,229 outline |
 
 Choosing between them at runtime is fine, since both branches stay `const`:
 
