@@ -1,37 +1,106 @@
 const fs   = require('fs');
 const path = require('path');
 
+const {
+  families, outlines, filled, defaultOutline, codepointDelta, isDefaultIgnorable, rescueCodepoint,
+} = require('../config/fonts');
+const { parseCss } = require('../config/css');
+
 const rootDir = path.join(__dirname, '../..');
 const cssDir  = path.join(__dirname, '../assets/css');
 
 const tablerVersion = getTablerVersion();
 
-// Parse codepoints from CSS files
-const outlineIcons = parseCss(path.join(cssDir, 'tabler-icons.css'));
-const filledIcons  = parseCss(path.join(cssDir, 'tabler-icons-filled.css'));
+// Parse codepoints from every CSS file: name -> codepoint, per font family.
+const maps = {};
+families.forEach(function(font) {
+  maps[font.id] = parseCss(path.join(cssDir, font.css));
+});
 
-const allIcons = {};
-outlineIcons.forEach(function(entry) { allIcons[entry[0]] = { cp: entry[1], filled: false }; });
-filledIcons.forEach(function(entry) { allIcons[entry[0] + 'Filled'] = { cp: entry[1], filled: true }; });
+const outlineIcons = maps[defaultOutline.id];
+const filledIcons  = maps[filled.id];
 
-const iconCount = Object.keys(allIcons).length;
+// The stroke API hands out one name per icon and swaps only the font family, so
+// every outline font has to agree with the default on names and codepoints.
+// Upstream has always generated them from one source; fail loudly if that ends.
+outlines.forEach(function(font) {
+  if (font.id === defaultOutline.id) return;
+  var diff = diffMaps(outlineIcons, maps[font.id]);
+  if (diff) {
+    throw new Error(
+      'Codepoint mismatch between ' + defaultOutline.family + ' and ' + font.family + ': ' + diff +
+      '. The per-stroke classes assume identical codepoints; tool/config/fonts.js needs revisiting.'
+    );
+  }
+});
+
+// Merged strokes live at an offset; the delta is derived from the lowest
+// codepoint upstream uses, exactly as merge-fonts.js does it.
+const minCodepoint = Math.min.apply(null, outlineIcons.map(function(e) { return parseInt(e[1], 16); }));
+
 const outlineCount = outlineIcons.length;
 const filledCount  = filledIcons.length;
+const iconCount    = outlineCount + filledCount;
 
-// Generate Dart fields
-var fields = Object.entries(allIcons)
-  .sort(function(a, b) { return a[0].localeCompare(b[0]); })
-  .map(function(entry) {
-    var dartName = entry[0];
-    var cp = entry[1].cp;
-    var filled = entry[1].filled;
-    var family = filled ? '_kFontFamFilled' : '_kFontFam';
-    return '  /// Tabler icon: "' + dartName + '"\n' +
-    '  static const IconData ' + dartName + ' = ' +
-    'IconData(0x' + cp + ', fontFamily: ' + family + ', fontPackage: _kFontPkg);';
+// One Dart file per outline stroke; the default one also carries the filled icons.
+outlines.forEach(function(font) {
+  var delta = codepointDelta(font, minCodepoint);
+  var entries = outlineIcons.map(function(e) {
+    return { name: e[0], cp: rescueCodepoint(parseInt(e[1], 16) + delta), fam: '_kFontFam' };
+  });
+  var filledFam = filled.family === font.family ? '_kFontFam' : '_kFontFamFilled';
+  if (font.mergesFilled) {
+    filledIcons.forEach(function(e) {
+      entries.push({ name: e[0] + 'Filled', cp: rescueCodepoint(parseInt(e[1], 16)), fam: filledFam });
+    });
+  }
+  entries.sort(function(a, b) { return a.name.localeCompare(b.name); });
+
+  // The font and this file are generated from the same codepoints, so an icon
+  // that shipped on an unrenderable one would be invisible in every app with no
+  // build-time signal at all. Refuse to emit one.
+  entries.forEach(function(e) {
+    if (isDefaultIgnorable(e.cp)) {
+      throw new Error(
+        font.dartClass + '.' + e.name + ' would ship on U+' + e.cp.toString(16).toUpperCase() +
+        ', which HarfBuzz hides while shaping. tool/config/fonts.js must rescue it.'
+      );
+    }
+  });
+
+  var fields = entries.map(function(e) {
+    return '  /// Tabler icon: "' + e.name + '"\n' +
+      '  static const IconData ' + e.name + ' = ' +
+      'IconData(0x' + e.cp.toString(16) + ', fontFamily: ' + e.fam + ', fontPackage: _kFontPkg);';
   }).join('\n\n');
 
-var src = [
+  var famConsts = ["  static const _kFontFam = '" + font.family + "';"];
+  if (font.mergesFilled && filledFam === '_kFontFamFilled') {
+    famConsts.push("  static const _kFontFamFilled = '" + filled.family + "';");
+  }
+  famConsts.push("  static const _kFontPkg = 'tabler_icons_plus';");
+
+  fs.mkdirSync(path.join(rootDir, path.dirname(font.dartFile)), { recursive: true });
+  fs.writeFileSync(path.join(rootDir, font.dartFile), [
+    '// GENERATED — do not edit by hand.',
+    '// Run: cd tool && npm run build',
+    '// Source: @tabler/icons-webfont v' + tablerVersion + ' (' + font.css + ')',
+    '',
+    "import 'package:flutter/widgets.dart';",
+    '',
+    classDoc(font, entries.length),
+    '@staticIconProvider',
+    'abstract final class ' + font.dartClass + ' {',
+    famConsts.join('\n'),
+    '',
+    fields,
+    '}',
+    '',
+  ].join('\n'));
+});
+
+// Barrel library: the public import path, re-exporting one class per stroke.
+fs.writeFileSync(path.join(rootDir, 'lib/tabler_icons_plus.dart'), [
   '// GENERATED — do not edit by hand.',
   '// Run: cd tool && npm run build',
   '// Source: @tabler/icons-webfont v' + tablerVersion,
@@ -42,45 +111,38 @@ var src = [
   "/// Use these icons with Flutter's [Icon] widget:",
   '///',
   '/// ```dart',
-  '/// Icon(TablerIcons.home)',
-  '/// Icon(TablerIcons.homeFilled)',
-  '/// Icon(TablerIcons.arrowLeft, size: 24, color: Colors.blue)',
+  '/// Icon(TablerIcons.home)       // outline, stroke 2 (the Tabler default)',
+  '/// Icon(TablerIconsLight.home)  // outline, stroke 1.5',
+  '/// Icon(TablerIconsThin.home)   // outline, stroke 1',
+  '/// Icon(TablerIcons.homeFilled) // filled',
   '/// ```',
+  '///',
+  '/// Every stroke class carries the same ' + outlineCount.toLocaleString('en-US') + ' outline names, so switching stroke',
+  '/// width is a matter of switching class. All of them are `const`, which keeps',
+  "/// Flutter's `--tree-shake-icons` working in release builds.",
   '///',
   '/// Browse the full icon set at [tabler.io/icons](https://tabler.io/icons).',
   '///',
   '/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v' + tablerVersion + '.',
   'library;',
   '',
-  "import 'package:flutter/widgets.dart';",
+  outlines.map(function(f) { return "export '" + f.dartFile.replace(/^lib\//, '') + "';"; }).join('\n'),
   '',
-  '/// Identifiers for the icons available in the Tabler Icons font.',
-  '///',
-  '/// Contains ' + iconCount + ' icons from [Tabler Icons](https://tabler.io/icons) v' + tablerVersion + '.',
-  '///',
-  '/// Outline icons use the default name (e.g. [home], [star]).',
-  '/// Filled variants are suffixed with `Filled` (e.g. [homeFilled], [starFilled]).',
-  'class TablerIcons {',
-  '  TablerIcons._();',
-  "  static const _kFontFam = 'tabler-icons';",
-  "  static const _kFontFamFilled = 'tabler-icons-filled';",
-  "  static const _kFontPkg = 'tabler_icons_plus';",
-  '',
-  fields,
-  '}',
-  '',
-].join('\n');
+].join('\n'));
 
-// Write Dart file
-fs.writeFileSync(path.join(rootDir, 'lib/tabler_icons_plus.dart'), src);
-
-// Update pubspec.yaml version
+// Update pubspec.yaml version. Never walk it backwards: a hand-published patch
+// release (3.47.1) must survive a regeneration against the same upstream tag.
 if (tablerVersion !== 'unknown') {
   var pubspecPath = path.join(rootDir, 'pubspec.yaml');
   var pubspec = fs.readFileSync(pubspecPath, 'utf8');
-  pubspec = pubspec.replace(/^version:\s+.+$/m, 'version: ' + tablerVersion);
-  fs.writeFileSync(pubspecPath, pubspec);
-  console.log('pubspec.yaml version updated to ' + tablerVersion + '.');
+  var current = (pubspec.match(/^version:\s+(.+)$/m) || [])[1];
+  if (!current || compareVersions(tablerVersion, current.trim()) > 0) {
+    pubspec = pubspec.replace(/^version:\s+.+$/m, 'version: ' + tablerVersion);
+    fs.writeFileSync(pubspecPath, pubspec);
+    console.log('pubspec.yaml version updated to ' + tablerVersion + '.');
+  } else {
+    console.log('pubspec.yaml version kept at ' + current.trim() + ' (>= upstream v' + tablerVersion + ').');
+  }
 }
 
 // Update README.md badges
@@ -105,11 +167,14 @@ if (fs.existsSync(pubspecPath2)) {
 
 // Update CHANGELOG.md (async — fetch release notes from GitHub)
 updateChangelog().then(function() {
-  // Format the generated Dart file after changelog is done
-  var dartFile = path.join(rootDir, 'lib/tabler_icons_plus.dart');
-  require('child_process').execSync('dart format "' + dartFile + '"', { stdio: 'inherit' });
+  // Format the generated Dart files after changelog is done
+  require('child_process').execSync('dart format "' + path.join(rootDir, 'lib') + '"', { stdio: 'inherit' });
 
-  console.log('Dart class written (' + iconCount + ' icons: ' + outlineCount + ' outline + ' + filledCount + ' filled).');
+  console.log('Dart written (' + iconCount + ' icons: ' + outlineCount + ' outline + ' + filledCount + ' filled).');
+  outlines.forEach(function(f) {
+    console.log('  ' + f.dartClass + ': stroke ' + f.stroke + ' (' + f.family + ')' +
+      (f.mergesFilled ? ' + ' + filledCount + ' filled' : ''));
+  });
 });
 
 async function updateChangelog() {
@@ -192,24 +257,61 @@ async function fetchReleaseNotes(version) {
 
 // --- Helper functions ---
 
-function parseCss(filePath) {
-  var css = fs.readFileSync(filePath, 'utf8');
-  var regex = /\.ti-([\w-]+):before\s*\{\s*content:\s*"\\([0-9a-fA-F]+)";\s*\}/g;
-  var icons = [];
-  var match;
-  while ((match = regex.exec(css)) !== null) {
-    var name = toCamel(match[1]);
-    var codepoint = match[2];
-    icons.push([name, codepoint]);
+function classDoc(font, count) {
+  var lines = [
+    '/// Identifiers for the icons available in the Tabler Icons font' +
+      (font.stroke ? ', at stroke width ' + font.stroke : '') + '.',
+    '///',
+    '/// Contains ' + count.toLocaleString('en-US') + ' icons from [Tabler Icons](https://tabler.io/icons) v' + tablerVersion + '.',
+    '///',
+  ];
+  if (font.mergesFilled) {
+    lines.push(
+      '/// Outline icons use the default name (e.g. [home], [star]).',
+      '/// Filled variants are suffixed with `Filled` (e.g. [homeFilled], [starFilled]).',
+      '///',
+      '/// Lighter outlines live in `TablerIconsLight` (stroke 1.5) and',
+      '/// `TablerIconsThin` (stroke 1) under the same names.'
+    );
+  } else {
+    lines.push(
+      '/// Drawn with ' + font.doc + '. The names match `TablerIcons` exactly, so',
+      '/// swapping the class swaps the stroke width:',
+      '///',
+      '/// ```dart',
+      '/// Icon(TablerIcons.home)  // stroke 2',
+      '/// Icon(' + font.dartClass + '.home)  // stroke ' + font.stroke,
+      '/// ```',
+      '///',
+      '/// Filled icons have no stroke variants. They live on `TablerIcons` only.'
+    );
   }
-  return icons;
+  return lines.join('\n');
 }
 
-function toCamel(s) {
-  var camel = s.replace(/-([a-z0-9])/g, function(_, c) { return c.toUpperCase(); });
-  if (/^[0-9]/.test(camel)) camel = 'icon' + camel;
-  if (camel === 'switch') camel = 'switch1';
-  return camel;
+// Returns a human-readable description of the first difference, or null.
+function diffMaps(a, b) {
+  if (a.length !== b.length) return a.length + ' vs ' + b.length + ' icons';
+  var byName = {};
+  a.forEach(function(e) { byName[e[0]] = e[1]; });
+  for (var i = 0; i < b.length; i++) {
+    var name = b[i][0], cp = b[i][1];
+    if (!(name in byName)) return 'only one font has "' + name + '"';
+    if (byName[name].toLowerCase() !== cp.toLowerCase()) {
+      return '"' + name + '" is 0x' + byName[name] + ' vs 0x' + cp;
+    }
+  }
+  return null;
+}
+
+function compareVersions(a, b) {
+  var pa = String(a).split('.').map(Number);
+  var pb = String(b).split('.').map(Number);
+  for (var i = 0; i < 3; i++) {
+    var da = pa[i] || 0, db = pb[i] || 0;
+    if (da !== db) return da > db ? 1 : -1;
+  }
+  return 0;
 }
 
 function getTablerVersion() {

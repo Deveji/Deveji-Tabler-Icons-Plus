@@ -37,6 +37,13 @@ jobs:
           cache: npm
           cache-dependency-path: tool/package-lock.json
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install fontTools
+        run: pip install 'fonttools==4.65.0'
+
       - name: Install deps
         working-directory: tool
         run: |
