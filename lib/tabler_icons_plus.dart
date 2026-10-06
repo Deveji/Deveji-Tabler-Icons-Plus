@@ -1,7 +1,7 @@
 // GENERATED — do not edit by hand.
 // Run: cd tool && npm run build
-// Source: @tabler/icons-webfont v3.48.0
-// Icons: 6286 (5229 outline + 1057 filled)
+// Source: @tabler/icons-webfont v3.49.0
+// Icons: 6304 (5247 outline + 1057 filled)
 
 /// Tabler Icons for Flutter.
 ///
@@ -15,14 +15,14 @@
 ///
 /// Browse the full icon set at [tabler.io/icons](https://tabler.io/icons).
 ///
-/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.48.0.
+/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.49.0.
 library;
 
 import 'package:flutter/widgets.dart';
 
 /// Identifiers for the icons available in the Tabler Icons font.
 ///
-/// Contains 6286 icons from [Tabler Icons](https://tabler.io/icons) v3.48.0.
+/// Contains 6304 icons from [Tabler Icons](https://tabler.io/icons) v3.49.0.
 ///
 /// Outline icons use the default name (e.g. [home], [star]).
 /// Filled variants are suffixed with `Filled` (e.g. [homeFilled], [starFilled]).
@@ -998,9 +998,37 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "alphabetChinese"
+  static const IconData alphabetChinese = IconData(
+    0x102c5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "alphabetCyrillic"
   static const IconData alphabetCyrillic = IconData(
     0xf1df,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "alphabetDevanagari"
+  static const IconData alphabetDevanagari = IconData(
+    0x102c4,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "alphabetEthiopic"
+  static const IconData alphabetEthiopic = IconData(
+    0x102c3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "alphabetGeorgian"
+  static const IconData alphabetGeorgian = IconData(
+    0x102c2,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -1015,6 +1043,13 @@ class TablerIcons {
   /// Tabler icon: "alphabetHebrew"
   static const IconData alphabetHebrew = IconData(
     0xff2d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "alphabetJapanese"
+  static const IconData alphabetJapanese = IconData(
+    0x102c1,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -4662,6 +4697,13 @@ class TablerIcons {
   /// Tabler icon: "blob"
   static const IconData blob = IconData(
     0xfeaf,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "blobDashed"
+  static const IconData blobDashed = IconData(
+    0x102c0,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -12149,6 +12191,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "circleHeart"
+  static const IconData circleHeart = IconData(
+    0x102bf,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "circleKey"
   static const IconData circleKey = IconData(
     0xf633,
@@ -12716,6 +12765,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "circlePause"
+  static const IconData circlePause = IconData(
+    0x102be,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "circlePercentage"
   static const IconData circlePercentage = IconData(
     0xfd7b,
@@ -12727,6 +12783,13 @@ class TablerIcons {
   static const IconData circlePercentageFilled = IconData(
     0xfed5,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "circlePlay"
+  static const IconData circlePlay = IconData(
+    0x102bd,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -12803,6 +12866,13 @@ class TablerIcons {
   /// Tabler icon: "circlesRelation"
   static const IconData circlesRelation = IconData(
     0xf4c3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "circleStop"
+  static const IconData circleStop = IconData(
+    0x102bc,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -19653,6 +19723,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "fileLock"
+  static const IconData fileLock = IconData(
+    0x102bb,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "fileMinus"
   static const IconData fileMinus = IconData(
     0xea9e,
@@ -21182,6 +21259,13 @@ class TablerIcons {
   /// Tabler icon: "folderHeart"
   static const IconData folderHeart = IconData(
     0xf914,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "folderLock"
+  static const IconData folderLock = IconData(
+    0x102ba,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -23841,7 +23925,7 @@ class TablerIcons {
 
   /// Tabler icon: "homeFilled"
   static const IconData homeFilled = IconData(
-    0xfe2b,
+    0x102b3,
     fontFamily: _kFontFamFilled,
     fontPackage: _kFontPkg,
   );
@@ -25915,6 +25999,20 @@ class TablerIcons {
   static const IconData lemon2Filled = IconData(
     0x100bf,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "lensConcave"
+  static const IconData lensConcave = IconData(
+    0x102b9,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "lensConvex"
+  static const IconData lensConvex = IconData(
+    0x102b8,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -28281,6 +28379,13 @@ class TablerIcons {
   static const IconData melonFilled = IconData(
     0x1000e,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "memory"
+  static const IconData memory = IconData(
+    0x102b7,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -37860,6 +37965,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "squareDashedTopSolid"
+  static const IconData squareDashedTopSolid = IconData(
+    0x102b6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "squareDashedX"
+  static const IconData squareDashedX = IconData(
+    0x102b5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "squareDot"
   static const IconData squareDot = IconData(
     0xed59,
@@ -41762,6 +41881,13 @@ class TablerIcons {
   /// Tabler icon: "triangle"
   static const IconData triangle = IconData(
     0xeb44,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "triangleDashed"
+  static const IconData triangleDashed = IconData(
+    0x102b4,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );

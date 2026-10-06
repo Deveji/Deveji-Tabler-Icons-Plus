@@ -1,5 +1,48 @@
 # Changelog
 
+## 3.49.0
+
+- 6,304 icons (5,247 outline + 1,057 filled)
+- Added 18 new icons
+
+### Tabler Icons release notes
+
+### 18 new icons:
+
+- `outline/alphabet-chinese`
+- `outline/alphabet-devanagari`
+- `outline/alphabet-ethiopic`
+- `outline/alphabet-georgian`
+- `outline/alphabet-japanese`
+- `outline/blob-dashed`
+- `outline/circle-heart`
+- `outline/circle-pause`
+- `outline/circle-play`
+- `outline/circle-stop`
+- `outline/file-lock`
+- `outline/folder-lock`
+- `outline/lens-concave`
+- `outline/lens-convex`
+- `outline/memory`
+- `outline/square-dashed-top-solid`
+- `outline/square-dashed-x`
+- `outline/triangle-dashed`
+
+### Fixes and improvements
+
+- Add `alphabet`, `arabic`, `typography` and `character` tags to `alphabet-arabic` (#1643)
+- Match `brand-instagram` size to other square brand icons (#1615)
+- Fix `square-dashed` icon drawn as a solid square (#1614)
+- Redraw `square-dashed` and `table-dashed` icons (#1640)
+- Add `squircle` tag to all `square-rounded` icons (#1641)
+- **Webfont:** Fix filled `home` webfont glyph having zero width in Chrome (#1616)
+- **Webfont:** Fix `sass` and `style` fields in `package.json` to point to `dist/`, and stop publishing the intermediate SVG fonts, which the CSS never referenced (#1633)
+- **Webfont:** Make webfont builds reproducible, so font files no longer change between builds of the same icons (#1624)
+- **Webfont:** Drop the unused `svgtofont` dependency (#1620)
+- **Astro, Preact, React, React Native, SolidJS, Vue:** Stop publishing source maps, which made up about 70% of the package size (#1634)
+- **Svelte, Svelte Runes:** Add `default` export conditions and document per-icon imports (#1630)
+- **React Native:** Stop passing extra props (`testID`, `style`, `onPress`, …) to every node of the icon, only the root `Svg` gets them. `title` is now exposed to screen readers via accessibility props (#1628)
+
 ## 3.48.0
 
 - 6,286 icons (5,229 outline + 1,057 filled)
