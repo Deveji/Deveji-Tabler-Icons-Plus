@@ -1,7 +1,7 @@
 // GENERATED — do not edit by hand.
 // Run: cd tool && npm run build
-// Source: @tabler/icons-webfont v3.49.0
-// Icons: 6304 (5247 outline + 1057 filled)
+// Source: @tabler/icons-webfont v3.50.0
+// Icons: 6323 (5266 outline + 1057 filled)
 
 /// Tabler Icons for Flutter.
 ///
@@ -15,14 +15,14 @@
 ///
 /// Browse the full icon set at [tabler.io/icons](https://tabler.io/icons).
 ///
-/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.49.0.
+/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.50.0.
 library;
 
 import 'package:flutter/widgets.dart';
 
 /// Identifiers for the icons available in the Tabler Icons font.
 ///
-/// Contains 6304 icons from [Tabler Icons](https://tabler.io/icons) v3.49.0.
+/// Contains 6323 icons from [Tabler Icons](https://tabler.io/icons) v3.50.0.
 ///
 /// Outline icons use the default name (e.g. [home], [star]).
 /// Filled variants are suffixed with `Filled` (e.g. [homeFilled], [starFilled]).
@@ -1365,6 +1365,13 @@ class TablerIcons {
   /// Tabler icon: "archiveOff"
   static const IconData archiveOff = IconData(
     0xf0ad,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "archiveRestore"
+  static const IconData archiveRestore = IconData(
+    0x102d8,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -4225,6 +4232,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "beachBag"
+  static const IconData beachBag = IconData(
+    0x102d7,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "beachOff"
   static const IconData beachOff = IconData(
     0xf0b7,
@@ -4886,6 +4900,13 @@ class TablerIcons {
   /// Tabler icon: "book2"
   static const IconData book2 = IconData(
     0xefc5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookClone"
+  static const IconData bookClone = IconData(
+    0x102d6,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -7144,6 +7165,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "brandMisskey"
+  static const IconData brandMisskey = IconData(
+    0x102d5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "brandMixpanel"
   static const IconData brandMixpanel = IconData(
     0xf397,
@@ -8191,6 +8219,13 @@ class TablerIcons {
   static const IconData brandVercelFilled = IconData(
     0x10087,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "brandViber"
+  static const IconData brandViber = IconData(
+    0x102d4,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -15908,6 +15943,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "decagram"
+  static const IconData decagram = IconData(
+    0x102d3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "decimal"
   static const IconData decimal = IconData(
     0xfa26,
@@ -21984,6 +22026,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "gitMergeAi"
+  static const IconData gitMergeAi = IconData(
+    0x102d2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "gitMergeQueue"
   static const IconData gitMergeQueue = IconData(
     0x102ad,
@@ -22005,6 +22054,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "gitPullRequestClosedAi"
+  static const IconData gitPullRequestClosedAi = IconData(
+    0x102d1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "gitPullRequestConflict"
   static const IconData gitPullRequestConflict = IconData(
     0x10264,
@@ -22019,9 +22075,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "gitPullRequestDraftAi"
+  static const IconData gitPullRequestDraftAi = IconData(
+    0x102d0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "gitPullRequestLocked"
   static const IconData gitPullRequestLocked = IconData(
     0x102ac,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "gitPullRequestLockedAi"
+  static const IconData gitPullRequestLockedAi = IconData(
+    0x102cf,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27213,6 +27283,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "loop"
+  static const IconData loop = IconData(
+    0x102ce,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "luggage"
   static const IconData luggage = IconData(
     0xefad,
@@ -27822,6 +27899,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "mapPinsOff"
+  static const IconData mapPinsOff = IconData(
+    0x102cd,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "mapPinStar"
   static const IconData mapPinStar = IconData(
     0xf959,
@@ -28287,6 +28371,13 @@ class TablerIcons {
   /// Tabler icon: "maximizeOff"
   static const IconData maximizeOff = IconData(
     0xf15f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "mcp"
+  static const IconData mcp = IconData(
+    0x102cc,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -31511,6 +31602,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "opacity"
+  static const IconData opacity = IconData(
+    0x102cb,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "option"
   static const IconData option = IconData(
     0x1019f,
@@ -32011,6 +32109,13 @@ class TablerIcons {
   /// Tabler icon: "pencilQuestion"
   static const IconData pencilQuestion = IconData(
     0xfc09,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "pencilRuler"
+  static const IconData pencilRuler = IconData(
+    0x102ca,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -37184,6 +37289,13 @@ class TablerIcons {
   /// Tabler icon: "smokingNo"
   static const IconData smokingNo = IconData(
     0xecc3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "snail"
+  static const IconData snail = IconData(
+    0x102c9,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -43208,6 +43320,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "waveform"
+  static const IconData waveform = IconData(
+    0x102c6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "waveSawTool"
   static const IconData waveSawTool = IconData(
     0xecd3,
@@ -43561,6 +43680,13 @@ class TablerIcons {
   /// Tabler icon: "worldMap"
   static const IconData worldMap = IconData(
     0x101e9,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "worldMapOff"
+  static const IconData worldMapOff = IconData(
+    0x102c8,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -44143,6 +44269,13 @@ class TablerIcons {
   static const IconData zoomScanFilled = IconData(
     0xfdbf,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "zsh"
+  static const IconData zsh = IconData(
+    0x102c7,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 

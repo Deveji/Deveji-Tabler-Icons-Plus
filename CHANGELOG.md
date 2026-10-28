@@ -1,5 +1,41 @@
 # Changelog
 
+## 3.50.0
+
+- 6,323 icons (5,266 outline + 1,057 filled)
+- Added 19 new icons
+
+### Tabler Icons release notes
+
+### 18 new icons:
+
+- `outline/archive-restore`
+- `outline/beach-bag`
+- `outline/book-clone`
+- `outline/brand-misskey`
+- `outline/brand-viber`
+- `outline/decagram`
+- `outline/git-merge-ai`
+- `outline/git-pull-request-closed-ai`
+- `outline/git-pull-request-draft-ai`
+- `outline/git-pull-request-locked-ai`
+- `outline/loop`
+- `outline/map-pins-off`
+- `outline/mcp`
+- `outline/opacity`
+- `outline/pencil-ruler`
+- `outline/snail`
+- `outline/world-map-off`
+- `outline/zsh`
+
+### New features
+
+- **Webfont:** Split the webfont into chunks loaded with `unicode-range`: one with the 300 most popular icons and one per icon category (for the filled font: the popular icons and the rest). A page now downloads only the chunks with the icons it shows, e.g. about 40 KB instead of about 500 KB when it uses only popular icons. Set `$ti-font-split: false` in SCSS to load the single font file as before. (#1654)
+
+### Fixes and improvements
+
+- **React Native:** Fix `color` being ignored by the icon nodes that fill with `currentColor` (e.g. `IconSquareRoundedCheckFilled`, the dot of `IconAccessible`): the root `Svg` now gets `color`, which react-native-svg resolves `currentColor` to (#1668)
+
 ## 3.49.0
 
 - 6,304 icons (5,247 outline + 1,057 filled)
