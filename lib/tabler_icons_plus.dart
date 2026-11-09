@@ -1,7 +1,7 @@
 // GENERATED — do not edit by hand.
 // Run: cd tool && npm run build
-// Source: @tabler/icons-webfont v3.50.0
-// Icons: 6323 (5266 outline + 1057 filled)
+// Source: @tabler/icons-webfont v3.51.0
+// Icons: 6353 (5296 outline + 1057 filled)
 
 /// Tabler Icons for Flutter.
 ///
@@ -15,14 +15,14 @@
 ///
 /// Browse the full icon set at [tabler.io/icons](https://tabler.io/icons).
 ///
-/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.50.0.
+/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.51.0.
 library;
 
 import 'package:flutter/widgets.dart';
 
 /// Identifiers for the icons available in the Tabler Icons font.
 ///
-/// Contains 6323 icons from [Tabler Icons](https://tabler.io/icons) v3.50.0.
+/// Contains 6353 icons from [Tabler Icons](https://tabler.io/icons) v3.51.0.
 ///
 /// Outline icons use the default name (e.g. [home], [star]).
 /// Filled variants are suffixed with `Filled` (e.g. [homeFilled], [starFilled]).
@@ -270,6 +270,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "adjustmentsFlame"
+  static const IconData adjustmentsFlame = IconData(
+    0x102f6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "adjustmentsHeart"
   static const IconData adjustmentsHeart = IconData(
     0xf803,
@@ -288,6 +295,13 @@ class TablerIcons {
   static const IconData adjustmentsHorizontalFilled = IconData(
     0x101e7,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "adjustmentsKey"
+  static const IconData adjustmentsKey = IconData(
+    0x102f5,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -2251,6 +2265,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "arrowMoveDownX"
+  static const IconData arrowMoveDownX = IconData(
+    0x102f4,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "arrowMoveLeft"
   static const IconData arrowMoveLeft = IconData(
     0xf2bb,
@@ -2262,6 +2283,13 @@ class TablerIcons {
   static const IconData arrowMoveLeftFilled = IconData(
     0x10033,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "arrowMoveLeftX"
+  static const IconData arrowMoveLeftX = IconData(
+    0x102f3,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -2279,6 +2307,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "arrowMoveRightX"
+  static const IconData arrowMoveRightX = IconData(
+    0x102f2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "arrowMoveUp"
   static const IconData arrowMoveUp = IconData(
     0xf2bd,
@@ -2290,6 +2325,13 @@ class TablerIcons {
   static const IconData arrowMoveUpFilled = IconData(
     0x10031,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "arrowMoveUpX"
+  static const IconData arrowMoveUpX = IconData(
+    0x102f1,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -9643,9 +9685,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cameraFlame"
+  static const IconData cameraFlame = IconData(
+    0x102f0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cameraHeart"
   static const IconData cameraHeart = IconData(
     0xf83b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cameraKey"
+  static const IconData cameraKey = IconData(
+    0x102ef,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -19107,6 +19163,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "eyeFlame"
+  static const IconData eyeFlame = IconData(
+    0x102ee,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "eyeglass"
   static const IconData eyeglass = IconData(
     0xee8a,
@@ -19145,6 +19208,13 @@ class TablerIcons {
   /// Tabler icon: "eyeHeart"
   static const IconData eyeHeart = IconData(
     0xf7f0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "eyeKey"
+  static const IconData eyeKey = IconData(
+    0x102ed,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -20437,6 +20507,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "filter2Flame"
+  static const IconData filter2Flame = IconData(
+    0x102ec,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "filter2Key"
+  static const IconData filter2Key = IconData(
+    0x102eb,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "filter2Minus"
   static const IconData filter2Minus = IconData(
     0x10155,
@@ -20584,9 +20668,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "filterFlame"
+  static const IconData filterFlame = IconData(
+    0x102ea,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "filterHeart"
   static const IconData filterHeart = IconData(
     0xfb83,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "filterKey"
+  static const IconData filterKey = IconData(
+    0x102e9,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -20934,9 +21032,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "flagFlame"
+  static const IconData flagFlame = IconData(
+    0x102e8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "flagHeart"
   static const IconData flagHeart = IconData(
     0xfb93,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "flagKey"
+  static const IconData flagKey = IconData(
+    0x102e7,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -22838,9 +22950,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "heartFlame"
+  static const IconData heartFlame = IconData(
+    0x102e6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "heartHandshake"
   static const IconData heartHandshake = IconData(
     0xf0f3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "heartKey"
+  static const IconData heartKey = IconData(
+    0x102e5,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -24000,6 +24126,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "homeFlame"
+  static const IconData homeFlame = IconData(
+    0x102e4,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "homeHand"
   static const IconData homeHand = IconData(
     0xf504,
@@ -24017,6 +24150,13 @@ class TablerIcons {
   /// Tabler icon: "homeInfinity"
   static const IconData homeInfinity = IconData(
     0xf505,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "homeKey"
+  static const IconData homeKey = IconData(
+    0x102e3,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27479,6 +27619,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "mailFlame"
+  static const IconData mailFlame = IconData(
+    0x102e2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "mailForward"
   static const IconData mailForward = IconData(
     0xeeac,
@@ -27489,6 +27636,13 @@ class TablerIcons {
   /// Tabler icon: "mailHeart"
   static const IconData mailHeart = IconData(
     0xf93f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "mailKey"
+  static const IconData mailKey = IconData(
+    0x102e1,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -32715,6 +32869,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "photoFlame"
+  static const IconData photoFlame = IconData(
+    0x102e0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "photoHeart"
   static const IconData photoHeart = IconData(
     0xf361,
@@ -32725,6 +32886,13 @@ class TablerIcons {
   /// Tabler icon: "photoHexagon"
   static const IconData photoHexagon = IconData(
     0xfc4b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "photoKey"
+  static const IconData photoKey = IconData(
+    0x102df,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -36334,9 +36502,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "settingsFlame"
+  static const IconData settingsFlame = IconData(
+    0x102de,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "settingsHeart"
   static const IconData settingsHeart = IconData(
     0xf9b5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "settingsKey"
+  static const IconData settingsKey = IconData(
+    0x102dd,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -37167,9 +37349,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "sitemapMinus"
+  static const IconData sitemapMinus = IconData(
+    0x102dc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "sitemapOff"
   static const IconData sitemapOff = IconData(
     0xf1a6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "sitemapPlus"
+  static const IconData sitemapPlus = IconData(
+    0x102db,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -42424,6 +42620,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "userFlame"
+  static const IconData userFlame = IconData(
+    0x102da,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "userHeart"
   static const IconData userHeart = IconData(
     0xf7cd,
@@ -42546,6 +42749,13 @@ class TablerIcons {
   /// Tabler icon: "usersMinus"
   static const IconData usersMinus = IconData(
     0xfa0e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "userSpark"
+  static const IconData userSpark = IconData(
+    0x102d9,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );

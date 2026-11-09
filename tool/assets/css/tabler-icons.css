@@ -1,13 +1,13 @@
 /*!
- * Tabler Icons 3.50.0 by tabler - https://tabler.io
+ * Tabler Icons 3.51.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/main/LICENSE
  */
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.core.woff2?h3a24de11") format("woff2");
-  unicode-range: U+EA03, U+EA05-EA06, U+EA0B, U+EA19-EA1D, U+EA1F, U+EA24, U+EA28, U+EA2C, U+EA35, U+EA38-EA3A, U+EA45-EA46, U+EA4E-EA4F, U+EA51-EA55, U+EA59, U+EA5C, U+EA5E-EA62, U+EA67, U+EA69-EA6D, U+EA70, U+EA75-EA77, U+EA79-EA7A, U+EA84, U+EA87-EA8A, U+EA94-EA9A, U+EA9C-EA9D, U+EAA2, U+EAA4-EAA6, U+EAAD, U+EABD-EAC1, U+EAC3, U+EAC5, U+EAC7, U+EADA, U+EADE, U+EAE2, U+EAE4-EAE5, U+EAE7-EAE9, U+EAEC-EAF0, U+EAF2, U+EAF7-EAF8, U+EAFC-EAFD, U+EAFF, U+EB01-EB02, U+EB04-EB05, U+EB09-EB0C, U+EB0E, U+EB10-EB11, U+EB13, U+EB17, U+EB1C-EB1E, U+EB20-EB22, U+EB24-EB25, U+EB28, U+EB2C, U+EB2E, U+EB30, U+EB3C-EB3D, U+EB40-EB41, U+EB43, U+EB45, U+EB47, U+EB49, U+EB4B, U+EB4D, U+EB51-EB52, U+EB54-EB55, U+EB5C-EB5D, U+EB62, U+EB64-EB65, U+EB67-EB68, U+EB6A-EB6C, U+EB6E, U+EB72, U+EB75, U+EB77, U+EB80, U+EB82, U+EB84, U+EB90, U+EB9D, U+EBA1, U+EBA6, U+EBA8, U+EBAA, U+EBB6, U+EBBB-EBBC, U+EBBE, U+EBC2, U+EBC4, U+EBE2-EBE3, U+EBEA, U+EBF2, U+EBF6, U+EC01, U+EC16-EC17, U+EC1A, U+EC1C, U+EC1F-EC20, U+EC26, U+EC2C, U+EC2E, U+EC38-EC39, U+EC42, U+EC45, U+EC4B, U+EC73-EC74, U+EC8C, U+EC90-EC91, U+EC9C-EC9D, U+ECA3, U+ECDE, U+ECEF-ECF0, U+ECF7, U+ED07, U+ED12, U+ED22, U+ED45-ED46, U+ED4A, U+ED4F, U+ED51, U+ED58, U+ED61, U+ED76, U+EDBA, U+EDBE, U+EDEF, U+EDFD, U+EDFF, U+EE21, U+EE25, U+EEA9, U+EEC2, U+EECB, U+EECD, U+EEF7, U+EEFF, U+EF40, U+EF4F, U+EF68, U+EF88-EF89, U+EF8E, U+EF90, U+EFBE, U+EFC5, U+EFE6, U+EFF0, U+EFF2, U+EFF9, U+F004-F005, U+F00B, U+F021, U+F028, U+F02C, U+F074, U+F082, U+F089, U+F0F3, U+F1D2, U+F1E2, U+F1F6, U+F1F8, U+F226, U+F236, U+F265, U+F2B8, U+F2C9, U+F318-F319, U+F358, U+F38A, U+F38C, U+F38F, U+F3AE, U+F51A, U+F59F, U+F5AC, U+F5F8, U+F634-F635, U+F63D, U+F65C-F65D, U+F6D7, U+F7BD, U+F7D0, U+F810, U+F824, U+F91D, U+F9D4, U+FA21, U+FA77, U+FA7E, U+FAF7, U+FAFD, U+FB03, U+FB10, U+FB1B, U+FC0F, U+FCAF, U+FD2E-FD30, U+FD32, U+FDAA, U+FEB8, U+FEF7, U+FEFB, U+FF11, U+FF40, U+FF9B, U+10066, U+10096, U+100B2, U+1014B, U+101A6, U+1025A-1025B, U+10261, U+10289;
+  src: url("./fonts/tabler-icons.core.woff2?ha900a4e2") format("woff2");
+  unicode-range: U+20, U+EA03, U+EA05-EA06, U+EA0B, U+EA19-EA1D, U+EA1F, U+EA24, U+EA28, U+EA2C, U+EA35, U+EA38-EA3A, U+EA45-EA46, U+EA4E-EA4F, U+EA51-EA55, U+EA59, U+EA5C, U+EA5E-EA62, U+EA67, U+EA69-EA6D, U+EA70, U+EA75-EA77, U+EA79-EA7A, U+EA84, U+EA87-EA8A, U+EA94-EA9A, U+EA9C-EA9D, U+EAA2, U+EAA4-EAA6, U+EAAD, U+EABD-EAC1, U+EAC3, U+EAC5, U+EAC7, U+EADA, U+EADE, U+EAE2, U+EAE4-EAE5, U+EAE7-EAE9, U+EAEC-EAF0, U+EAF2, U+EAF7-EAF8, U+EAFC-EAFD, U+EAFF, U+EB01-EB02, U+EB04-EB05, U+EB09-EB0C, U+EB0E, U+EB10-EB11, U+EB13, U+EB17, U+EB1C-EB1E, U+EB20-EB22, U+EB24-EB25, U+EB28, U+EB2C, U+EB2E, U+EB30, U+EB3C-EB3D, U+EB40-EB41, U+EB43, U+EB45, U+EB47, U+EB49, U+EB4B, U+EB4D, U+EB51-EB52, U+EB54-EB55, U+EB5C-EB5D, U+EB62, U+EB64-EB65, U+EB67-EB68, U+EB6A-EB6C, U+EB6E, U+EB72, U+EB75, U+EB77, U+EB80, U+EB82, U+EB84, U+EB90, U+EB9D, U+EBA1, U+EBA6, U+EBA8, U+EBAA, U+EBB6, U+EBBB-EBBC, U+EBBE, U+EBC2, U+EBC4, U+EBE2-EBE3, U+EBEA, U+EBF2, U+EBF6, U+EC01, U+EC16-EC17, U+EC1A, U+EC1C, U+EC1F-EC20, U+EC26, U+EC2C, U+EC2E, U+EC38-EC39, U+EC42, U+EC45, U+EC4B, U+EC73-EC74, U+EC8C, U+EC90-EC91, U+EC9C-EC9D, U+ECA3, U+ECDE, U+ECEF-ECF0, U+ECF7, U+ED07, U+ED12, U+ED22, U+ED45-ED46, U+ED4A, U+ED4F, U+ED51, U+ED58, U+ED61, U+ED76, U+EDBA, U+EDBE, U+EDEF, U+EDFD, U+EDFF, U+EE21, U+EE25, U+EEA9, U+EEC2, U+EECB, U+EECD, U+EEF7, U+EEFF, U+EF40, U+EF4F, U+EF68, U+EF88-EF89, U+EF8E, U+EF90, U+EFBE, U+EFC5, U+EFE6, U+EFF0, U+EFF2, U+EFF9, U+F004-F005, U+F00B, U+F021, U+F028, U+F02C, U+F074, U+F082, U+F089, U+F0F3, U+F1D2, U+F1E2, U+F1F6, U+F1F8, U+F226, U+F236, U+F265, U+F2B8, U+F2C9, U+F318-F319, U+F358, U+F38A, U+F38C, U+F38F, U+F3AE, U+F51A, U+F59F, U+F5AC, U+F5F8, U+F634-F635, U+F63D, U+F65C-F65D, U+F6D7, U+F7BD, U+F7D0, U+F810, U+F824, U+F91D, U+F9D4, U+FA21, U+FA77, U+FA7E, U+FAF7, U+FAFD, U+FB03, U+FB10, U+FB1B, U+FC0F, U+FCAF, U+FD2E-FD30, U+FD32, U+FDAA, U+FEB8, U+FEF7, U+FEFB, U+FF11, U+FF40, U+FF9B, U+10066, U+10096, U+100B2, U+1014B, U+101A6, U+1025A-1025B, U+10261, U+10289;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -27,22 +27,22 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.buildings.woff2?h43fdb261") format("woff2");
-  unicode-range: U+EA49-EA4D, U+EBF7, U+ED26, U+ED87-ED8A, U+EE1B-EE1C, U+EF06, U+EF2A, U+EF48, U+EF7A, U+EF80, U+EF9E, U+EFE7, U+F05E, U+F0FF, U+F129, U+F145, U+F1A7, U+F1C9, U+F1D8, U+F2CA-F2CB, U+F336-F347, U+F350-F356, U+F3BD-F3BE, U+F41B, U+F43C, U+F4BE-F4C0, U+F504-F505, U+F5A5-F5A6, U+F641, U+F64A, U+FA57, U+FC77, U+FCA1, U+FEFD, U+FF3A, U+FF50, U+FFA9, U+FFB5, U+10060-10062, U+10160, U+10204, U+10234, U+1023B, U+10251, U+1028A;
+  src: url("./fonts/tabler-icons.buildings.woff2?h2e7f275e") format("woff2");
+  unicode-range: U+EA49-EA4D, U+EBF7, U+ED26, U+ED87-ED8A, U+EE1B-EE1C, U+EF06, U+EF2A, U+EF48, U+EF7A, U+EF80, U+EF9E, U+EFE7, U+F05E, U+F0FF, U+F129, U+F145, U+F1A7, U+F1C9, U+F1D8, U+F2CA-F2CB, U+F336-F347, U+F350-F356, U+F3BD-F3BE, U+F41B, U+F43C, U+F4BE-F4C0, U+F504-F505, U+F5A5-F5A6, U+F641, U+F64A, U+FA57, U+FC77, U+FCA1, U+FEFD, U+FF3A, U+FF50, U+FFA9, U+FFB5, U+10060-10062, U+10160, U+10204, U+10234, U+1023B, U+10251, U+1028A, U+102E3-102E4;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.arrows-1.woff2?h8217c577") format("woff2");
-  unicode-range: U+EA0C-EA18, U+EA1E, U+EA20-EA23, U+EA25-EA27, U+EA29, U+EA63-EA66, U+EA7C-EA83, U+EB15-EB16, U+EB31-EB33, U+EB42, U+EB59-EB5B, U+EB5E-EB60, U+EB78, U+EBA7, U+EBB4-EBB5, U+EC15, U+EC88-EC8B, U+EC9E, U+ECE0-ECE1, U+ED09-ED10, U+ED3C-ED3D, U+ED54-ED57, U+ED98, U+ED9A-EDA4, U+EDA6-EDB7, U+EDBF-EDC4, U+EDDA-EDE1, U+EE00-EE03, U+EE48-EE4F, U+EF31-EF39, U+EF45-EF46, U+EF85, U+EFBF, U+EFE5, U+EFE8-EFEF, U+EFFE-F000, U+F044-F046;
+  src: url("./fonts/tabler-icons.arrows-1.woff2?h7ab13df7") format("woff2");
+  unicode-range: U+EA0C-EA18, U+EA1E, U+EA20-EA23, U+EA25-EA27, U+EA29, U+EA63-EA66, U+EA7C-EA83, U+EB15-EB16, U+EB31-EB33, U+EB42, U+EB59-EB5B, U+EB5E-EB60, U+EB78, U+EBA7, U+EBB4-EBB5, U+EC15, U+EC88-EC8B, U+EC9E, U+ECE0-ECE1, U+ED09-ED10, U+ED3C-ED3D, U+ED54-ED57, U+ED98, U+ED9A-EDA4, U+EDA6-EDB7, U+EDBF-EDC4, U+EDDA-EDE1, U+EE00-EE03, U+EE48-EE4F, U+EF31-EF39, U+EF45-EF46, U+EF85, U+EFBF, U+EFE5, U+EFE8-EFEF, U+EFFE-F000, U+F044-F048;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.arrows-2.woff2?h0fbc8071") format("woff2");
-  unicode-range: U+F047-F05B, U+F095, U+F11C, U+F18D, U+F1F3-F1F4, U+F22A-F22F, U+F23B-F23D, U+F296, U+F2B2-F2B5, U+F2BA-F2BD, U+F2CC-F2CD, U+F3A4, U+F4A7, U+F4A9-F4AC, U+F4B7-F4BA, U+F516-F519, U+F578, U+F60B-F60E, U+F61D-F620, U+F622-F625, U+F627-F62E, U+F639-F63C, U+F642-F645, U+F64B-F652, U+F6F6, U+F6F8-F6F9, U+F6FB, U+F6FD, U+F700, U+F702-F703, U+F799, U+F9EC-F9EF, U+FADD-FADE, U+FAE4-FAE5, U+FAF0-FAF3, U+FC44, U+FC76, U+FC9F-FCA0, U+FD5E-FD61, U+FD86-FD8D, U+FEA1-FEA2, U+FFAC, U+10063-10065, U+10067-1006A, U+10161-10164, U+101A9-101AA, U+10206-10209, U+10276, U+102CE;
+  src: url("./fonts/tabler-icons.arrows-2.woff2?h6cd0cb41") format("woff2");
+  unicode-range: U+F049-F05B, U+F095, U+F11C, U+F18D, U+F1F3-F1F4, U+F22A-F22F, U+F23B-F23D, U+F296, U+F2B2-F2B5, U+F2BA-F2BD, U+F2CC-F2CD, U+F3A4, U+F4A7, U+F4A9-F4AC, U+F4B7-F4BA, U+F516-F519, U+F578, U+F60B-F60E, U+F61D-F620, U+F622-F625, U+F627-F62E, U+F639-F63C, U+F642-F645, U+F64B-F652, U+F6F6, U+F6F8-F6F9, U+F6FB, U+F6FD, U+F700, U+F702-F703, U+F799, U+F9EC-F9EF, U+FADD-FADE, U+FAE4-FAE5, U+FAF0-FAF3, U+FC44, U+FC76, U+FC9F-FCA0, U+FD5E-FD61, U+FD86-FD8D, U+FEA1-FEA2, U+FFAC, U+10063-10065, U+10067-1006A, U+10161-10164, U+101A9-101AA, U+10206-10209, U+10276, U+102CE, U+102F1-102F4;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -62,7 +62,7 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.e-commerce.woff2?h799cba6a") format("woff2");
+  src: url("./fonts/tabler-icons.e-commerce.woff2?h120f0aa1") format("woff2");
   unicode-range: U+EB34, U+EBBD, U+EBE1, U+EC0A, U+EC4C, U+ED11, U+EE1E, U+EE24, U+EE7C, U+EE9A, U+EEDC, U+EEE1, U+EF2F-EF30, U+EF47, U+EF86, U+EFC0-EFC1, U+EFD2, U+F07E, U+F0B6, U+F0D1, U+F105, U+F13E, U+F16C, U+F1A2, U+F1A4, U+F1C4, U+F1DA, U+F26C, U+F285, U+F2BE-F2C3, U+F3AA, U+F3C2, U+F3D6, U+F3E6-F3E7, U+F3F3, U+F4A0, U+F4DF, U+F506, U+F509, U+F564, U+F661, U+FB43-FB6B, U+FC16-FC1D, U+FC99, U+FD0D, U+FD33, U+FD66, U+FD68-FD6B, U+FD6F-FD73, U+FD82, U+FDA2, U+FEE6, U+FF10, U+FFA2, U+10097, U+10138-10149, U+1022E, U+10283-10286, U+1029E;
 }
 @font-face {
@@ -97,22 +97,22 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.system-1.woff2?hc2e55e19") format("woff2");
-  unicode-range: U+EA04, U+EA2E, U+EA71, U+EA91-EA93, U+EA9B, U+EAB0-EAB1, U+EABA, U+EAC4, U+EAC6, U+EADC-EADD, U+EAE1, U+EAE6, U+EAEB, U+EAFE, U+EB12, U+EB23, U+EB3A-EB3B, U+EB3E-EB3F, U+EB48, U+EB4A, U+EB4C, U+EB53, U+EBB9-EBBA, U+EBC1, U+EBC6-EBC8, U+EBCB, U+EBD1, U+EBD4-EBD5, U+EBD7, U+EBDC, U+EBE7, U+EBEC, U+EBF1, U+EBFA-EBFB, U+EC00, U+EC12, U+EC37, U+EC3E, U+EC77, U+EC9F, U+ECA2, U+ECBF, U+ECC6, U+ECD3-ECD5, U+ECD7, U+ECDA, U+ECE9, U+ECF8-ECF9, U+ED19, U+ED1E, U+ED2C, U+ED38, U+ED62, U+ED65, U+ED84, U+EDE2-EDE5, U+EE1F-EE20, U+EE41, U+EE71, U+EE88, U+EEAA, U+EEAE, U+EEB4, U+EEC4, U+EECA, U+EED6, U+EF4C-EF4E, U+EF51, U+EF53, U+EF56, U+EF93, U+EF9A-EF9B, U+EFA7, U+EFAD, U+EFAF, U+EFB3-EFB4, U+EFB6, U+EFB9-EFBB, U+EFBD, U+EFC9, U+EFCF, U+EFD3, U+EFDA-EFDB, U+EFDF, U+EFE2, U+EFF1, U+EFF7, U+F008, U+F00C, U+F020, U+F023, U+F02A, U+F031, U+F068, U+F076, U+F079, U+F07D, U+F092-F093, U+F099, U+F09C, U+F0A4, U+F0A8-F0A9, U+F0B3, U+F0CF, U+F10A, U+F10F, U+F11B, U+F123-F125, U+F12A, U+F136, U+F138, U+F146-F147, U+F149-F14A, U+F14C, U+F154, U+F156, U+F158, U+F15D, U+F16B, U+F181, U+F185, U+F18B, U+F192, U+F198-F199, U+F19C, U+F19F, U+F1A1, U+F1A9, U+F1AE, U+F1B1, U+F1B4, U+F1BB, U+F1C1, U+F1C5-F1C6, U+F1F1-F1F2, U+F1F7, U+F1FB-F1FC, U+F1FF, U+F21F-F223, U+F227-F228, U+F249-F24B, U+F256, U+F258, U+F26E, U+F286, U+F288, U+F294, U+F2DD, U+F313-F317, U+F31A-F31E, U+F359, U+F368, U+F37E, U+F38E, U+F3A3, U+F3B0, U+F3B3, U+F3B5, U+F3BA, U+F3C1, U+F3E1-F3E2, U+F3E5, U+F3E8, U+F3EA, U+F3F4, U+F3F8, U+F3FB, U+F3FD, U+F401, U+F404, U+F422, U+F42C, U+F42E-F430, U+F436-F437, U+F43A, U+F440, U+F4A5, U+F4CA-F4CB, U+F50B;
+  src: url("./fonts/tabler-icons.system-1.woff2?h961d0ae5") format("woff2");
+  unicode-range: U+EA04, U+EA2E, U+EA71, U+EA91-EA93, U+EA9B, U+EAB0-EAB1, U+EABA, U+EAC4, U+EAC6, U+EADC-EADD, U+EAE1, U+EAE6, U+EAEB, U+EAFE, U+EB12, U+EB23, U+EB3A-EB3B, U+EB3E-EB3F, U+EB48, U+EB4A, U+EB4C, U+EB53, U+EBB9-EBBA, U+EBC1, U+EBC6-EBC8, U+EBCB, U+EBD1, U+EBD4-EBD5, U+EBD7, U+EBDC, U+EBE7, U+EBEC, U+EBF1, U+EBFA-EBFB, U+EC00, U+EC12, U+EC37, U+EC3E, U+EC77, U+EC9F, U+ECA2, U+ECBF, U+ECC6, U+ECD3-ECD5, U+ECD7, U+ECDA, U+ECE9, U+ECF8-ECF9, U+ED19, U+ED1E, U+ED2C, U+ED38, U+ED62, U+ED65, U+ED84, U+EDE2-EDE5, U+EE1F-EE20, U+EE41, U+EE71, U+EE88, U+EEAA, U+EEAE, U+EEB4, U+EEC4, U+EECA, U+EED6, U+EF4C-EF4E, U+EF51, U+EF53, U+EF56, U+EF93, U+EF9A-EF9B, U+EFA7, U+EFAD, U+EFAF, U+EFB3-EFB4, U+EFB6, U+EFB9-EFBB, U+EFBD, U+EFC9, U+EFCF, U+EFD3, U+EFDA-EFDB, U+EFDF, U+EFE2, U+EFF1, U+EFF7, U+F008, U+F00C, U+F020, U+F023, U+F02A, U+F031, U+F068, U+F076, U+F079, U+F07D, U+F092-F093, U+F099, U+F09C, U+F0A4, U+F0A8-F0A9, U+F0B3, U+F0CF, U+F10A, U+F10F, U+F11B, U+F123-F125, U+F12A, U+F136, U+F138, U+F146-F147, U+F149-F14A, U+F14C, U+F154, U+F156, U+F158, U+F15D, U+F16B, U+F181, U+F185, U+F18B, U+F192, U+F198-F199, U+F19C, U+F19F, U+F1A1, U+F1A9, U+F1AE, U+F1B1, U+F1B4, U+F1BB, U+F1C1, U+F1C5-F1C6, U+F1F1-F1F2, U+F1F7, U+F1FB-F1FC, U+F1FF, U+F21F-F223, U+F227-F228, U+F249-F24B, U+F256, U+F258, U+F26E, U+F286, U+F288, U+F294, U+F2DD, U+F313-F317, U+F31A-F31E, U+F359, U+F368, U+F37E, U+F38E, U+F3A3, U+F3B0, U+F3B3, U+F3B5, U+F3BA, U+F3C1, U+F3E1-F3E2, U+F3E5, U+F3E8, U+F3EA, U+F3F4, U+F3F8, U+F3FB, U+F3FD, U+F401, U+F404, U+F422, U+F42C, U+F42E-F430, U+F436-F437, U+F43A, U+F440, U+F4A5, U+F4CA-F4CB, U+F50B, U+F513, U+F51B, U+F526-F527;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.system-2.woff2?h4ffab718") format("woff2");
-  unicode-range: U+F513, U+F51B, U+F526-F52F, U+F546-F54B, U+F551, U+F566, U+F577, U+F581, U+F588-F589, U+F5E6-F5E7, U+F5F5, U+F61B-F61C, U+F621, U+F62F-F632, U+F636, U+F793-F794, U+F79D-F79E, U+F7A8-F7AB, U+F7BE-F7BF, U+F7C1-F7CF, U+F7D1-F7D2, U+F7EC-F7F1, U+F7FB-F80F, U+F811-F823, U+F825-F832, U+F844-F84A, U+F91E-F936, U+F999-F9D3, U+F9D5-F9D8, U+F9F3-F9F7, U+F9FE-FA04, U+FA07-FA0B;
+  src: url("./fonts/tabler-icons.system-2.woff2?h351cf597") format("woff2");
+  unicode-range: U+F528-F52F, U+F546-F54B, U+F551, U+F566, U+F577, U+F581, U+F588-F589, U+F5E6-F5E7, U+F5F5, U+F61B-F61C, U+F621, U+F62F-F632, U+F636, U+F793-F794, U+F79D-F79E, U+F7A8-F7AB, U+F7BE-F7BF, U+F7C1-F7CF, U+F7D1-F7D2, U+F7EC-F7F1, U+F7FB-F80F, U+F811-F823, U+F825-F832, U+F844-F84A, U+F91E-F936, U+F999-F9D3, U+F9D5-F9D8, U+F9F3-F9F7, U+F9FE-FA04, U+FA07-FA0F, U+FA33, U+FAD2, U+FAD4-FAD5;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.system-3.woff2?h19d29dbd") format("woff2");
-  unicode-range: U+FA0C-FA0F, U+FA33, U+FAD2, U+FAD4-FADC, U+FAF6, U+FAF8-FAFB, U+FB6D-FB6F, U+FB71-FB89, U+FB8F, U+FBB4, U+FBDA, U+FC11, U+FC15, U+FC1E-FC20, U+FC47, U+FC4E-FC53, U+FC56-FC57, U+FC5A-FC5C, U+FC65-FC69, U+FC78, U+FC7B-FC7D, U+FC9E, U+FCA3, U+FCA7-FCA8, U+FCB0, U+FCB6, U+FCB8, U+FCBE-FCC1, U+FCC3-FCC5, U+FD1D-FD1F, U+FD25-FD2A, U+FD35-FD36, U+FD3B-FD3C, U+FD3E, U+FD44-FD4C, U+FD4F, U+FD57, U+FD5B-FD5C, U+FD6C, U+FD7C-FD7E, U+FD81, U+FD94-FD97, U+FD9B, U+FDA3-FDA9, U+FDAC, U+FEA4, U+FEA6, U+FEA8, U+FEAF, U+FED7-FEE5, U+FEE8-FEED, U+FEF1, U+FEF4, U+FEF8, U+FF0C-FF0E, U+FF30, U+FF37-FF39, U+FF3C, U+FF3E-FF3F, U+FF42-FF43, U+FF49-FF4C, U+FF9F, U+FFA3, U+FFAE, U+FFB4, U+FFBA, U+FFBE, U+100AA-100AD, U+100BA, U+100F0, U+1014A, U+1014C-1015F, U+101A7, U+101F2, U+101FA, U+10220, U+10226, U+10235, U+10257, U+1025D, U+1025F-10260, U+10268, U+10270, U+10273, U+10277-1027A, U+1027D, U+10287, U+10292, U+10294, U+102C0;
+  src: url("./fonts/tabler-icons.system-3.woff2?hcf2b96fe") format("woff2");
+  unicode-range: U+FAD6-FADC, U+FAF6, U+FAF8-FAFB, U+FB6D-FB6F, U+FB71-FB89, U+FB8F, U+FBB4, U+FBDA, U+FC11, U+FC15, U+FC1E-FC20, U+FC47, U+FC4E-FC53, U+FC56-FC57, U+FC5A-FC5C, U+FC65-FC69, U+FC78, U+FC7B-FC7D, U+FC9E, U+FCA3, U+FCA7-FCA8, U+FCB0, U+FCB6, U+FCB8, U+FCBE-FCC1, U+FCC3-FCC5, U+FD1D-FD1F, U+FD25-FD2A, U+FD35-FD36, U+FD3B-FD3C, U+FD3E, U+FD44-FD4C, U+FD4F, U+FD57, U+FD5B-FD5C, U+FD6C, U+FD7C-FD7E, U+FD81, U+FD94-FD97, U+FD9B, U+FDA3-FDA9, U+FDAC, U+FEA4, U+FEA6, U+FEA8, U+FEAF, U+FED7-FEE5, U+FEE8-FEED, U+FEF1, U+FEF4, U+FEF8, U+FF0C-FF0E, U+FF30, U+FF37-FF39, U+FF3C, U+FF3E-FF3F, U+FF42-FF43, U+FF49-FF4C, U+FF9F, U+FFA3, U+FFAE, U+FFB4, U+FFBA, U+FFBE, U+100AA-100AD, U+100BA, U+100F0, U+1014A, U+1014C-1015F, U+101A7, U+101F2, U+101FA, U+10220, U+10226, U+10235, U+10257, U+1025D, U+1025F-10260, U+10268, U+10270, U+10273, U+10277-1027A, U+1027D, U+10287, U+10292, U+10294, U+102C0, U+102D9-102DA, U+102DD-102DE, U+102E9-102EE, U+102F5-102F6;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -146,8 +146,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.shapes.woff2?h750135e7") format("woff2");
-  unicode-range: U+EA68, U+EB29-EB2B, U+EB44, U+EC02, U+ECBD, U+ECDF, U+ECE4-ECE5, U+ECE8, U+ED27-ED28, U+ED36-ED37, U+ED59-ED5B, U+EE3E-EE40, U+EE9C, U+EEB8, U+EEBD, U+EEC5, U+EEEF, U+EEF2, U+EF02, U+EFB1, U+EFDC-EFDD, U+EFE3, U+EFF3-EFF5, U+EFFA, U+F010-F011, U+F01A-F01D, U+F02D-F02E, U+F09D, U+F0A5, U+F0CD, U+F115, U+F140-F142, U+F176, U+F187, U+F1D4, U+F1F5, U+F387, U+F3D8, U+F3F7, U+F3F9, U+F3FC, U+F3FF, U+F41A, U+F4C3, U+F4C7, U+F54C, U+F599-F59A, U+F633, U+F638, U+F63E-F640, U+FA94-FAB8, U+FAE2-FAE3, U+FAED-FAEE, U+FB9E-FBA2, U+FBA4-FBAE, U+FC43, U+FC45, U+FC49, U+FC75, U+FC88, U+FC8C-FC94, U+FC96-FC98, U+FC9A-FC9D, U+FD20-FD21, U+FD7A-FD7B, U+FD83-FD84, U+FD98, U+FEA3, U+FEB3, U+FEB6-FEB7, U+FFB6, U+FFBB, U+100BB, U+1019E, U+101A5, U+101A8, U+101AB, U+101AD, U+10205, U+10258, U+102B4-102B6, U+102BF;
+  src: url("./fonts/tabler-icons.shapes.woff2?h26f50ab4") format("woff2");
+  unicode-range: U+EA68, U+EB29-EB2B, U+EB44, U+EC02, U+ECBD, U+ECDF, U+ECE4-ECE5, U+ECE8, U+ED27-ED28, U+ED36-ED37, U+ED59-ED5B, U+EE3E-EE40, U+EE9C, U+EEB8, U+EEBD, U+EEC5, U+EEEF, U+EEF2, U+EF02, U+EFB1, U+EFDC-EFDD, U+EFE3, U+EFF3-EFF5, U+EFFA, U+F010-F011, U+F01A-F01D, U+F02D-F02E, U+F09D, U+F0A5, U+F0CD, U+F115, U+F140-F142, U+F176, U+F187, U+F1D4, U+F1F5, U+F387, U+F3D8, U+F3F7, U+F3F9, U+F3FC, U+F3FF, U+F41A, U+F4C3, U+F4C7, U+F54C, U+F599-F59A, U+F633, U+F638, U+F63E-F640, U+FA94-FAB8, U+FAE2-FAE3, U+FAED-FAEE, U+FB9E-FBA2, U+FBA4-FBAE, U+FC43, U+FC45, U+FC49, U+FC75, U+FC88, U+FC8C-FC94, U+FC96-FC98, U+FC9A-FC9D, U+FD20-FD21, U+FD7A-FD7B, U+FD83-FD84, U+FD98, U+FEA3, U+FEB3, U+FEB6-FEB7, U+FFB6, U+FFBB, U+100BB, U+1019E, U+101A5, U+101A8, U+101AB, U+101AD, U+10205, U+10258, U+102B4-102B6, U+102BF, U+102E5-102E6;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -167,8 +167,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.media.woff2?h0c80ffb0") format("woff2");
-  unicode-range: U+EA56, U+EAEA, U+EAF1, U+EAFA, U+EB4F-EB50, U+EB71, U+EC3A-EC3C, U+ECEE, U+ECF6, U+ED16, U+ED1D, U+ED1F-ED21, U+ED30, U+ED35, U+ED43-ED44, U+ED47-ED49, U+ED4B-ED4C, U+EEC0, U+EF2C-EF2D, U+EFBC, U+EFE4, U+F009, U+F022, U+F0AF, U+F0C6, U+F0C9, U+F15F, U+F164, U+F166, U+F17F, U+F18E, U+F1C3, U+F35D-F367, U+F38B, U+F3B9, U+F3F6, U+F40D, U+F420, U+F576, U+F582-F585, U+F833-F843, U+F990-F998, U+FA32, U+FABA-FAC9, U+FBD5-FBD9, U+FBDB-FBE8, U+FC62-FC63, U+FEA0, U+FEA5, U+FFA6-FFA8, U+FFB0, U+FFBC, U+1019D, U+101A1-101A4, U+10240-10241, U+10262, U+1028F-10290, U+102BC-102BE, U+102C6;
+  src: url("./fonts/tabler-icons.media.woff2?he53db5ce") format("woff2");
+  unicode-range: U+EA56, U+EAEA, U+EAF1, U+EAFA, U+EB4F-EB50, U+EB71, U+EC3A-EC3C, U+ECEE, U+ECF6, U+ED16, U+ED1D, U+ED1F-ED21, U+ED30, U+ED35, U+ED43-ED44, U+ED47-ED49, U+ED4B-ED4C, U+EEC0, U+EF2C-EF2D, U+EFBC, U+EFE4, U+F009, U+F022, U+F0AF, U+F0C6, U+F0C9, U+F15F, U+F164, U+F166, U+F17F, U+F18E, U+F1C3, U+F35D-F367, U+F38B, U+F3B9, U+F3F6, U+F40D, U+F420, U+F576, U+F582-F585, U+F833-F843, U+F990-F998, U+FA32, U+FABA-FAC9, U+FBD5-FBD9, U+FBDB-FBE8, U+FC62-FC63, U+FEA0, U+FEA5, U+FFA6-FFA8, U+FFB0, U+FFBC, U+1019D, U+101A1-101A4, U+10240-10241, U+10262, U+1028F-10290, U+102BC-102BE, U+102C6, U+102DF-102E0, U+102EF-102F0;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -195,15 +195,15 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.development.woff2?hbf5f82eb") format("woff2");
-  unicode-range: U+EA48, U+EB0F, U+EBEF, U+EC36, U+ECA0, U+ED52, U+EFFC-EFFD, U+F01E, U+F07A-F07B, U+F0AB-F0AC, U+F0C3, U+F0F8, U+F1A6, U+F1C0, U+F1CE, U+F24D, U+F26B, U+F3AF, U+F3C0, U+F43D, U+F4A2, U+F553, U+F662-F666, U+FC54, U+FEA7, U+FEE7, U+101E8, U+101EA-101F1, U+101F3-101F9, U+101FF-10200, U+1020B, U+10225, U+10267, U+10280-10282, U+1028C-1028D, U+102A6, U+102C7, U+102CC;
+  src: url("./fonts/tabler-icons.development.woff2?h2aa844cd") format("woff2");
+  unicode-range: U+EA48, U+EB0F, U+EBEF, U+EC36, U+ECA0, U+ED52, U+EFFC-EFFD, U+F01E, U+F07A-F07B, U+F0AB-F0AC, U+F0C3, U+F0F8, U+F1A6, U+F1C0, U+F1CE, U+F24D, U+F26B, U+F3AF, U+F3C0, U+F43D, U+F4A2, U+F553, U+F662-F666, U+FC54, U+FEA7, U+FEE7, U+101E8, U+101EA-101F1, U+101F3-101F9, U+101FF-10200, U+1020B, U+10225, U+10267, U+10280-10282, U+1028C-1028D, U+102A6, U+102C7, U+102CC, U+102DB-102DC;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.map.woff2?ha77cf56a") format("woff2");
-  unicode-range: U+EA8E, U+EAB9, U+EAE0, U+EB03, U+EB35, U+EB4E, U+EB56-EB57, U+EB76, U+EC08, U+EC0F-EC10, U+EC2F, U+EC4D, U+EC6B, U+ECA4-ECA6, U+ECDD, U+ECF3, U+ED2E-ED2F, U+ED39, U+ED5E-ED60, U+ED7A, U+ED7D, U+ED85, U+EDEB, U+EE8C-EE8D, U+EE90, U+EEC1, U+EED3, U+EEFB, U+EF01, U+EF09-EF0A, U+EF3D, U+EF79, U+EF82, U+EF8A-EF8B, U+F014, U+F016-F018, U+F06A-F06D, U+F07F-F080, U+F09B, U+F0B7, U+F0D5, U+F0F7, U+F100, U+F10E, U+F116, U+F12C-F12D, U+F134, U+F139, U+F155, U+F15C, U+F160, U+F172, U+F174, U+F17B, U+F191, U+F193-F194, U+F197, U+F19A, U+F1AD, U+F1B5-F1B6, U+F1B8-F1B9, U+F1C2, U+F1C8, U+F1CA, U+F1DC-F1DE, U+F263, U+F295, U+F2A7, U+F2C4, U+F2C8, U+F3A9, U+F3EC, U+F408, U+F413, U+F41C, U+F41F, U+F435, U+F4B6, U+F57F-F580, U+F5A7, U+F795, U+F79B-F79C, U+F94A-F95B, U+F9D9-F9EB, U+FAE8, U+FAEC, U+FB01, U+FB04-FB06, U+FB8A-FB8E, U+FB90-FB9D, U+FBAF-FBB3, U+FBB5-FBD4, U+FBE9-FBFC, U+FC48, U+FC5D-FC60, U+FC79, U+FCA9-FCAE, U+FCBA-FCBD, U+FEB4, U+FED6, U+FFB7, U+101E9, U+10202-10203, U+10227, U+10298, U+102C8, U+102CD, U+102D7;
+  src: url("./fonts/tabler-icons.map.woff2?h9c390acb") format("woff2");
+  unicode-range: U+EA8E, U+EAB9, U+EAE0, U+EB03, U+EB35, U+EB4E, U+EB56-EB57, U+EB76, U+EC08, U+EC0F-EC10, U+EC2F, U+EC4D, U+EC6B, U+ECA4-ECA6, U+ECDD, U+ECF3, U+ED2E-ED2F, U+ED39, U+ED5E-ED60, U+ED7A, U+ED7D, U+ED85, U+EDEB, U+EE8C-EE8D, U+EE90, U+EEC1, U+EED3, U+EEFB, U+EF01, U+EF09-EF0A, U+EF3D, U+EF79, U+EF82, U+EF8A-EF8B, U+F014, U+F016-F018, U+F06A-F06D, U+F07F-F080, U+F09B, U+F0B7, U+F0D5, U+F0F7, U+F100, U+F10E, U+F116, U+F12C-F12D, U+F134, U+F139, U+F155, U+F15C, U+F160, U+F172, U+F174, U+F17B, U+F191, U+F193-F194, U+F197, U+F19A, U+F1AD, U+F1B5-F1B6, U+F1B8-F1B9, U+F1C2, U+F1C8, U+F1CA, U+F1DC-F1DE, U+F263, U+F295, U+F2A7, U+F2C4, U+F2C8, U+F3A9, U+F3EC, U+F408, U+F413, U+F41C, U+F41F, U+F435, U+F4B6, U+F57F-F580, U+F5A7, U+F795, U+F79B-F79C, U+F94A-F95B, U+F9D9-F9EB, U+FAE8, U+FAEC, U+FB01, U+FB04-FB06, U+FB8A-FB8E, U+FB90-FB9D, U+FBAF-FBB3, U+FBB5-FBD4, U+FBE9-FBFC, U+FC48, U+FC5D-FC60, U+FC79, U+FCA9-FCAE, U+FCBA-FCBD, U+FEB4, U+FED6, U+FFB7, U+101E9, U+10202-10203, U+10227, U+10298, U+102C8, U+102CD, U+102D7, U+102E7-102E8;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -265,8 +265,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.communication.woff2?h9e1249e8") format("woff2");
-  unicode-range: U+EB19, U+EC9A-EC9B, U+ED40-ED42, U+EEAC-EEAD, U+EFAE, U+F012-F013, U+F069, U+F077-F078, U+F15A-F15B, U+F28F, U+F3B8, U+F40B, U+F429, U+F937-F949, U+F95C-F98F, U+FA31, U+FD4D, U+FD5D, U+FEBA-FEBE, U+FEC4-FEC5, U+FF36, U+FF9C-FF9E, U+FFB3, U+10266, U+102A7-102AA;
+  src: url("./fonts/tabler-icons.communication.woff2?hd5a3df24") format("woff2");
+  unicode-range: U+EB19, U+EC9A-EC9B, U+ED40-ED42, U+EEAC-EEAD, U+EFAE, U+F012-F013, U+F069, U+F077-F078, U+F15A-F15B, U+F28F, U+F3B8, U+F40B, U+F429, U+F937-F949, U+F95C-F98F, U+FA31, U+FD4D, U+FD5D, U+FEBA-FEBE, U+FEC4-FEC5, U+FF36, U+FF9C-FF9E, U+FFB3, U+10266, U+102A7-102AA, U+102E1-102E2;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -475,12 +475,20 @@
   content: "\f802";
 }
 
+.ti-adjustments-flame:before {
+  content: "\102f6";
+}
+
 .ti-adjustments-heart:before {
   content: "\f803";
 }
 
 .ti-adjustments-horizontal:before {
   content: "\ec38";
+}
+
+.ti-adjustments-key:before {
+  content: "\102f5";
 }
 
 .ti-adjustments-minus:before {
@@ -1347,16 +1355,32 @@
   content: "\f2ba";
 }
 
+.ti-arrow-move-down-x:before {
+  content: "\102f4";
+}
+
 .ti-arrow-move-left:before {
   content: "\f2bb";
+}
+
+.ti-arrow-move-left-x:before {
+  content: "\102f3";
 }
 
 .ti-arrow-move-right:before {
   content: "\f2bc";
 }
 
+.ti-arrow-move-right-x:before {
+  content: "\102f2";
+}
+
 .ti-arrow-move-up:before {
   content: "\f2bd";
+}
+
+.ti-arrow-move-up-x:before {
+  content: "\102f1";
 }
 
 .ti-arrow-narrow-down:before {
@@ -4951,8 +4975,16 @@
   content: "\f83a";
 }
 
+.ti-camera-flame:before {
+  content: "\102f0";
+}
+
 .ti-camera-heart:before {
   content: "\f83b";
+}
+
+.ti-camera-key:before {
+  content: "\102ef";
 }
 
 .ti-camera-minus:before {
@@ -9291,8 +9323,16 @@
   content: "\f7ef";
 }
 
+.ti-eye-flame:before {
+  content: "\102ee";
+}
+
 .ti-eye-heart:before {
   content: "\f7f0";
+}
+
+.ti-eye-key:before {
+  content: "\102ed";
 }
 
 .ti-eye-minus:before {
@@ -9851,6 +9891,14 @@
   content: "\10156";
 }
 
+.ti-filter-2-flame:before {
+  content: "\102ec";
+}
+
+.ti-filter-2-key:before {
+  content: "\102eb";
+}
+
 .ti-filter-2-minus:before {
   content: "\10155";
 }
@@ -9931,8 +9979,16 @@
   content: "\fb82";
 }
 
+.ti-filter-flame:before {
+  content: "\102ea";
+}
+
 .ti-filter-heart:before {
   content: "\fb83";
+}
+
+.ti-filter-key:before {
+  content: "\102e9";
 }
 
 .ti-filter-minus:before {
@@ -10111,8 +10167,16 @@
   content: "\fb92";
 }
 
+.ti-flag-flame:before {
+  content: "\102e8";
+}
+
 .ti-flag-heart:before {
   content: "\fb93";
+}
+
+.ti-flag-key:before {
+  content: "\102e7";
 }
 
 .ti-flag-minus:before {
@@ -11051,8 +11115,16 @@
   content: "\fba6";
 }
 
+.ti-heart-flame:before {
+  content: "\102e6";
+}
+
 .ti-heart-handshake:before {
   content: "\f0f3";
+}
+
+.ti-heart-key:before {
+  content: "\102e5";
 }
 
 .ti-heart-minus:before {
@@ -11479,6 +11551,10 @@
   content: "\f33c";
 }
 
+.ti-home-flame:before {
+  content: "\102e4";
+}
+
 .ti-home-hand:before {
   content: "\f504";
 }
@@ -11489,6 +11565,10 @@
 
 .ti-home-infinity:before {
   content: "\f505";
+}
+
+.ti-home-key:before {
+  content: "\102e3";
 }
 
 .ti-home-link:before {
@@ -13067,12 +13147,20 @@
   content: "\f069";
 }
 
+.ti-mail-flame:before {
+  content: "\102e2";
+}
+
 .ti-mail-forward:before {
   content: "\eeac";
 }
 
 .ti-mail-heart:before {
   content: "\f93f";
+}
+
+.ti-mail-key:before {
+  content: "\102e1";
 }
 
 .ti-mail-minus:before {
@@ -15803,12 +15891,20 @@
   content: "\f994";
 }
 
+.ti-photo-flame:before {
+  content: "\102e0";
+}
+
 .ti-photo-heart:before {
   content: "\f361";
 }
 
 .ti-photo-hexagon:before {
   content: "\fc4b";
+}
+
+.ti-photo-key:before {
+  content: "\102df";
 }
 
 .ti-photo-minus:before {
@@ -17559,8 +17655,16 @@
   content: "\f9b4";
 }
 
+.ti-settings-flame:before {
+  content: "\102de";
+}
+
 .ti-settings-heart:before {
   content: "\f9b5";
+}
+
+.ti-settings-key:before {
+  content: "\102dd";
 }
 
 .ti-settings-minus:before {
@@ -17991,8 +18095,16 @@
   content: "\eb9d";
 }
 
+.ti-sitemap-minus:before {
+  content: "\102dc";
+}
+
 .ti-sitemap-off:before {
   content: "\f1a6";
+}
+
+.ti-sitemap-plus:before {
+  content: "\102db";
 }
 
 .ti-skateboard:before {
@@ -20223,6 +20335,10 @@
   content: "\ec12";
 }
 
+.ti-user-flame:before {
+  content: "\102da";
+}
+
 .ti-user-heart:before {
   content: "\f7cd";
 }
@@ -20281,6 +20397,10 @@
 
 .ti-user-shield:before {
   content: "\f7d0";
+}
+
+.ti-user-spark:before {
+  content: "\102d9";
 }
 
 .ti-user-square:before {

@@ -1,5 +1,55 @@
 # Changelog
 
+## 3.51.0
+
+- 6,353 icons (5,296 outline + 1,057 filled)
+- Added 30 new icons
+
+### Tabler Icons release notes
+
+### 30 new icons:
+
+- `outline/adjustments-flame`
+- `outline/adjustments-key`
+- `outline/arrow-move-down-x`
+- `outline/arrow-move-left-x`
+- `outline/arrow-move-right-x`
+- `outline/arrow-move-up-x`
+- `outline/camera-flame`
+- `outline/camera-key`
+- `outline/eye-flame`
+- `outline/eye-key`
+- `outline/filter-2-flame`
+- `outline/filter-2-key`
+- `outline/filter-flame`
+- `outline/filter-key`
+- `outline/flag-flame`
+- `outline/flag-key`
+- `outline/heart-flame`
+- `outline/heart-key`
+- `outline/home-flame`
+- `outline/home-key`
+- `outline/mail-flame`
+- `outline/mail-key`
+- `outline/photo-flame`
+- `outline/photo-key`
+- `outline/settings-flame`
+- `outline/settings-key`
+- `outline/sitemap-minus`
+- `outline/sitemap-plus`
+- `outline/user-flame`
+- `outline/user-spark`
+
+### Fixes and improvements
+
+- Redraw `shopping-cart-copy`, which was identical to `shopping-cart-check` (#1692)
+- **Webfont:** Refresh cached webfont icons when their source SVGs change. (#1651)
+- **Webfont:** Add `U+20` to the `unicode-range` of the `core` chunk so that browsers take the line metrics from Tabler Icons and not from the system fallback font. Since 3.50.0 icons rendered taller than `1em` and sat too high in their line box. (#1716)
+- **Vue:** `size`, `color`, `stroke`, `strokeWidth` and `title` are declared as props, so they are no longer rendered as DOM attributes on the `<svg>`, and `strokeWidth` maps to `stroke-width` (#1688)
+- **Sprite:** The invisible 24×24 background path is no longer repeated in every `<symbol>` (#1691)
+- **SolidJS:** The CommonJS bundle is published as `.cjs`, so Node no longer parses it as an ES module (#1689)
+- **React Native:** The `types` entries in `package.json` point at files that exist: CommonJS consumers get `.d.cts` declarations and per-icon subpath imports are typed (#1690)
+
 ## 3.50.0
 
 - 6,323 icons (5,266 outline + 1,057 filled)
