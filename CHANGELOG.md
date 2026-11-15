@@ -1,5 +1,300 @@
 # Changelog
 
+## 3.52.0
+
+- 6,612 icons (5,555 outline + 1,057 filled)
+- Added 259 new icons
+
+### Tabler Icons release notes
+
+### 258 new icons:
+
+- `outline/align-center-justified`
+- `outline/align-right-justified`
+- `outline/basket-flame`
+- `outline/basket-key`
+- `outline/basket-spark`
+- `outline/bell-flame`
+- `outline/bell-key`
+- `outline/bell-spark`
+- `outline/bookmark-bolt`
+- `outline/bookmark-cancel`
+- `outline/bookmark-check`
+- `outline/bookmark-code`
+- `outline/bookmark-cog`
+- `outline/bookmark-dollar`
+- `outline/bookmark-down`
+- `outline/bookmark-exclamation`
+- `outline/bookmark-heart`
+- `outline/bookmark-pause`
+- `outline/bookmark-pin`
+- `outline/bookmark-search`
+- `outline/bookmark-share`
+- `outline/bookmark-star`
+- `outline/bookmark-up`
+- `outline/bookmark-x`
+- `outline/building-bolt`
+- `outline/building-cancel`
+- `outline/building-check`
+- `outline/building-code`
+- `outline/building-dollar`
+- `outline/building-down`
+- `outline/building-exclamation`
+- `outline/building-heart`
+- `outline/building-pause`
+- `outline/building-pin`
+- `outline/building-question`
+- `outline/building-search`
+- `outline/building-share`
+- `outline/building-star`
+- `outline/building-up`
+- `outline/building-x`
+- `outline/calendar-flame`
+- `outline/calendar-key`
+- `outline/calendar-spark`
+- `outline/cash-banknote-bolt`
+- `outline/cash-banknote-cancel`
+- `outline/cash-banknote-check`
+- `outline/cash-banknote-code`
+- `outline/cash-banknote-cog`
+- `outline/cash-banknote-dollar`
+- `outline/cash-banknote-down`
+- `outline/cash-banknote-exclamation`
+- `outline/cash-banknote-pause`
+- `outline/cash-banknote-pin`
+- `outline/cash-banknote-question`
+- `outline/cash-banknote-search`
+- `outline/cash-banknote-share`
+- `outline/cash-banknote-star`
+- `outline/cash-banknote-up`
+- `outline/cash-banknote-x`
+- `outline/cash-bolt`
+- `outline/cash-cancel`
+- `outline/cash-check`
+- `outline/cash-code`
+- `outline/cash-cog`
+- `outline/cash-dollar`
+- `outline/cash-down`
+- `outline/cash-exclamation`
+- `outline/cash-pause`
+- `outline/cash-pin`
+- `outline/cash-question`
+- `outline/cash-search`
+- `outline/cash-share`
+- `outline/cash-star`
+- `outline/cash-up`
+- `outline/cash-x`
+- `outline/clock-flame`
+- `outline/clock-key`
+- `outline/clock-spark`
+- `outline/cloud-flame`
+- `outline/cloud-key`
+- `outline/cloud-spark`
+- `outline/database-bolt`
+- `outline/database-cancel`
+- `outline/database-check`
+- `outline/database-code`
+- `outline/database-down`
+- `outline/database-pause`
+- `outline/database-pin`
+- `outline/database-question`
+- `outline/database-up`
+- `outline/device-desktop-flame`
+- `outline/device-desktop-key`
+- `outline/device-desktop-spark`
+- `outline/device-imac-flame`
+- `outline/device-imac-key`
+- `outline/device-imac-spark`
+- `outline/device-ipad-flame`
+- `outline/device-ipad-horizontal-flame`
+- `outline/device-ipad-horizontal-key`
+- `outline/device-ipad-horizontal-spark`
+- `outline/device-ipad-key`
+- `outline/device-ipad-spark`
+- `outline/device-mobile-flame`
+- `outline/device-mobile-key`
+- `outline/device-mobile-spark`
+- `outline/device-tablet-flame`
+- `outline/device-tablet-key`
+- `outline/device-tablet-spark`
+- `outline/device-watch-flame`
+- `outline/device-watch-key`
+- `outline/device-watch-spark`
+- `outline/devices-flame`
+- `outline/devices-key`
+- `outline/devices-spark`
+- `outline/droplet-flame`
+- `outline/droplet-key`
+- `outline/droplet-spark`
+- `outline/file-text-bolt`
+- `outline/file-text-cancel`
+- `outline/file-text-check`
+- `outline/file-text-code`
+- `outline/file-text-cog`
+- `outline/file-text-dollar`
+- `outline/file-text-down`
+- `outline/file-text-exclamation`
+- `outline/file-text-heart`
+- `outline/file-text-minus`
+- `outline/file-text-pause`
+- `outline/file-text-pin`
+- `outline/file-text-plus`
+- `outline/file-text-question`
+- `outline/file-text-search`
+- `outline/file-text-share`
+- `outline/file-text-star`
+- `outline/file-text-up`
+- `outline/file-text-x`
+- `outline/folder-flame`
+- `outline/folder-key`
+- `outline/folder-spark`
+- `outline/link-bolt`
+- `outline/link-cancel`
+- `outline/link-check`
+- `outline/link-code`
+- `outline/link-cog`
+- `outline/link-dollar`
+- `outline/link-down`
+- `outline/link-exclamation`
+- `outline/link-heart`
+- `outline/link-pause`
+- `outline/link-pin`
+- `outline/link-question`
+- `outline/link-search`
+- `outline/link-share`
+- `outline/link-star`
+- `outline/link-up`
+- `outline/link-x`
+- `outline/location-flame`
+- `outline/location-key`
+- `outline/location-spark`
+- `outline/lock-flame`
+- `outline/lock-key`
+- `outline/lock-spark`
+- `outline/map-flame`
+- `outline/map-key`
+- `outline/map-pin-flame`
+- `outline/map-pin-key`
+- `outline/map-pin-spark`
+- `outline/map-spark`
+- `outline/message-2-flame`
+- `outline/message-2-key`
+- `outline/message-2-spark`
+- `outline/message-circle-flame`
+- `outline/message-circle-key`
+- `outline/message-circle-spark`
+- `outline/message-flame`
+- `outline/message-key`
+- `outline/message-spark`
+- `outline/music-flame`
+- `outline/music-key`
+- `outline/music-spark`
+- `outline/navigation-flame`
+- `outline/navigation-key`
+- `outline/navigation-spark`
+- `outline/pencil-flame`
+- `outline/pencil-key`
+- `outline/pencil-spark`
+- `outline/pointer-flame`
+- `outline/pointer-key`
+- `outline/pointer-spark`
+- `outline/shield-flame`
+- `outline/shield-key`
+- `outline/shield-spark`
+- `outline/shopping-bag-bolt`
+- `outline/shopping-bag-cancel`
+- `outline/shopping-bag-code`
+- `outline/shopping-bag-cog`
+- `outline/shopping-bag-dollar`
+- `outline/shopping-bag-down`
+- `outline/shopping-bag-pause`
+- `outline/shopping-bag-pin`
+- `outline/shopping-bag-question`
+- `outline/shopping-bag-share`
+- `outline/shopping-bag-star`
+- `outline/shopping-bag-up`
+- `outline/shopping-cart-flame`
+- `outline/shopping-cart-key`
+- `outline/shopping-cart-spark`
+- `outline/table-bolt`
+- `outline/table-cancel`
+- `outline/table-check`
+- `outline/table-code`
+- `outline/table-cog`
+- `outline/table-dollar`
+- `outline/table-exclamation`
+- `outline/table-pause`
+- `outline/table-pin`
+- `outline/table-question`
+- `outline/table-search`
+- `outline/table-star`
+- `outline/table-up`
+- `outline/table-x`
+- `outline/tag-bolt`
+- `outline/tag-cancel`
+- `outline/tag-check`
+- `outline/tag-code`
+- `outline/tag-cog`
+- `outline/tag-dollar`
+- `outline/tag-down`
+- `outline/tag-exclamation`
+- `outline/tag-heart`
+- `outline/tag-pause`
+- `outline/tag-pin`
+- `outline/tag-question`
+- `outline/tag-search`
+- `outline/tag-share`
+- `outline/tag-star`
+- `outline/tag-up`
+- `outline/tag-x`
+- `outline/users-bolt`
+- `outline/users-cancel`
+- `outline/users-check`
+- `outline/users-code`
+- `outline/users-cog`
+- `outline/users-dollar`
+- `outline/users-down`
+- `outline/users-exclamation`
+- `outline/users-heart`
+- `outline/users-pause`
+- `outline/users-pin`
+- `outline/users-question`
+- `outline/users-search`
+- `outline/users-share`
+- `outline/users-star`
+- `outline/users-up`
+- `outline/users-x`
+- `outline/world-flame`
+- `outline/world-key`
+- `outline/world-spark`
+
+Renamed icons:
+
+- `outline/align-justified` renamed to `outline/align-left-justified`
+
+### New features
+
+- **Vue:** Improve tree-shaking and add per-icon imports. Icon components are now marked `/* @__PURE__ */`, so unused icons are dropped even when a bundler cannot rely on `sideEffects`. The package gets an `exports` map with typed subpaths: `@tabler/icons-vue/icons/IconHome` loads a single icon module, `@tabler/icons-vue/icons-list` exports the icon names and the new `@tabler/icons-vue/dynamic-imports` exports lazy loaders keyed by icon name. Existing `@tabler/icons-vue/dist/*` deep imports keep working. The `icons` and `iconsList` namespaces exported from the main entry are marked `@deprecated` in favour of these entries; they keep working and will be removed in the next major version. (#1725)
+- **Svelte, Svelte Runes:** Added `icons-list` entry point to `@tabler/icons-svelte` and `@tabler/icons-svelte-runes`. (#1727)
+- **React Native:** Added `icons-list` entry point to `@tabler/icons-react-native`. (#1732)
+- **React:** Add typed `@tabler/icons-react/icons-list` and `@tabler/icons-react/dynamic-imports` entry points, and fix `dynamic-imports`, whose loaders imported non-existent `./icons/*.ts` files instead of the built `.mjs` modules. The `icons` and `iconsList` namespaces exported from the main entry are now marked `@deprecated` in favour of these entries and per-icon imports; they keep working and will be removed in the next major version. (#1723)
+- **React:** Added `/* @__PURE__ */` annotations, an `exports` map and typed `@tabler/icons-react/icons/*` per-icon imports. (#1722)
+- **Preact:** Added `exports` map with `icons/*`, `icons-list` and `dynamic-imports` entry points to `@tabler/icons-preact`. (#1729)
+- **Astro:** Added `exports` map with `icons/*`, `icons-list` and `dynamic-imports` entry points to `@tabler/icons-astro`. (#1731)
+
+### Fixes and improvements
+
+- Added a root `.` export and explicit exports for `icons.json`, `tabler-nodes-*.json` and `package.json`. (#1718)
+- **Svelte:** Fixed `iconsList` and `defaultAttributes` in `@tabler/icons-svelte` being typed as `any` under `nodenext`. (#1727)
+- **SolidJS:** Fixed `@tabler/icons-solidjs` bundling every icon when imported without the `solid` export condition. (#1730)
+- **React Native:** Updated `icons` and `iconsList` exports of `@tabler/icons-react-native` to be marked `@deprecated`. (#1732)
+- **React Native:** Added `/* @__PURE__ */` to `@tabler/icons-react-native` icons so unused ones are dropped without relying on `sideEffects`. (#1732)
+- **Preact:** Updated `icons` and `iconsList` exports of `@tabler/icons-preact` to be marked `@deprecated`. (#1729)
+- **Preact:** Added `/* @__PURE__ */` to `@tabler/icons-preact` icons so unused ones are dropped without relying on `sideEffects`. (#1729)
+- **Astro:** Updated `icons` and `iconsList` exports of `@tabler/icons-astro` to be marked `@deprecated`. (#1731)
+- **Astro:** Added `/* @__PURE__ */` to `@tabler/icons-astro` icons so unused ones are dropped without relying on `sideEffects`. (#1731)
+- **Angular:** Removed the source map from `@tabler/icons-angular`, reducing the unpacked package size from 9.3 MB to 3.6 MB. (#1733)
+
 ## 3.51.0
 
 - 6,353 icons (5,296 outline + 1,057 filled)

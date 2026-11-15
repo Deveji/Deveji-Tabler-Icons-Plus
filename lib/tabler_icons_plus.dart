@@ -1,7 +1,7 @@
 // GENERATED — do not edit by hand.
 // Run: cd tool && npm run build
-// Source: @tabler/icons-webfont v3.51.0
-// Icons: 6353 (5296 outline + 1057 filled)
+// Source: @tabler/icons-webfont v3.52.0
+// Icons: 6612 (5555 outline + 1057 filled)
 
 /// Tabler Icons for Flutter.
 ///
@@ -15,14 +15,14 @@
 ///
 /// Browse the full icon set at [tabler.io/icons](https://tabler.io/icons).
 ///
-/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.51.0.
+/// Generated from [@tabler/icons-webfont](https://www.npmjs.com/package/@tabler/icons-webfont) v3.52.0.
 library;
 
 import 'package:flutter/widgets.dart';
 
 /// Identifiers for the icons available in the Tabler Icons font.
 ///
-/// Contains 6353 icons from [Tabler Icons](https://tabler.io/icons) v3.51.0.
+/// Contains 6612 icons from [Tabler Icons](https://tabler.io/icons) v3.52.0.
 ///
 /// Outline icons use the default name (e.g. [home], [star]).
 /// Filled variants are suffixed with `Filled` (e.g. [homeFilled], [starFilled]).
@@ -956,6 +956,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "alignCenterJustified"
+  static const IconData alignCenterJustified = IconData(
+    0x103f8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "alignJustified"
   static const IconData alignJustified = IconData(
     0xea08,
@@ -977,6 +984,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "alignLeftJustified"
+  static const IconData alignLeftJustified = IconData(
+    0xea08,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "alignRight"
   static const IconData alignRight = IconData(
     0xea0a,
@@ -987,6 +1001,13 @@ class TablerIcons {
   /// Tabler icon: "alignRight2"
   static const IconData alignRight2 = IconData(
     0x1028e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "alignRightJustified"
+  static const IconData alignRightJustified = IconData(
+    0x103f7,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -3924,9 +3945,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "basketFlame"
+  static const IconData basketFlame = IconData(
+    0x103f6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "basketHeart"
   static const IconData basketHeart = IconData(
     0xfb4c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "basketKey"
+  static const IconData basketKey = IconData(
+    0x103f5,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -3983,6 +4018,13 @@ class TablerIcons {
   /// Tabler icon: "basketShare"
   static const IconData basketShare = IconData(
     0xfb53,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "basketSpark"
+  static const IconData basketSpark = IconData(
+    0x103f4,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -4414,9 +4456,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "bellFlame"
+  static const IconData bellFlame = IconData(
+    0x103f3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "bellHeart"
   static const IconData bellHeart = IconData(
     0xf81a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bellKey"
+  static const IconData bellKey = IconData(
+    0x103f2,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -4522,6 +4578,13 @@ class TablerIcons {
   /// Tabler icon: "bellShare"
   static const IconData bellShare = IconData(
     0xf81f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bellSpark"
+  static const IconData bellSpark = IconData(
+    0x103f1,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -4981,9 +5044,65 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "bookmarkBolt"
+  static const IconData bookmarkBolt = IconData(
+    0x103f0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkCancel"
+  static const IconData bookmarkCancel = IconData(
+    0x103ef,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkCheck"
+  static const IconData bookmarkCheck = IconData(
+    0x103ee,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkCode"
+  static const IconData bookmarkCode = IconData(
+    0x103ed,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkCog"
+  static const IconData bookmarkCog = IconData(
+    0x103ec,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkDollar"
+  static const IconData bookmarkDollar = IconData(
+    0x103eb,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkDown"
+  static const IconData bookmarkDown = IconData(
+    0x103ea,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "bookmarkEdit"
   static const IconData bookmarkEdit = IconData(
     0xfa5e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkExclamation"
+  static const IconData bookmarkExclamation = IconData(
+    0x103e9,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -4992,6 +5111,13 @@ class TablerIcons {
   static const IconData bookmarkFilled = IconData(
     0xfa88,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkHeart"
+  static const IconData bookmarkHeart = IconData(
+    0x103e8,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -5005,6 +5131,20 @@ class TablerIcons {
   /// Tabler icon: "bookmarkOff"
   static const IconData bookmarkOff = IconData(
     0xeced,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkPause"
+  static const IconData bookmarkPause = IconData(
+    0x103e7,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkPin"
+  static const IconData bookmarkPin = IconData(
+    0x103e6,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -5030,6 +5170,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "bookmarkSearch"
+  static const IconData bookmarkSearch = IconData(
+    0x103e5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "bookmarksFilled"
   static const IconData bookmarksFilled = IconData(
     0xfb1f,
@@ -5037,9 +5184,37 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "bookmarkShare"
+  static const IconData bookmarkShare = IconData(
+    0x103e4,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "bookmarksOff"
   static const IconData bookmarksOff = IconData(
     0xf0bd,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkStar"
+  static const IconData bookmarkStar = IconData(
+    0x103e3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkUp"
+  static const IconData bookmarkUp = IconData(
+    0x103e2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "bookmarkX"
+  static const IconData bookmarkX = IconData(
+    0x103e1,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -8964,6 +9139,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingBolt"
+  static const IconData buildingBolt = IconData(
+    0x103e0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildingBridge"
   static const IconData buildingBridge = IconData(
     0xea4b,
@@ -9006,6 +9188,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingCancel"
+  static const IconData buildingCancel = IconData(
+    0x103df,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildingCarousel"
   static const IconData buildingCarousel = IconData(
     0xed87,
@@ -9020,6 +9209,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingCheck"
+  static const IconData buildingCheck = IconData(
+    0x103de,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildingChurch"
   static const IconData buildingChurch = IconData(
     0xea4c,
@@ -9030,6 +9226,13 @@ class TablerIcons {
   /// Tabler icon: "buildingCircus"
   static const IconData buildingCircus = IconData(
     0xf4bf,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingCode"
+  static const IconData buildingCode = IconData(
+    0x103dd,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -9055,6 +9258,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingDollar"
+  static const IconData buildingDollar = IconData(
+    0x103dc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingDown"
+  static const IconData buildingDown = IconData(
+    0x103db,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildingEiffelTower"
   static const IconData buildingEiffelTower = IconData(
     0x10251,
@@ -9065,6 +9282,13 @@ class TablerIcons {
   /// Tabler icon: "buildingEstate"
   static const IconData buildingEstate = IconData(
     0xf5a5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingExclamation"
+  static const IconData buildingExclamation = IconData(
+    0x103da,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -9086,6 +9310,13 @@ class TablerIcons {
   /// Tabler icon: "buildingFortress"
   static const IconData buildingFortress = IconData(
     0xed89,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingHeart"
+  static const IconData buildingHeart = IconData(
+    0x103d9,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -9132,9 +9363,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingPause"
+  static const IconData buildingPause = IconData(
+    0x103d8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildingPavilion"
   static const IconData buildingPavilion = IconData(
     0xebf7,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingPin"
+  static const IconData buildingPin = IconData(
+    0x103d7,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -9146,9 +9391,30 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingQuestion"
+  static const IconData buildingQuestion = IconData(
+    0x103d6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildings"
   static const IconData buildings = IconData(
     0xff40,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingSearch"
+  static const IconData buildingSearch = IconData(
+    0x103d5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingShare"
+  static const IconData buildingShare = IconData(
+    0x103d4,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -9167,6 +9433,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingStar"
+  static const IconData buildingStar = IconData(
+    0x103d3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildingStore"
   static const IconData buildingStore = IconData(
     0xea4e,
@@ -9181,6 +9454,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "buildingUp"
+  static const IconData buildingUp = IconData(
+    0x103d2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "buildingWarehouse"
   static const IconData buildingWarehouse = IconData(
     0xebe3,
@@ -9191,6 +9471,13 @@ class TablerIcons {
   /// Tabler icon: "buildingWindTurbine"
   static const IconData buildingWindTurbine = IconData(
     0xf4c0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "buildingX"
+  static const IconData buildingX = IconData(
+    0x103d1,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -9447,9 +9734,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "calendarFlame"
+  static const IconData calendarFlame = IconData(
+    0x103d0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "calendarHeart"
   static const IconData calendarHeart = IconData(
     0xf82a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "calendarKey"
+  static const IconData calendarKey = IconData(
+    0x103cf,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -9541,6 +9842,13 @@ class TablerIcons {
   /// Tabler icon: "calendarSmile"
   static const IconData calendarSmile = IconData(
     0xfd1e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "calendarSpark"
+  static const IconData calendarSpark = IconData(
+    0x103ce,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -10322,9 +10630,65 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cashBanknoteBolt"
+  static const IconData cashBanknoteBolt = IconData(
+    0x103cd,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteCancel"
+  static const IconData cashBanknoteCancel = IconData(
+    0x103cc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteCheck"
+  static const IconData cashBanknoteCheck = IconData(
+    0x103cb,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteCode"
+  static const IconData cashBanknoteCode = IconData(
+    0x103ca,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteCog"
+  static const IconData cashBanknoteCog = IconData(
+    0x103c9,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteDollar"
+  static const IconData cashBanknoteDollar = IconData(
+    0x103c8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteDown"
+  static const IconData cashBanknoteDown = IconData(
+    0x103c7,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cashBanknoteEdit"
   static const IconData cashBanknoteEdit = IconData(
     0x10149,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteExclamation"
+  static const IconData cashBanknoteExclamation = IconData(
+    0x103c6,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -10371,9 +10735,100 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cashBanknotePause"
+  static const IconData cashBanknotePause = IconData(
+    0x103c5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknotePin"
+  static const IconData cashBanknotePin = IconData(
+    0x103c4,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cashBanknotePlus"
   static const IconData cashBanknotePlus = IconData(
     0x10144,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteQuestion"
+  static const IconData cashBanknoteQuestion = IconData(
+    0x103c3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteSearch"
+  static const IconData cashBanknoteSearch = IconData(
+    0x103c2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteShare"
+  static const IconData cashBanknoteShare = IconData(
+    0x103c1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteStar"
+  static const IconData cashBanknoteStar = IconData(
+    0x103c0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteUp"
+  static const IconData cashBanknoteUp = IconData(
+    0x103bf,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBanknoteX"
+  static const IconData cashBanknoteX = IconData(
+    0x103be,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashBolt"
+  static const IconData cashBolt = IconData(
+    0x103bd,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashCancel"
+  static const IconData cashCancel = IconData(
+    0x103bc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashCheck"
+  static const IconData cashCheck = IconData(
+    0x103bb,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashCode"
+  static const IconData cashCode = IconData(
+    0x103ba,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashCog"
+  static const IconData cashCog = IconData(
+    0x103b9,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -10385,9 +10840,30 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cashDollar"
+  static const IconData cashDollar = IconData(
+    0x103b8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashDown"
+  static const IconData cashDown = IconData(
+    0x103b7,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cashEdit"
   static const IconData cashEdit = IconData(
     0x10143,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashExclamation"
+  static const IconData cashExclamation = IconData(
+    0x103b6,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -10427,6 +10903,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cashPause"
+  static const IconData cashPause = IconData(
+    0x103b5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashPin"
+  static const IconData cashPin = IconData(
+    0x103b4,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cashPlus"
   static const IconData cashPlus = IconData(
     0x1013e,
@@ -10434,9 +10924,51 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cashQuestion"
+  static const IconData cashQuestion = IconData(
+    0x103b3,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cashRegister"
   static const IconData cashRegister = IconData(
     0xfee6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashSearch"
+  static const IconData cashSearch = IconData(
+    0x103b2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashShare"
+  static const IconData cashShare = IconData(
+    0x103b1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashStar"
+  static const IconData cashStar = IconData(
+    0x103b0,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashUp"
+  static const IconData cashUp = IconData(
+    0x103af,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cashX"
+  static const IconData cashX = IconData(
+    0x103ae,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -13430,6 +13962,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "clockFlame"
+  static const IconData clockFlame = IconData(
+    0x103ad,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "clockHeart"
   static const IconData clockHeart = IconData(
     0xf7c4,
@@ -13605,6 +14144,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "clockKey"
+  static const IconData clockKey = IconData(
+    0x103ac,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "clockMinus"
   static const IconData clockMinus = IconData(
     0xf848,
@@ -13678,6 +14224,13 @@ class TablerIcons {
   /// Tabler icon: "clockShield"
   static const IconData clockShield = IconData(
     0xf7c8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "clockSpark"
+  static const IconData clockSpark = IconData(
+    0x103ab,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -13836,6 +14389,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "cloudFlame"
+  static const IconData cloudFlame = IconData(
+    0x103aa,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "cloudFog"
   static const IconData cloudFog = IconData(
     0xecd9,
@@ -13846,6 +14406,13 @@ class TablerIcons {
   /// Tabler icon: "cloudHeart"
   static const IconData cloudHeart = IconData(
     0xf853,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cloudKey"
+  static const IconData cloudKey = IconData(
+    0x103a9,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -13937,6 +14504,13 @@ class TablerIcons {
   /// Tabler icon: "cloudSnow"
   static const IconData cloudSnow = IconData(
     0xea73,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "cloudSpark"
+  static const IconData cloudSpark = IconData(
+    0x103a8,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -15873,6 +16447,34 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "databaseBolt"
+  static const IconData databaseBolt = IconData(
+    0x103a7,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "databaseCancel"
+  static const IconData databaseCancel = IconData(
+    0x103a6,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "databaseCheck"
+  static const IconData databaseCheck = IconData(
+    0x103a5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "databaseCode"
+  static const IconData databaseCode = IconData(
+    0x103a4,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "databaseCog"
   static const IconData databaseCog = IconData(
     0xfa10,
@@ -15883,6 +16485,13 @@ class TablerIcons {
   /// Tabler icon: "databaseDollar"
   static const IconData databaseDollar = IconData(
     0xfa11,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "databaseDown"
+  static const IconData databaseDown = IconData(
+    0x103a3,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -15950,9 +16559,30 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "databasePause"
+  static const IconData databasePause = IconData(
+    0x103a2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "databasePin"
+  static const IconData databasePin = IconData(
+    0x103a1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "databasePlus"
   static const IconData databasePlus = IconData(
     0xfa17,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "databaseQuestion"
+  static const IconData databaseQuestion = IconData(
+    0x103a0,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -15981,6 +16611,13 @@ class TablerIcons {
   /// Tabler icon: "databaseStar"
   static const IconData databaseStar = IconData(
     0xfa1a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "databaseUp"
+  static const IconData databaseUp = IconData(
+    0x1039f,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16251,9 +16888,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceDesktopFlame"
+  static const IconData deviceDesktopFlame = IconData(
+    0x1039e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceDesktopHeart"
   static const IconData deviceDesktopHeart = IconData(
     0xf866,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceDesktopKey"
+  static const IconData deviceDesktopKey = IconData(
+    0x1039d,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16310,6 +16961,13 @@ class TablerIcons {
   /// Tabler icon: "deviceDesktopShare"
   static const IconData deviceDesktopShare = IconData(
     0xf86d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceDesktopSpark"
+  static const IconData deviceDesktopSpark = IconData(
+    0x1039c,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16475,9 +17133,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceImacFlame"
+  static const IconData deviceImacFlame = IconData(
+    0x1039b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceImacHeart"
   static const IconData deviceImacHeart = IconData(
     0xf879,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceImacKey"
+  static const IconData deviceImacKey = IconData(
+    0x1039a,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16534,6 +17206,13 @@ class TablerIcons {
   /// Tabler icon: "deviceImacShare"
   static const IconData deviceImacShare = IconData(
     0xf881,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceImacSpark"
+  static const IconData deviceImacSpark = IconData(
+    0x10399,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16629,6 +17308,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceIpadFlame"
+  static const IconData deviceIpadFlame = IconData(
+    0x10398,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceIpadHeart"
   static const IconData deviceIpadHeart = IconData(
     0xf88d,
@@ -16699,9 +17385,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceIpadHorizontalFlame"
+  static const IconData deviceIpadHorizontalFlame = IconData(
+    0x10397,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceIpadHorizontalHeart"
   static const IconData deviceIpadHorizontalHeart = IconData(
     0xf896,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceIpadHorizontalKey"
+  static const IconData deviceIpadHorizontalKey = IconData(
+    0x10396,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16762,6 +17462,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceIpadHorizontalSpark"
+  static const IconData deviceIpadHorizontalSpark = IconData(
+    0x10395,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceIpadHorizontalStar"
   static const IconData deviceIpadHorizontalStar = IconData(
     0xf89f,
@@ -16779,6 +17486,13 @@ class TablerIcons {
   /// Tabler icon: "deviceIpadHorizontalX"
   static const IconData deviceIpadHorizontalX = IconData(
     0xf8a1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceIpadKey"
+  static const IconData deviceIpadKey = IconData(
+    0x10394,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16835,6 +17549,13 @@ class TablerIcons {
   /// Tabler icon: "deviceIpadShare"
   static const IconData deviceIpadShare = IconData(
     0xf8a9,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceIpadSpark"
+  static const IconData deviceIpadSpark = IconData(
+    0x10393,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -16958,9 +17679,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceMobileFlame"
+  static const IconData deviceMobileFlame = IconData(
+    0x10392,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceMobileHeart"
   static const IconData deviceMobileHeart = IconData(
     0xf8b5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceMobileKey"
+  static const IconData deviceMobileKey = IconData(
+    0x10391,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -17031,6 +17766,13 @@ class TablerIcons {
   /// Tabler icon: "deviceMobileShare"
   static const IconData deviceMobileShare = IconData(
     0xf8bc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceMobileSpark"
+  static const IconData deviceMobileSpark = IconData(
+    0x10390,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -17182,6 +17924,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "devicesFlame"
+  static const IconData devicesFlame = IconData(
+    0x10389,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "devicesHeart"
   static const IconData devicesHeart = IconData(
     0xf8ee,
@@ -17213,6 +17962,13 @@ class TablerIcons {
   /// Tabler icon: "deviceSim3"
   static const IconData deviceSim3 = IconData(
     0xf4b1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "devicesKey"
+  static const IconData devicesKey = IconData(
+    0x10388,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -17308,6 +18064,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "devicesSpark"
+  static const IconData devicesSpark = IconData(
+    0x10387,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "devicesStar"
   static const IconData devicesStar = IconData(
     0xf8f6,
@@ -17399,9 +18162,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceTabletFlame"
+  static const IconData deviceTabletFlame = IconData(
+    0x1038f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceTabletHeart"
   static const IconData deviceTabletHeart = IconData(
     0xf8c8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceTabletKey"
+  static const IconData deviceTabletKey = IconData(
+    0x1038e,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -17458,6 +18235,13 @@ class TablerIcons {
   /// Tabler icon: "deviceTabletShare"
   static const IconData deviceTabletShare = IconData(
     0xf8cf,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceTabletSpark"
+  static const IconData deviceTabletSpark = IconData(
+    0x1038d,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -17637,9 +18421,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "deviceWatchFlame"
+  static const IconData deviceWatchFlame = IconData(
+    0x1038c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "deviceWatchHeart"
   static const IconData deviceWatchHeart = IconData(
     0xf8db,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceWatchKey"
+  static const IconData deviceWatchKey = IconData(
+    0x1038b,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -17696,6 +18494,13 @@ class TablerIcons {
   /// Tabler icon: "deviceWatchShare"
   static const IconData deviceWatchShare = IconData(
     0xf8e2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "deviceWatchSpark"
+  static const IconData deviceWatchSpark = IconData(
+    0x1038a,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -18372,6 +19177,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "dropletFlame"
+  static const IconData dropletFlame = IconData(
+    0x10386,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "dropletHalf"
   static const IconData dropletHalf = IconData(
     0xee82,
@@ -18403,6 +19215,13 @@ class TablerIcons {
   /// Tabler icon: "dropletHeart"
   static const IconData dropletHeart = IconData(
     0xf901,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "dropletKey"
+  static const IconData dropletKey = IconData(
+    0x10385,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -18473,6 +19292,13 @@ class TablerIcons {
   /// Tabler icon: "dropletShare"
   static const IconData dropletShare = IconData(
     0xf908,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "dropletSpark"
+  static const IconData dropletSpark = IconData(
+    0x10384,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -20143,10 +20969,122 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "fileTextBolt"
+  static const IconData fileTextBolt = IconData(
+    0x10383,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextCancel"
+  static const IconData fileTextCancel = IconData(
+    0x10382,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextCheck"
+  static const IconData fileTextCheck = IconData(
+    0x10381,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextCode"
+  static const IconData fileTextCode = IconData(
+    0x10380,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextCog"
+  static const IconData fileTextCog = IconData(
+    0x1037f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextDollar"
+  static const IconData fileTextDollar = IconData(
+    0x1037e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextDown"
+  static const IconData fileTextDown = IconData(
+    0x1037d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextExclamation"
+  static const IconData fileTextExclamation = IconData(
+    0x1037c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "fileTextFilled"
   static const IconData fileTextFilled = IconData(
     0x10114,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextHeart"
+  static const IconData fileTextHeart = IconData(
+    0x1037b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextMinus"
+  static const IconData fileTextMinus = IconData(
+    0x1037a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextPause"
+  static const IconData fileTextPause = IconData(
+    0x10379,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextPin"
+  static const IconData fileTextPin = IconData(
+    0x10378,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextPlus"
+  static const IconData fileTextPlus = IconData(
+    0x10377,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextQuestion"
+  static const IconData fileTextQuestion = IconData(
+    0x10376,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextSearch"
+  static const IconData fileTextSearch = IconData(
+    0x10375,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextShare"
+  static const IconData fileTextShare = IconData(
+    0x10374,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -20160,6 +21098,27 @@ class TablerIcons {
   /// Tabler icon: "fileTextSpark"
   static const IconData fileTextSpark = IconData(
     0xffb8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextStar"
+  static const IconData fileTextStar = IconData(
+    0x10373,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextUp"
+  static const IconData fileTextUp = IconData(
+    0x10372,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "fileTextX"
+  static const IconData fileTextX = IconData(
+    0x10371,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -21410,9 +22369,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "folderFlame"
+  static const IconData folderFlame = IconData(
+    0x10370,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "folderHeart"
   static const IconData folderHeart = IconData(
     0xf914,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "folderKey"
+  static const IconData folderKey = IconData(
+    0x1036f,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -21518,6 +22491,13 @@ class TablerIcons {
   /// Tabler icon: "foldersOff"
   static const IconData foldersOff = IconData(
     0xf133,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "folderSpark"
+  static const IconData folderSpark = IconData(
+    0x1036e,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -26751,10 +27731,73 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "linkBolt"
+  static const IconData linkBolt = IconData(
+    0x1036d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkCancel"
+  static const IconData linkCancel = IconData(
+    0x1036c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkCheck"
+  static const IconData linkCheck = IconData(
+    0x1036b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkCode"
+  static const IconData linkCode = IconData(
+    0x1036a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkCog"
+  static const IconData linkCog = IconData(
+    0x10369,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkDollar"
+  static const IconData linkDollar = IconData(
+    0x10368,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkDown"
+  static const IconData linkDown = IconData(
+    0x10367,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkExclamation"
+  static const IconData linkExclamation = IconData(
+    0x10366,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "linkFilled"
   static const IconData linkFilled = IconData(
     0x101d5,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkHeart"
+  static const IconData linkHeart = IconData(
+    0x10365,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -26772,9 +27815,65 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "linkPause"
+  static const IconData linkPause = IconData(
+    0x10364,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkPin"
+  static const IconData linkPin = IconData(
+    0x10363,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "linkPlus"
   static const IconData linkPlus = IconData(
     0xfd17,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkQuestion"
+  static const IconData linkQuestion = IconData(
+    0x10362,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkSearch"
+  static const IconData linkSearch = IconData(
+    0x10361,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkShare"
+  static const IconData linkShare = IconData(
+    0x10360,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkStar"
+  static const IconData linkStar = IconData(
+    0x1035f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkUp"
+  static const IconData linkUp = IconData(
+    0x1035e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "linkX"
+  static const IconData linkX = IconData(
+    0x1035d,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27010,9 +28109,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "locationFlame"
+  static const IconData locationFlame = IconData(
+    0x1035c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "locationHeart"
   static const IconData locationHeart = IconData(
     0xfbb8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "locationKey"
+  static const IconData locationKey = IconData(
+    0x1035b,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27069,6 +28182,13 @@ class TablerIcons {
   /// Tabler icon: "locationShare"
   static const IconData locationShare = IconData(
     0xfbbf,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "locationSpark"
+  static const IconData locationSpark = IconData(
+    0x1035a,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27185,9 +28305,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "lockFlame"
+  static const IconData lockFlame = IconData(
+    0x10359,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "lockHeart"
   static const IconData lockHeart = IconData(
     0xf92c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "lockKey"
+  static const IconData lockKey = IconData(
+    0x10358,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27272,6 +28406,13 @@ class TablerIcons {
   /// Tabler icon: "lockShare"
   static const IconData lockShare = IconData(
     0xf933,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "lockSpark"
+  static const IconData lockSpark = IconData(
+    0x10357,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27857,9 +28998,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "mapFlame"
+  static const IconData mapFlame = IconData(
+    0x10356,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "mapHeart"
   static const IconData mapHeart = IconData(
     0xfbcc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "mapKey"
+  static const IconData mapKey = IconData(
+    0x10355,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -27976,9 +29131,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "mapPinFlame"
+  static const IconData mapPinFlame = IconData(
+    0x10354,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "mapPinHeart"
   static const IconData mapPinHeart = IconData(
     0xf952,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "mapPinKey"
+  static const IconData mapPinKey = IconData(
+    0x10353,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -28060,6 +29229,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "mapPinSpark"
+  static const IconData mapPinSpark = IconData(
+    0x10352,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "mapPinStar"
   static const IconData mapPinStar = IconData(
     0xf959,
@@ -28126,6 +29302,13 @@ class TablerIcons {
   /// Tabler icon: "mapSouth"
   static const IconData mapSouth = IconData(
     0xfc5f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "mapSpark"
+  static const IconData mapSpark = IconData(
+    0x10351,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -28781,9 +29964,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "message2Flame"
+  static const IconData message2Flame = IconData(
+    0x10350,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "message2Heart"
   static const IconData message2Heart = IconData(
     0xf963,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "message2Key"
+  static const IconData message2Key = IconData(
+    0x1034f,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -28840,6 +30037,13 @@ class TablerIcons {
   /// Tabler icon: "message2Share"
   static const IconData message2Share = IconData(
     0xf077,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "message2Spark"
+  static const IconData message2Spark = IconData(
+    0x1034e,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -28998,9 +30202,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "messageCircleFlame"
+  static const IconData messageCircleFlame = IconData(
+    0x1034d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "messageCircleHeart"
   static const IconData messageCircleHeart = IconData(
     0xf978,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "messageCircleKey"
+  static const IconData messageCircleKey = IconData(
+    0x1034c,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -29057,6 +30275,13 @@ class TablerIcons {
   /// Tabler icon: "messageCircleShare"
   static const IconData messageCircleShare = IconData(
     0xf97f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "messageCircleSpark"
+  static const IconData messageCircleSpark = IconData(
+    0x1034b,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -29138,6 +30363,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "messageFlame"
+  static const IconData messageFlame = IconData(
+    0x1034a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "messageForward"
   static const IconData messageForward = IconData(
     0xf28f,
@@ -29148,6 +30380,13 @@ class TablerIcons {
   /// Tabler icon: "messageHeart"
   static const IconData messageHeart = IconData(
     0xf987,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "messageKey"
+  static const IconData messageKey = IconData(
+    0x10349,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -29253,6 +30492,13 @@ class TablerIcons {
   /// Tabler icon: "messagesOff"
   static const IconData messagesOff = IconData(
     0xed42,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "messageSpark"
+  static const IconData messageSpark = IconData(
+    0x10348,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -30349,9 +31595,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "musicFlame"
+  static const IconData musicFlame = IconData(
+    0x10347,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "musicHeart"
   static const IconData musicHeart = IconData(
     0xfbde,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "musicKey"
+  static const IconData musicKey = IconData(
+    0x10346,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -30408,6 +31668,13 @@ class TablerIcons {
   /// Tabler icon: "musicShare"
   static const IconData musicShare = IconData(
     0xfbe5,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "musicSpark"
+  static const IconData musicSpark = IconData(
+    0x10345,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -30517,9 +31784,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "navigationFlame"
+  static const IconData navigationFlame = IconData(
+    0x10344,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "navigationHeart"
   static const IconData navigationHeart = IconData(
     0xfbf2,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "navigationKey"
+  static const IconData navigationKey = IconData(
+    0x10343,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -30590,6 +31871,13 @@ class TablerIcons {
   /// Tabler icon: "navigationSouth"
   static const IconData navigationSouth = IconData(
     0xfcbc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "navigationSpark"
+  static const IconData navigationSpark = IconData(
+    0x10342,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -32218,9 +33506,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "pencilFlame"
+  static const IconData pencilFlame = IconData(
+    0x10341,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "pencilHeart"
   static const IconData pencilHeart = IconData(
     0xfc06,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "pencilKey"
+  static const IconData pencilKey = IconData(
+    0x10340,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -32284,6 +33586,13 @@ class TablerIcons {
   /// Tabler icon: "pencilShare"
   static const IconData pencilShare = IconData(
     0xfc0b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "pencilSpark"
+  static const IconData pencilSpark = IconData(
+    0x1033f,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -34052,9 +35361,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "pointerFlame"
+  static const IconData pointerFlame = IconData(
+    0x1033e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "pointerHeart"
   static const IconData pointerHeart = IconData(
     0xf9a1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "pointerKey"
+  static const IconData pointerKey = IconData(
+    0x1033d,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -34111,6 +35434,13 @@ class TablerIcons {
   /// Tabler icon: "pointerShare"
   static const IconData pointerShare = IconData(
     0xf9a9,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "pointerSpark"
+  static const IconData pointerSpark = IconData(
+    0x1033c,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -36782,6 +38112,13 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "shieldFlame"
+  static const IconData shieldFlame = IconData(
+    0x1033b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "shieldHalf"
   static const IconData shieldHalf = IconData(
     0xf358,
@@ -36799,6 +38136,13 @@ class TablerIcons {
   /// Tabler icon: "shieldHeart"
   static const IconData shieldHeart = IconData(
     0xf9c7,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shieldKey"
+  static const IconData shieldKey = IconData(
+    0x1033a,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -36869,6 +38213,13 @@ class TablerIcons {
   /// Tabler icon: "shieldShare"
   static const IconData shieldShare = IconData(
     0xf9ce,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shieldSpark"
+  static const IconData shieldSpark = IconData(
+    0x10339,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -36964,6 +38315,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "shoppingBagBolt"
+  static const IconData shoppingBagBolt = IconData(
+    0x10338,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagCancel"
+  static const IconData shoppingBagCancel = IconData(
+    0x10337,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "shoppingBagCheck"
   static const IconData shoppingBagCheck = IconData(
     0xfc16,
@@ -36971,9 +38336,37 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "shoppingBagCode"
+  static const IconData shoppingBagCode = IconData(
+    0x10336,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagCog"
+  static const IconData shoppingBagCog = IconData(
+    0x10335,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "shoppingBagDiscount"
   static const IconData shoppingBagDiscount = IconData(
     0xfc17,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagDollar"
+  static const IconData shoppingBagDollar = IconData(
+    0x10334,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagDown"
+  static const IconData shoppingBagDown = IconData(
+    0x10333,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -37006,6 +38399,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "shoppingBagPause"
+  static const IconData shoppingBagPause = IconData(
+    0x10332,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagPin"
+  static const IconData shoppingBagPin = IconData(
+    0x10331,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "shoppingBagPlus"
   static const IconData shoppingBagPlus = IconData(
     0xfc1b,
@@ -37013,9 +38420,37 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "shoppingBagQuestion"
+  static const IconData shoppingBagQuestion = IconData(
+    0x10330,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "shoppingBagSearch"
   static const IconData shoppingBagSearch = IconData(
     0xfc1c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagShare"
+  static const IconData shoppingBagShare = IconData(
+    0x1032f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagStar"
+  static const IconData shoppingBagStar = IconData(
+    0x1032e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingBagUp"
+  static const IconData shoppingBagUp = IconData(
+    0x1032d,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -37111,9 +38546,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "shoppingCartFlame"
+  static const IconData shoppingCartFlame = IconData(
+    0x1032c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "shoppingCartHeart"
   static const IconData shoppingCartHeart = IconData(
     0xfb61,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingCartKey"
+  static const IconData shoppingCartKey = IconData(
+    0x1032b,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -37170,6 +38619,13 @@ class TablerIcons {
   /// Tabler icon: "shoppingCartShare"
   static const IconData shoppingCartShare = IconData(
     0xfb68,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "shoppingCartSpark"
+  static const IconData shoppingCartSpark = IconData(
+    0x1032a,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -40632,6 +42088,41 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tableBolt"
+  static const IconData tableBolt = IconData(
+    0x10329,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableCancel"
+  static const IconData tableCancel = IconData(
+    0x10328,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableCheck"
+  static const IconData tableCheck = IconData(
+    0x10327,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableCode"
+  static const IconData tableCode = IconData(
+    0x10326,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableCog"
+  static const IconData tableCog = IconData(
+    0x10325,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tableColumn"
   static const IconData tableColumn = IconData(
     0xfaff,
@@ -40646,9 +42137,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tableDollar"
+  static const IconData tableDollar = IconData(
+    0x10324,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tableDown"
   static const IconData tableDown = IconData(
     0xfa1c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableExclamation"
+  static const IconData tableExclamation = IconData(
+    0x10323,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -40702,6 +42207,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tablePause"
+  static const IconData tablePause = IconData(
+    0x10322,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tablePin"
+  static const IconData tablePin = IconData(
+    0x10321,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tablePlus"
   static const IconData tablePlus = IconData(
     0xfa1f,
@@ -40709,9 +42228,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tableQuestion"
+  static const IconData tableQuestion = IconData(
+    0x10320,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tableRow"
   static const IconData tableRow = IconData(
     0xfb00,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableSearch"
+  static const IconData tableSearch = IconData(
+    0x1031f,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -40737,6 +42270,27 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tableStar"
+  static const IconData tableStar = IconData(
+    0x1031e,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableUp"
+  static const IconData tableUp = IconData(
+    0x1031d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tableX"
+  static const IconData tableX = IconData(
+    0x1031c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tabs"
   static const IconData tabs = IconData(
     0x10287,
@@ -40751,10 +42305,73 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tagBolt"
+  static const IconData tagBolt = IconData(
+    0x1031b,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagCancel"
+  static const IconData tagCancel = IconData(
+    0x1031a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagCheck"
+  static const IconData tagCheck = IconData(
+    0x10319,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagCode"
+  static const IconData tagCode = IconData(
+    0x10318,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagCog"
+  static const IconData tagCog = IconData(
+    0x10317,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagDollar"
+  static const IconData tagDollar = IconData(
+    0x10316,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagDown"
+  static const IconData tagDown = IconData(
+    0x10315,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagExclamation"
+  static const IconData tagExclamation = IconData(
+    0x10314,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tagFilled"
   static const IconData tagFilled = IconData(
     0xff02,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagHeart"
+  static const IconData tagHeart = IconData(
+    0x10313,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -40772,9 +42389,30 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tagPause"
+  static const IconData tagPause = IconData(
+    0x10312,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagPin"
+  static const IconData tagPin = IconData(
+    0x10311,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tagPlus"
   static const IconData tagPlus = IconData(
     0x10097,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagQuestion"
+  static const IconData tagQuestion = IconData(
+    0x10310,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -40814,10 +42452,24 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tagSearch"
+  static const IconData tagSearch = IconData(
+    0x1030f,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tagsFilled"
   static const IconData tagsFilled = IconData(
     0xff01,
     fontFamily: _kFontFamFilled,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagShare"
+  static const IconData tagShare = IconData(
+    0x1030e,
+    fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
 
@@ -40828,9 +42480,30 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "tagStar"
+  static const IconData tagStar = IconData(
+    0x1030d,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "tagStarred"
   static const IconData tagStarred = IconData(
     0xfc99,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagUp"
+  static const IconData tagUp = IconData(
+    0x1030c,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "tagX"
+  static const IconData tagX = IconData(
+    0x1030b,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -42704,9 +44377,44 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "usersBolt"
+  static const IconData usersBolt = IconData(
+    0x1030a,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "userScan"
   static const IconData userScan = IconData(
     0xfcaf,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersCancel"
+  static const IconData usersCancel = IconData(
+    0x10309,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersCheck"
+  static const IconData usersCheck = IconData(
+    0x10308,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersCode"
+  static const IconData usersCode = IconData(
+    0x10307,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersCog"
+  static const IconData usersCog = IconData(
+    0x10306,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -42718,9 +44426,30 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "usersDollar"
+  static const IconData usersDollar = IconData(
+    0x10305,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersDown"
+  static const IconData usersDown = IconData(
+    0x10304,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "userSearch"
   static const IconData userSearch = IconData(
     0xef89,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersExclamation"
+  static const IconData usersExclamation = IconData(
+    0x10303,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -42735,6 +44464,13 @@ class TablerIcons {
   /// Tabler icon: "userShare"
   static const IconData userShare = IconData(
     0xf9d8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersHeart"
+  static const IconData usersHeart = IconData(
+    0x10302,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -42760,6 +44496,20 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "usersPause"
+  static const IconData usersPause = IconData(
+    0x10301,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersPin"
+  static const IconData usersPin = IconData(
+    0x10300,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "usersPlus"
   static const IconData usersPlus = IconData(
     0xfa0f,
@@ -42781,9 +44531,51 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "usersQuestion"
+  static const IconData usersQuestion = IconData(
+    0x102ff,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersSearch"
+  static const IconData usersSearch = IconData(
+    0x102fe,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersShare"
+  static const IconData usersShare = IconData(
+    0x102fd,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersStar"
+  static const IconData usersStar = IconData(
+    0x102fc,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "userStar"
   static const IconData userStar = IconData(
     0xf7d1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersUp"
+  static const IconData usersUp = IconData(
+    0x102fb,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "usersX"
+  static const IconData usersX = IconData(
+    0x102fa,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -43866,9 +45658,23 @@ class TablerIcons {
     fontPackage: _kFontPkg,
   );
 
+  /// Tabler icon: "worldFlame"
+  static const IconData worldFlame = IconData(
+    0x102f9,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
   /// Tabler icon: "worldHeart"
   static const IconData worldHeart = IconData(
     0xf9e1,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "worldKey"
+  static const IconData worldKey = IconData(
+    0x102f8,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );
@@ -43953,6 +45759,13 @@ class TablerIcons {
   /// Tabler icon: "worldShare"
   static const IconData worldShare = IconData(
     0xf9e8,
+    fontFamily: _kFontFam,
+    fontPackage: _kFontPkg,
+  );
+
+  /// Tabler icon: "worldSpark"
+  static const IconData worldSpark = IconData(
+    0x102f7,
     fontFamily: _kFontFam,
     fontPackage: _kFontPkg,
   );

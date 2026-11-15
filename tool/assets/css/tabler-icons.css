@@ -1,5 +1,5 @@
 /*!
- * Tabler Icons 3.51.0 by tabler - https://tabler.io
+ * Tabler Icons 3.52.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/main/LICENSE
  */
 @font-face {
@@ -27,8 +27,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.buildings.woff2?h2e7f275e") format("woff2");
-  unicode-range: U+EA49-EA4D, U+EBF7, U+ED26, U+ED87-ED8A, U+EE1B-EE1C, U+EF06, U+EF2A, U+EF48, U+EF7A, U+EF80, U+EF9E, U+EFE7, U+F05E, U+F0FF, U+F129, U+F145, U+F1A7, U+F1C9, U+F1D8, U+F2CA-F2CB, U+F336-F347, U+F350-F356, U+F3BD-F3BE, U+F41B, U+F43C, U+F4BE-F4C0, U+F504-F505, U+F5A5-F5A6, U+F641, U+F64A, U+FA57, U+FC77, U+FCA1, U+FEFD, U+FF3A, U+FF50, U+FFA9, U+FFB5, U+10060-10062, U+10160, U+10204, U+10234, U+1023B, U+10251, U+1028A, U+102E3-102E4;
+  src: url("./fonts/tabler-icons.buildings.woff2?h4161bcd7") format("woff2");
+  unicode-range: U+EA49-EA4D, U+EBF7, U+ED26, U+ED87-ED8A, U+EE1B-EE1C, U+EF06, U+EF2A, U+EF48, U+EF7A, U+EF80, U+EF9E, U+EFE7, U+F05E, U+F0FF, U+F129, U+F145, U+F1A7, U+F1C9, U+F1D8, U+F2CA-F2CB, U+F336-F347, U+F350-F356, U+F3BD-F3BE, U+F41B, U+F43C, U+F4BE-F4C0, U+F504-F505, U+F5A5-F5A6, U+F641, U+F64A, U+FA57, U+FC77, U+FCA1, U+FEFD, U+FF3A, U+FF50, U+FFA9, U+FFB5, U+10060-10062, U+10160, U+10204, U+10234, U+1023B, U+10251, U+1028A, U+102E3-102E4, U+103D1-103E0;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -62,15 +62,15 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.e-commerce.woff2?h120f0aa1") format("woff2");
-  unicode-range: U+EB34, U+EBBD, U+EBE1, U+EC0A, U+EC4C, U+ED11, U+EE1E, U+EE24, U+EE7C, U+EE9A, U+EEDC, U+EEE1, U+EF2F-EF30, U+EF47, U+EF86, U+EFC0-EFC1, U+EFD2, U+F07E, U+F0B6, U+F0D1, U+F105, U+F13E, U+F16C, U+F1A2, U+F1A4, U+F1C4, U+F1DA, U+F26C, U+F285, U+F2BE-F2C3, U+F3AA, U+F3C2, U+F3D6, U+F3E6-F3E7, U+F3F3, U+F4A0, U+F4DF, U+F506, U+F509, U+F564, U+F661, U+FB43-FB6B, U+FC16-FC1D, U+FC99, U+FD0D, U+FD33, U+FD66, U+FD68-FD6B, U+FD6F-FD73, U+FD82, U+FDA2, U+FEE6, U+FF10, U+FFA2, U+10097, U+10138-10149, U+1022E, U+10283-10286, U+1029E;
+  src: url("./fonts/tabler-icons.e-commerce.woff2?h1a4dfa7f") format("woff2");
+  unicode-range: U+EB34, U+EBBD, U+EBE1, U+EC0A, U+EC4C, U+ED11, U+EE1E, U+EE24, U+EE7C, U+EE9A, U+EEDC, U+EEE1, U+EF2F-EF30, U+EF47, U+EF86, U+EFC0-EFC1, U+EFD2, U+F07E, U+F0B6, U+F0D1, U+F105, U+F13E, U+F16C, U+F1A2, U+F1A4, U+F1C4, U+F1DA, U+F26C, U+F285, U+F2BE-F2C3, U+F3AA, U+F3C2, U+F3D6, U+F3E6-F3E7, U+F3F3, U+F4A0, U+F4DF, U+F506, U+F509, U+F564, U+F661, U+FB43-FB6B, U+FC16-FC1D, U+FC99, U+FD0D, U+FD33, U+FD66, U+FD68-FD6B, U+FD6F-FD73, U+FD82, U+FDA2, U+FEE6, U+FF10, U+FFA2, U+10097, U+10138-10149, U+1022E, U+10283-10286, U+1029E, U+1030B-1031B, U+1032A-10338, U+103AE-103CD, U+103F4-103F6;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.document.woff2?hd7fd756b") format("woff2");
-  unicode-range: U+EA6E-EA6F, U+EA9E-EAA1, U+EAA3, U+EAAA-EAAC, U+EAAE, U+EB6D, U+EB70, U+EB96, U+EBB0, U+EBC0, U+EBD0, U+EC81, U+ECDC, U+ECED, U+ECF1-ECF2, U+ED08, U+ED14, U+ED2A-ED2B, U+ED4D-ED4E, U+ED53, U+ED5D, U+ED7B, U+EDBD, U+EDE6-EDEA, U+EDEC-EDEE, U+EDFA-EDFC, U+EEC3, U+EECC, U+EECE, U+EF54-EF55, U+EF84, U+EFA8, U+EFB2, U+EFE0-EFE1, U+F029, U+F032-F043, U+F070-F071, U+F073, U+F0AD, U+F0BC-F0BE, U+F0CB-F0CC, U+F0CE, U+F133, U+F153, U+F167, U+F169-F16A, U+F183, U+F18F, U+F1B2, U+F299, U+F2A1, U+F2D7-F2DA, U+F34D-F34F, U+F3BF, U+F3D1, U+F415, U+F501-F503, U+F53D-F540, U+F563, U+F5AA-F5AB, U+F90C-F91C, U+FA27, U+FA5A, U+FA5E-FA61, U+FB07-FB0F, U+FB11-FB1A, U+FB1C-FB1D, U+FC8A, U+FD22-FD24, U+FD43, U+FD67, U+FD9A, U+FEAB-FEAC, U+FEF2-FEF3, U+FFA0-FFA1, U+FFB8-FFB9, U+10098, U+100F2, U+1029B-1029C, U+102B0-102B1, U+102BA-102BB, U+102D6, U+102D8;
+  src: url("./fonts/tabler-icons.document.woff2?h8b885127") format("woff2");
+  unicode-range: U+EA6E-EA6F, U+EA9E-EAA1, U+EAA3, U+EAAA-EAAC, U+EAAE, U+EB6D, U+EB70, U+EB96, U+EBB0, U+EBC0, U+EBD0, U+EC81, U+ECDC, U+ECED, U+ECF1-ECF2, U+ED08, U+ED14, U+ED2A-ED2B, U+ED4D-ED4E, U+ED53, U+ED5D, U+ED7B, U+EDBD, U+EDE6-EDEA, U+EDEC-EDEE, U+EDFA-EDFC, U+EEC3, U+EECC, U+EECE, U+EF54-EF55, U+EF84, U+EFA8, U+EFB2, U+EFE0-EFE1, U+F029, U+F032-F043, U+F070-F071, U+F073, U+F0AD, U+F0BC-F0BE, U+F0CB-F0CC, U+F0CE, U+F133, U+F153, U+F167, U+F169-F16A, U+F183, U+F18F, U+F1B2, U+F299, U+F2A1, U+F2D7-F2DA, U+F34D-F34F, U+F3BF, U+F3D1, U+F415, U+F501-F503, U+F53D-F540, U+F563, U+F5AA-F5AB, U+F90C-F91C, U+FA27, U+FA5A, U+FA5E-FA61, U+FB07-FB0F, U+FB11-FB1A, U+FB1C-FB1D, U+FC8A, U+FD22-FD24, U+FD43, U+FD67, U+FD9A, U+FEAB-FEAC, U+FEF2-FEF3, U+FFA0-FFA1, U+FFB8-FFB9, U+10098, U+100F2, U+1029B-1029C, U+102B0-102B1, U+102BA-102BB, U+102D6, U+102D8, U+1036E-10383, U+103E1-103F0;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -97,36 +97,36 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.system-1.woff2?h961d0ae5") format("woff2");
-  unicode-range: U+EA04, U+EA2E, U+EA71, U+EA91-EA93, U+EA9B, U+EAB0-EAB1, U+EABA, U+EAC4, U+EAC6, U+EADC-EADD, U+EAE1, U+EAE6, U+EAEB, U+EAFE, U+EB12, U+EB23, U+EB3A-EB3B, U+EB3E-EB3F, U+EB48, U+EB4A, U+EB4C, U+EB53, U+EBB9-EBBA, U+EBC1, U+EBC6-EBC8, U+EBCB, U+EBD1, U+EBD4-EBD5, U+EBD7, U+EBDC, U+EBE7, U+EBEC, U+EBF1, U+EBFA-EBFB, U+EC00, U+EC12, U+EC37, U+EC3E, U+EC77, U+EC9F, U+ECA2, U+ECBF, U+ECC6, U+ECD3-ECD5, U+ECD7, U+ECDA, U+ECE9, U+ECF8-ECF9, U+ED19, U+ED1E, U+ED2C, U+ED38, U+ED62, U+ED65, U+ED84, U+EDE2-EDE5, U+EE1F-EE20, U+EE41, U+EE71, U+EE88, U+EEAA, U+EEAE, U+EEB4, U+EEC4, U+EECA, U+EED6, U+EF4C-EF4E, U+EF51, U+EF53, U+EF56, U+EF93, U+EF9A-EF9B, U+EFA7, U+EFAD, U+EFAF, U+EFB3-EFB4, U+EFB6, U+EFB9-EFBB, U+EFBD, U+EFC9, U+EFCF, U+EFD3, U+EFDA-EFDB, U+EFDF, U+EFE2, U+EFF1, U+EFF7, U+F008, U+F00C, U+F020, U+F023, U+F02A, U+F031, U+F068, U+F076, U+F079, U+F07D, U+F092-F093, U+F099, U+F09C, U+F0A4, U+F0A8-F0A9, U+F0B3, U+F0CF, U+F10A, U+F10F, U+F11B, U+F123-F125, U+F12A, U+F136, U+F138, U+F146-F147, U+F149-F14A, U+F14C, U+F154, U+F156, U+F158, U+F15D, U+F16B, U+F181, U+F185, U+F18B, U+F192, U+F198-F199, U+F19C, U+F19F, U+F1A1, U+F1A9, U+F1AE, U+F1B1, U+F1B4, U+F1BB, U+F1C1, U+F1C5-F1C6, U+F1F1-F1F2, U+F1F7, U+F1FB-F1FC, U+F1FF, U+F21F-F223, U+F227-F228, U+F249-F24B, U+F256, U+F258, U+F26E, U+F286, U+F288, U+F294, U+F2DD, U+F313-F317, U+F31A-F31E, U+F359, U+F368, U+F37E, U+F38E, U+F3A3, U+F3B0, U+F3B3, U+F3B5, U+F3BA, U+F3C1, U+F3E1-F3E2, U+F3E5, U+F3E8, U+F3EA, U+F3F4, U+F3F8, U+F3FB, U+F3FD, U+F401, U+F404, U+F422, U+F42C, U+F42E-F430, U+F436-F437, U+F43A, U+F440, U+F4A5, U+F4CA-F4CB, U+F50B, U+F513, U+F51B, U+F526-F527;
+  src: url("./fonts/tabler-icons.system-1.woff2?h5dbf2ba5") format("woff2");
+  unicode-range: U+EA04, U+EA2E, U+EA71, U+EA91-EA93, U+EA9B, U+EAB0-EAB1, U+EABA, U+EAC4, U+EAC6, U+EADC-EADD, U+EAE1, U+EAE6, U+EAEB, U+EAFE, U+EB12, U+EB23, U+EB3A-EB3B, U+EB3E-EB3F, U+EB48, U+EB4A, U+EB4C, U+EB53, U+EBB9-EBBA, U+EBC1, U+EBC6-EBC8, U+EBCB, U+EBD1, U+EBD4-EBD5, U+EBD7, U+EBDC, U+EBE7, U+EBEC, U+EBF1, U+EBFA-EBFB, U+EC00, U+EC12, U+EC37, U+EC3E, U+EC77, U+EC9F, U+ECA2, U+ECBF, U+ECC6, U+ECD3-ECD5, U+ECD7, U+ECDA, U+ECE9, U+ECF8-ECF9, U+ED19, U+ED1E, U+ED2C, U+ED38, U+ED62, U+ED65, U+ED84, U+EDE2-EDE5, U+EE1F-EE20, U+EE41, U+EE71, U+EE88, U+EEAA, U+EEAE, U+EEB4, U+EEC4, U+EECA, U+EED6, U+EF4C-EF4E, U+EF51, U+EF53, U+EF56, U+EF93, U+EF9A-EF9B, U+EFA7, U+EFAD, U+EFAF, U+EFB3-EFB4, U+EFB6, U+EFB9-EFBB, U+EFBD, U+EFC9, U+EFCF, U+EFD3, U+EFDA-EFDB, U+EFDF, U+EFE2, U+EFF1, U+EFF7, U+F008, U+F00C, U+F020, U+F023, U+F02A, U+F031, U+F068, U+F076, U+F079, U+F07D, U+F092-F093, U+F099, U+F09C, U+F0A4, U+F0A8-F0A9, U+F0B3, U+F0CF, U+F10A, U+F10F, U+F11B, U+F123-F125, U+F12A, U+F136, U+F138, U+F146-F147, U+F149-F14A, U+F14C, U+F154, U+F156, U+F158, U+F15D, U+F16B, U+F181, U+F185, U+F18B, U+F192, U+F198-F199, U+F19C, U+F19F, U+F1A1, U+F1A9, U+F1AE, U+F1B1, U+F1B4, U+F1BB, U+F1C1, U+F1C5-F1C6, U+F1F1-F1F2, U+F1F7, U+F1FB-F1FC, U+F1FF, U+F21F-F223, U+F227-F228, U+F249-F24B, U+F256, U+F258, U+F26E, U+F286, U+F288, U+F294, U+F2DD, U+F313-F317, U+F31A-F31E, U+F359, U+F368, U+F37E, U+F38E, U+F3A3, U+F3B0, U+F3B3, U+F3B5, U+F3BA, U+F3C1, U+F3E1-F3E2, U+F3E5, U+F3E8, U+F3EA, U+F3F4, U+F3F8, U+F3FB, U+F3FD, U+F401, U+F404, U+F422, U+F42C, U+F42E-F430, U+F436-F437, U+F43A, U+F440, U+F4A5, U+F4CA-F4CB, U+F50B, U+F513, U+F51B, U+F526-F52F, U+F546-F549;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.system-2.woff2?h351cf597") format("woff2");
-  unicode-range: U+F528-F52F, U+F546-F54B, U+F551, U+F566, U+F577, U+F581, U+F588-F589, U+F5E6-F5E7, U+F5F5, U+F61B-F61C, U+F621, U+F62F-F632, U+F636, U+F793-F794, U+F79D-F79E, U+F7A8-F7AB, U+F7BE-F7BF, U+F7C1-F7CF, U+F7D1-F7D2, U+F7EC-F7F1, U+F7FB-F80F, U+F811-F823, U+F825-F832, U+F844-F84A, U+F91E-F936, U+F999-F9D3, U+F9D5-F9D8, U+F9F3-F9F7, U+F9FE-FA04, U+FA07-FA0F, U+FA33, U+FAD2, U+FAD4-FAD5;
+  src: url("./fonts/tabler-icons.system-2.woff2?h43df2c2b") format("woff2");
+  unicode-range: U+F54A-F54B, U+F551, U+F566, U+F577, U+F581, U+F588-F589, U+F5E6-F5E7, U+F5F5, U+F61B-F61C, U+F621, U+F62F-F632, U+F636, U+F793-F794, U+F79D-F79E, U+F7A8-F7AB, U+F7BE-F7BF, U+F7C1-F7CF, U+F7D1-F7D2, U+F7EC-F7F1, U+F7FB-F80F, U+F811-F823, U+F825-F832, U+F844-F84A, U+F91E-F936, U+F999-F9D3, U+F9D5-F9D8, U+F9F3-F9F7, U+F9FE-FA04, U+FA07-FA0F, U+FA33, U+FAD2, U+FAD4-FADC, U+FAF6, U+FAF8-FAFB, U+FB6D-FB6F, U+FB71-FB79;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.system-3.woff2?hcf2b96fe") format("woff2");
-  unicode-range: U+FAD6-FADC, U+FAF6, U+FAF8-FAFB, U+FB6D-FB6F, U+FB71-FB89, U+FB8F, U+FBB4, U+FBDA, U+FC11, U+FC15, U+FC1E-FC20, U+FC47, U+FC4E-FC53, U+FC56-FC57, U+FC5A-FC5C, U+FC65-FC69, U+FC78, U+FC7B-FC7D, U+FC9E, U+FCA3, U+FCA7-FCA8, U+FCB0, U+FCB6, U+FCB8, U+FCBE-FCC1, U+FCC3-FCC5, U+FD1D-FD1F, U+FD25-FD2A, U+FD35-FD36, U+FD3B-FD3C, U+FD3E, U+FD44-FD4C, U+FD4F, U+FD57, U+FD5B-FD5C, U+FD6C, U+FD7C-FD7E, U+FD81, U+FD94-FD97, U+FD9B, U+FDA3-FDA9, U+FDAC, U+FEA4, U+FEA6, U+FEA8, U+FEAF, U+FED7-FEE5, U+FEE8-FEED, U+FEF1, U+FEF4, U+FEF8, U+FF0C-FF0E, U+FF30, U+FF37-FF39, U+FF3C, U+FF3E-FF3F, U+FF42-FF43, U+FF49-FF4C, U+FF9F, U+FFA3, U+FFAE, U+FFB4, U+FFBA, U+FFBE, U+100AA-100AD, U+100BA, U+100F0, U+1014A, U+1014C-1015F, U+101A7, U+101F2, U+101FA, U+10220, U+10226, U+10235, U+10257, U+1025D, U+1025F-10260, U+10268, U+10270, U+10273, U+10277-1027A, U+1027D, U+10287, U+10292, U+10294, U+102C0, U+102D9-102DA, U+102DD-102DE, U+102E9-102EE, U+102F5-102F6;
+  src: url("./fonts/tabler-icons.system-3.woff2?ha586c1f1") format("woff2");
+  unicode-range: U+FB7A-FB89, U+FB8F, U+FBB4, U+FBDA, U+FC11, U+FC15, U+FC1E-FC20, U+FC47, U+FC4E-FC53, U+FC56-FC57, U+FC5A-FC5C, U+FC65-FC69, U+FC78, U+FC7B-FC7D, U+FC9E, U+FCA3, U+FCA7-FCA8, U+FCB0, U+FCB6, U+FCB8, U+FCBE-FCC1, U+FCC3-FCC5, U+FD1D-FD1F, U+FD25-FD2A, U+FD35-FD36, U+FD3B-FD3C, U+FD3E, U+FD44-FD4C, U+FD4F, U+FD57, U+FD5B-FD5C, U+FD6C, U+FD7C-FD7E, U+FD81, U+FD94-FD97, U+FD9B, U+FDA3-FDA9, U+FDAC, U+FEA4, U+FEA6, U+FEA8, U+FEAF, U+FED7-FEE5, U+FEE8-FEED, U+FEF1, U+FEF4, U+FEF8, U+FF0C-FF0E, U+FF30, U+FF37-FF39, U+FF3C, U+FF3E-FF3F, U+FF42-FF43, U+FF49-FF4C, U+FF9F, U+FFA3, U+FFAE, U+FFB4, U+FFBA, U+FFBE, U+100AA-100AD, U+100BA, U+100F0, U+1014A, U+1014C-1015F, U+101A7, U+101F2, U+101FA, U+10220, U+10226, U+10235, U+10257, U+1025D, U+1025F-10260, U+10268, U+10270, U+10273, U+10277-1027A, U+1027D, U+10287, U+10292, U+10294, U+102C0, U+102D9-102DA, U+102DD-102DE, U+102E9-102EE, U+102F5-102F6, U+102FA-1030A, U+10339-1033E, U+10357-10359, U+103AB-103AD, U+103CE-103D0, U+103F1-103F3;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.devices-1.woff2?h591f42a6") format("woff2");
-  unicode-range: U+EA2F-EA34, U+EA37, U+EA8B-EA8D, U+EA90, U+EAF9, U+EB06-EB08, U+EB0D, U+EB18, U+EB1F, U+EB63, U+EB86-EB87, U+EBA3-EBA5, U+EBB7, U+EBD6, U+EBD9, U+EBF3-EBF4, U+EBF9, U+EC05-EC07, U+EC43, U+EC7E-EC7F, U+ECC7-ECCB, U+ECDB, U+ECEA-ECEB, U+ECF5, U+ECFA, U+ED17-ED18, U+ED1A-ED1C, U+ED29, U+ED74, U+EE72-EE7A, U+EEA0, U+EEB7, U+EEDF, U+EF3B-EF3C, U+EF7C-EF7D, U+EFD6-EFD8, U+F00A, U+F00D, U+F026, U+F060-F065, U+F067, U+F075, U+F07C, U+F081, U+F083-F088, U+F094, U+F0A0-F0A1, U+F0AA, U+F0C1, U+F0C4, U+F0C8, U+F108, U+F111-F114, U+F118, U+F163, U+F168, U+F180, U+F184, U+F19E, U+F1D3, U+F1D7, U+F1E8-F1E9, U+F1EE-F1F0, U+F1FA, U+F224, U+F233, U+F259, U+F25E, U+F2AD-F2B0, U+F2B6-F2B7, U+F2B9, U+F320-F321, U+F384, U+F3A2, U+F3BB, U+F3E3-F3E4, U+F3EF, U+F41E, U+F424, U+F4AF-F4B2, U+F542, U+F5A9, U+F646-F649, U+F792, U+F79A, U+F7A7, U+F85E-F875;
+  src: url("./fonts/tabler-icons.devices-1.woff2?he64c3cac") format("woff2");
+  unicode-range: U+EA2F-EA34, U+EA37, U+EA8B-EA8D, U+EA90, U+EAF9, U+EB06-EB08, U+EB0D, U+EB18, U+EB1F, U+EB63, U+EB86-EB87, U+EBA3-EBA5, U+EBB7, U+EBD6, U+EBD9, U+EBF3-EBF4, U+EBF9, U+EC05-EC07, U+EC43, U+EC7E-EC7F, U+ECC7-ECCB, U+ECDB, U+ECEA-ECEB, U+ECF5, U+ECFA, U+ED17-ED18, U+ED1A-ED1C, U+ED29, U+ED74, U+EE72-EE7A, U+EEA0, U+EEB7, U+EEDF, U+EF3B-EF3C, U+EF7C-EF7D, U+EFD6-EFD8, U+F00A, U+F00D, U+F026, U+F060-F065, U+F067, U+F075, U+F07C, U+F081, U+F083-F088, U+F094, U+F0A0-F0A1, U+F0AA, U+F0C1, U+F0C4, U+F0C8, U+F108, U+F111-F114, U+F118, U+F163, U+F168, U+F180, U+F184, U+F19E, U+F1D3, U+F1D7, U+F1E8-F1E9, U+F1EE-F1F0, U+F1FA, U+F224, U+F233, U+F259, U+F25E, U+F2AD-F2B0, U+F2B6-F2B7, U+F2B9, U+F320-F321, U+F384, U+F3A2, U+F3BB, U+F3E3-F3E4, U+F3EF, U+F41E, U+F424, U+F4AF-F4B2, U+F542, U+F5A9, U+F646-F649, U+F792, U+F79A, U+F7A7, U+F85E-F881;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.devices-2.woff2?h280dae9d") format("woff2");
-  unicode-range: U+F876-F8F8, U+F9F8-F9FD, U+FA59, U+FAE6-FAE7, U+FC58-FC59, U+FCA2, U+FF13-FF1D, U+FFAF, U+FFB1, U+FFBD, U+100AE-100B0, U+100B6, U+1022B-1022D, U+10236, U+10238, U+1023A, U+1023C, U+10274, U+1028B, U+10299-1029A, U+1029F-102A0, U+102B7;
+  src: url("./fonts/tabler-icons.devices-2.woff2?h34621aef") format("woff2");
+  unicode-range: U+F882-F8F8, U+F9F8-F9FD, U+FA59, U+FAE6-FAE7, U+FC58-FC59, U+FCA2, U+FF13-FF1D, U+FFAF, U+FFB1, U+FFBD, U+100AE-100B0, U+100B6, U+1022B-1022D, U+10236, U+10238, U+1023A, U+1023C, U+10274, U+1028B, U+10299-1029A, U+1029F-102A0, U+102B7, U+10387-1039E;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -167,8 +167,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.media.woff2?he53db5ce") format("woff2");
-  unicode-range: U+EA56, U+EAEA, U+EAF1, U+EAFA, U+EB4F-EB50, U+EB71, U+EC3A-EC3C, U+ECEE, U+ECF6, U+ED16, U+ED1D, U+ED1F-ED21, U+ED30, U+ED35, U+ED43-ED44, U+ED47-ED49, U+ED4B-ED4C, U+EEC0, U+EF2C-EF2D, U+EFBC, U+EFE4, U+F009, U+F022, U+F0AF, U+F0C6, U+F0C9, U+F15F, U+F164, U+F166, U+F17F, U+F18E, U+F1C3, U+F35D-F367, U+F38B, U+F3B9, U+F3F6, U+F40D, U+F420, U+F576, U+F582-F585, U+F833-F843, U+F990-F998, U+FA32, U+FABA-FAC9, U+FBD5-FBD9, U+FBDB-FBE8, U+FC62-FC63, U+FEA0, U+FEA5, U+FFA6-FFA8, U+FFB0, U+FFBC, U+1019D, U+101A1-101A4, U+10240-10241, U+10262, U+1028F-10290, U+102BC-102BE, U+102C6, U+102DF-102E0, U+102EF-102F0;
+  src: url("./fonts/tabler-icons.media.woff2?hf291eb35") format("woff2");
+  unicode-range: U+EA56, U+EAEA, U+EAF1, U+EAFA, U+EB4F-EB50, U+EB71, U+EC3A-EC3C, U+ECEE, U+ECF6, U+ED16, U+ED1D, U+ED1F-ED21, U+ED30, U+ED35, U+ED43-ED44, U+ED47-ED49, U+ED4B-ED4C, U+EEC0, U+EF2C-EF2D, U+EFBC, U+EFE4, U+F009, U+F022, U+F0AF, U+F0C6, U+F0C9, U+F15F, U+F164, U+F166, U+F17F, U+F18E, U+F1C3, U+F35D-F367, U+F38B, U+F3B9, U+F3F6, U+F40D, U+F420, U+F576, U+F582-F585, U+F833-F843, U+F990-F998, U+FA32, U+FABA-FAC9, U+FBD5-FBD9, U+FBDB-FBE8, U+FC62-FC63, U+FEA0, U+FEA5, U+FFA6-FFA8, U+FFB0, U+FFBC, U+1019D, U+101A1-101A4, U+10240-10241, U+10262, U+1028F-10290, U+102BC-102BE, U+102C6, U+102DF-102E0, U+102EF-102F0, U+10345-10347;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -188,8 +188,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.text.woff2?h52fb0347") format("woff2");
-  unicode-range: U+EA07-EA0A, U+EA2B, U+EA2D, U+EB26-EB27, U+EB46, U+EB7B, U+EB83, U+EB8B, U+EB91-EB94, U+EB9E-EBA0, U+EBA2, U+EBB1-EBB3, U+EBC5, U+EBC9, U+EBCF, U+EBDA, U+EBDD, U+EBE5, U+EC0C, U+EC41, U+EC79-EC7A, U+EC94-EC99, U+ECA7, U+ED13, U+EE09, U+EE42-EE43, U+EE6D, U+EE8F, U+EE9B, U+EEA2-EEA6, U+EEBB, U+EEE0, U+EEE2-EEE3, U+EEFC-EEFD, U+EF07-EF08, U+EF11, U+EF18-EF1B, U+EF1E, U+EF3F, U+EF77-EF78, U+EFB8, U+EFC4, U+EFD4-EFD5, U+F019, U+F024, U+F06E, U+F0A3, U+F0A6, U+F0B0-F0B1, U+F0BA, U+F0D0, U+F0D4, U+F0D8, U+F121, U+F13F, U+F144, U+F14E, U+F188, U+F1A5, U+F1AA, U+F1BA, U+F1CB-F1CC, U+F1DF-F1E1, U+F202-F204, U+F25F, U+F2A2, U+F2A4-F2A6, U+F2B1, U+F2DC, U+F312, U+F31F, U+F402, U+F407, U+F421, U+F427, U+F43B, U+F4A4, U+F4E0, U+F4FE-F4FF, U+F530-F53B, U+F54D-F550, U+F567, U+F5F6, U+F61A, U+F6D4-F6D6, U+F79F, U+F9F0-F9F2, U+FACB-FACF, U+FB1E, U+FD16-FD17, U+FD6D, U+FD7F-FD80, U+FDAD-FDB0, U+FEB2, U+FF00, U+FF2B-FF2F, U+101B0-101B1, U+10224, U+10248, U+10269-1026F, U+10271, U+1028E, U+102B2, U+102C1-102C5;
+  src: url("./fonts/tabler-icons.text.woff2?h548a583c") format("woff2");
+  unicode-range: U+EA07-EA0A, U+EA2B, U+EA2D, U+EB26-EB27, U+EB46, U+EB7B, U+EB83, U+EB8B, U+EB91-EB94, U+EB9E-EBA0, U+EBA2, U+EBB1-EBB3, U+EBC5, U+EBC9, U+EBCF, U+EBDA, U+EBDD, U+EBE5, U+EC0C, U+EC41, U+EC79-EC7A, U+EC94-EC99, U+ECA7, U+ED13, U+EE09, U+EE42-EE43, U+EE6D, U+EE8F, U+EE9B, U+EEA2-EEA6, U+EEBB, U+EEE0, U+EEE2-EEE3, U+EEFC-EEFD, U+EF07-EF08, U+EF11, U+EF18-EF1B, U+EF1E, U+EF3F, U+EF77-EF78, U+EFB8, U+EFC4, U+EFD4-EFD5, U+F019, U+F024, U+F06E, U+F0A3, U+F0A6, U+F0B0-F0B1, U+F0BA, U+F0D0, U+F0D4, U+F0D8, U+F121, U+F13F, U+F144, U+F14E, U+F188, U+F1A5, U+F1AA, U+F1BA, U+F1CB-F1CC, U+F1DF-F1E1, U+F202-F204, U+F25F, U+F2A2, U+F2A4-F2A6, U+F2B1, U+F2DC, U+F312, U+F31F, U+F402, U+F407, U+F421, U+F427, U+F43B, U+F4A4, U+F4E0, U+F4FE-F4FF, U+F530-F53B, U+F54D-F550, U+F567, U+F5F6, U+F61A, U+F6D4-F6D6, U+F79F, U+F9F0-F9F2, U+FACB-FACF, U+FB1E, U+FD16-FD17, U+FD6D, U+FD7F-FD80, U+FDAD-FDB0, U+FEB2, U+FF00, U+FF2B-FF2F, U+101B0-101B1, U+10224, U+10248, U+10269-1026F, U+10271, U+1028E, U+102B2, U+102C1-102C5, U+1035D-1036D, U+103F7-103F8;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -202,8 +202,15 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.map.woff2?h9c390acb") format("woff2");
-  unicode-range: U+EA8E, U+EAB9, U+EAE0, U+EB03, U+EB35, U+EB4E, U+EB56-EB57, U+EB76, U+EC08, U+EC0F-EC10, U+EC2F, U+EC4D, U+EC6B, U+ECA4-ECA6, U+ECDD, U+ECF3, U+ED2E-ED2F, U+ED39, U+ED5E-ED60, U+ED7A, U+ED7D, U+ED85, U+EDEB, U+EE8C-EE8D, U+EE90, U+EEC1, U+EED3, U+EEFB, U+EF01, U+EF09-EF0A, U+EF3D, U+EF79, U+EF82, U+EF8A-EF8B, U+F014, U+F016-F018, U+F06A-F06D, U+F07F-F080, U+F09B, U+F0B7, U+F0D5, U+F0F7, U+F100, U+F10E, U+F116, U+F12C-F12D, U+F134, U+F139, U+F155, U+F15C, U+F160, U+F172, U+F174, U+F17B, U+F191, U+F193-F194, U+F197, U+F19A, U+F1AD, U+F1B5-F1B6, U+F1B8-F1B9, U+F1C2, U+F1C8, U+F1CA, U+F1DC-F1DE, U+F263, U+F295, U+F2A7, U+F2C4, U+F2C8, U+F3A9, U+F3EC, U+F408, U+F413, U+F41C, U+F41F, U+F435, U+F4B6, U+F57F-F580, U+F5A7, U+F795, U+F79B-F79C, U+F94A-F95B, U+F9D9-F9EB, U+FAE8, U+FAEC, U+FB01, U+FB04-FB06, U+FB8A-FB8E, U+FB90-FB9D, U+FBAF-FBB3, U+FBB5-FBD4, U+FBE9-FBFC, U+FC48, U+FC5D-FC60, U+FC79, U+FCA9-FCAE, U+FCBA-FCBD, U+FEB4, U+FED6, U+FFB7, U+101E9, U+10202-10203, U+10227, U+10298, U+102C8, U+102CD, U+102D7, U+102E7-102E8;
+  src: url("./fonts/tabler-icons.map-1.woff2?h7898727c") format("woff2");
+  unicode-range: U+EA8E, U+EAB9, U+EAE0, U+EB03, U+EB35, U+EB4E, U+EB56-EB57, U+EB76, U+EC08, U+EC0F-EC10, U+EC2F, U+EC4D, U+EC6B, U+ECA4-ECA6, U+ECDD, U+ECF3, U+ED2E-ED2F, U+ED39, U+ED5E-ED60, U+ED7A, U+ED7D, U+ED85, U+EDEB, U+EE8C-EE8D, U+EE90, U+EEC1, U+EED3, U+EEFB, U+EF01, U+EF09-EF0A, U+EF3D, U+EF79, U+EF82, U+EF8A-EF8B, U+F014, U+F016-F018, U+F06A-F06D, U+F07F-F080, U+F09B, U+F0B7, U+F0D5, U+F0F7, U+F100, U+F10E, U+F116, U+F12C-F12D, U+F134, U+F139, U+F155, U+F15C, U+F160, U+F172, U+F174, U+F17B, U+F191, U+F193-F194, U+F197, U+F19A, U+F1AD, U+F1B5-F1B6, U+F1B8-F1B9, U+F1C2, U+F1C8, U+F1CA, U+F1DC-F1DE, U+F263, U+F295, U+F2A7, U+F2C4, U+F2C8, U+F3A9, U+F3EC, U+F408, U+F413, U+F41C, U+F41F, U+F435, U+F4B6, U+F57F-F580, U+F5A7, U+F795, U+F79B-F79C, U+F94A-F95B, U+F9D9-F9E2;
+}
+@font-face {
+  font-family: "tabler-icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/tabler-icons.map-2.woff2?h5868a995") format("woff2");
+  unicode-range: U+F9E3-F9EB, U+FAE8, U+FAEC, U+FB01, U+FB04-FB06, U+FB8A-FB8E, U+FB90-FB9D, U+FBAF-FBB3, U+FBB5-FBD4, U+FBE9-FBFC, U+FC48, U+FC5D-FC60, U+FC79, U+FCA9-FCAE, U+FCBA-FCBD, U+FEB4, U+FED6, U+FFB7, U+101E9, U+10202-10203, U+10227, U+10298, U+102C8, U+102CD, U+102D7, U+102E7-102E8, U+102F7-102F9, U+10342-10344, U+10351-10356, U+1035A-1035C;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -216,15 +223,15 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.design-1.woff2?h9b49350d") format("woff2");
-  unicode-range: U+EA02, U+EA2A, U+EA3B-EA44, U+EA47, U+EA50, U+EA85-EA86, U+EAA7-EAA8, U+EAAF, U+EABC, U+EAC8-EAD9, U+EADB, U+EAE3, U+EB00, U+EB1A-EB1B, U+EB2D, U+EB2F, U+EB39, U+EB61, U+EB7C, U+EB88-EB89, U+EB9C, U+EBB8, U+EBCA, U+EBDB, U+EBE6, U+EC13-EC14, U+EC3F-EC40, U+ECA8-ECA9, U+ECC5, U+ECEC, U+EDB9, U+EE0A-EE0C, U+EE17-EE18, U+EE46-EE47, U+EE50, U+EE7B, U+EE81-EE83, U+EE85, U+EE92, U+EE9D-EE9E, U+EEA1, U+EEA7-EEA8, U+EEAF-EEB0, U+EEC6-EEC9, U+EECF, U+EED2, U+EED5, U+EED9-EEDA, U+EEF3-EEF6, U+EF1D, U+EF1F-EF20, U+EF22-EF23, U+EF87, U+EF8C, U+EF91, U+EF94-EF95, U+EF9D, U+EFA5, U+EFAB-EFAC, U+EFC6, U+EFD0, U+EFF8, U+EFFB, U+F006-F007, U+F00E, U+F02B, U+F05F, U+F09E, U+F0AE, U+F0B4-F0B5, U+F0C2, U+F0D2-F0D3, U+F0D6, U+F0FE, U+F102-F103, U+F107, U+F11D-F11E, U+F135, U+F13C, U+F14B, U+F14D, U+F14F-F151, U+F159, U+F16D-F16E, U+F173, U+F182, U+F195-F196, U+F19B, U+F1A0, U+F1A3, U+F1B0, U+F1B7, U+F1BE-F1BF, U+F1D9, U+F1EB-F1EC, U+F234-F235, U+F289, U+F28B-F28E;
+  src: url("./fonts/tabler-icons.design-1.woff2?hd12e8096") format("woff2");
+  unicode-range: U+EA02, U+EA2A, U+EA3B-EA44, U+EA47, U+EA50, U+EA85-EA86, U+EAA7-EAA8, U+EAAF, U+EABC, U+EAC8-EAD9, U+EADB, U+EAE3, U+EB00, U+EB1A-EB1B, U+EB2D, U+EB2F, U+EB39, U+EB61, U+EB7C, U+EB88-EB89, U+EB9C, U+EBB8, U+EBCA, U+EBDB, U+EBE6, U+EC13-EC14, U+EC3F-EC40, U+ECA8-ECA9, U+ECC5, U+ECEC, U+EDB9, U+EE0A-EE0C, U+EE17-EE18, U+EE46-EE47, U+EE50, U+EE7B, U+EE81-EE83, U+EE85, U+EE92, U+EE9D-EE9E, U+EEA1, U+EEA7-EEA8, U+EEAF-EEB0, U+EEC6-EEC9, U+EECF, U+EED2, U+EED5, U+EED9-EEDA, U+EEF3-EEF6, U+EF1D, U+EF1F-EF20, U+EF22-EF23, U+EF87, U+EF8C, U+EF91, U+EF94-EF95, U+EF9D, U+EFA5, U+EFAB-EFAC, U+EFC6, U+EFD0, U+EFF8, U+EFFB, U+F006-F007, U+F00E, U+F02B, U+F05F, U+F09E, U+F0AE, U+F0B4-F0B5, U+F0C2, U+F0D2-F0D3, U+F0D6, U+F0FE, U+F102-F103, U+F107, U+F11D-F11E, U+F135, U+F13C, U+F14B, U+F14D, U+F14F-F151, U+F159, U+F16D-F16E, U+F173, U+F182, U+F195-F196, U+F19B, U+F1A0, U+F1A3, U+F1B0, U+F1B7, U+F1BE-F1BF, U+F1D9, U+F1EB-F1EC, U+F234-F235, U+F289, U+F28B-F28E, U+F290-F291, U+F2A3;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.design-2.woff2?h9d6ad679") format("woff2");
-  unicode-range: U+F290-F291, U+F2A3, U+F2A8-F2AB, U+F2CE-F2D1, U+F2D5, U+F369, U+F383, U+F388-F389, U+F3A7, U+F3AB, U+F3B7, U+F3C6-F3C7, U+F3C9-F3CA, U+F3CC, U+F3D9, U+F3FA, U+F4BD, U+F4C6, U+F4C9, U+F4CD-F4CE, U+F507-F508, U+F510, U+F51E-F525, U+F565, U+F56A, U+F570-F575, U+F579, U+F586, U+F59C-F59E, U+F5A8, U+F626, U+F659-F65A, U+F7A0-F7A1, U+F8F9-F90B, U+FA63-FA65, U+FA7D, U+FBFD-FC0E, U+FC14, U+FC64, U+FCA4-FCA6, U+FCB1-FCB2, U+FCB9, U+FD2C, U+FD31, U+FD3A, U+FD3D, U+FD50-FD56, U+FD62-FD65, U+FDA1, U+FDAB, U+FDB2, U+FDBA-FDBE, U+FEA9-FEAA, U+FEB0, U+FEC6, U+FEFE, U+FF0F, U+FF20-FF22, U+FF45-FF48, U+101FC-101FE, U+10201, U+10256, U+10259, U+1025C, U+10263, U+1027C, U+10288, U+10291, U+10293, U+1029D, U+102A1-102A5, U+102CA-102CB, U+102D3;
+  src: url("./fonts/tabler-icons.design-2.woff2?hcae9372a") format("woff2");
+  unicode-range: U+F2A8-F2AB, U+F2CE-F2D1, U+F2D5, U+F369, U+F383, U+F388-F389, U+F3A7, U+F3AB, U+F3B7, U+F3C6-F3C7, U+F3C9-F3CA, U+F3CC, U+F3D9, U+F3FA, U+F4BD, U+F4C6, U+F4C9, U+F4CD-F4CE, U+F507-F508, U+F510, U+F51E-F525, U+F565, U+F56A, U+F570-F575, U+F579, U+F586, U+F59C-F59E, U+F5A8, U+F626, U+F659-F65A, U+F7A0-F7A1, U+F8F9-F90B, U+FA63-FA65, U+FA7D, U+FBFD-FC0E, U+FC14, U+FC64, U+FCA4-FCA6, U+FCB1-FCB2, U+FCB9, U+FD2C, U+FD31, U+FD3A, U+FD3D, U+FD50-FD56, U+FD62-FD65, U+FDA1, U+FDAB, U+FDB2, U+FDBA-FDBE, U+FEA9-FEAA, U+FEB0, U+FEC6, U+FEFE, U+FF0F, U+FF20-FF22, U+FF45-FF48, U+101FC-101FE, U+10201, U+10256, U+10259, U+1025C, U+10263, U+1027C, U+10288, U+10291, U+10293, U+1029D, U+102A1-102A5, U+102CA-102CB, U+102D3, U+1033F-10341, U+10384-10386;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -251,8 +258,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.weather.woff2?h32c5db18") format("woff2");
-  unicode-range: U+EA72-EA74, U+EB36-EB38, U+EBED-EBEE, U+EC0B, U+EC30-EC31, U+EC34, U+EC76, U+ECD9, U+ECE2, U+ECE6-ECE7, U+ED3E, U+ED63, U+EDBC, U+EE8E, U+EF1C, U+EFAA, U+F162, U+F18A, U+F1A8, U+F1AF, U+F1C7, U+F237-F238, U+F23A, U+F24C, U+F3B2, U+F410, U+F433, U+F4A3, U+F51D, U+F84B-F85D, U+1024B;
+  src: url("./fonts/tabler-icons.weather.woff2?h27f5c610") format("woff2");
+  unicode-range: U+EA72-EA74, U+EB36-EB38, U+EBED-EBEE, U+EC0B, U+EC30-EC31, U+EC34, U+EC76, U+ECD9, U+ECE2, U+ECE6-ECE7, U+ED3E, U+ED63, U+EDBC, U+EE8E, U+EF1C, U+EFAA, U+F162, U+F18A, U+F1A8, U+F1AF, U+F1C7, U+F237-F238, U+F23A, U+F24C, U+F3B2, U+F410, U+F433, U+F4A3, U+F51D, U+F84B-F85D, U+1024B, U+103A8-103AA;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -265,8 +272,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.communication.woff2?hd5a3df24") format("woff2");
-  unicode-range: U+EB19, U+EC9A-EC9B, U+ED40-ED42, U+EEAC-EEAD, U+EFAE, U+F012-F013, U+F069, U+F077-F078, U+F15A-F15B, U+F28F, U+F3B8, U+F40B, U+F429, U+F937-F949, U+F95C-F98F, U+FA31, U+FD4D, U+FD5D, U+FEBA-FEBE, U+FEC4-FEC5, U+FF36, U+FF9C-FF9E, U+FFB3, U+10266, U+102A7-102AA, U+102E1-102E2;
+  src: url("./fonts/tabler-icons.communication.woff2?hdd28ba6e") format("woff2");
+  unicode-range: U+EB19, U+EC9A-EC9B, U+ED40-ED42, U+EEAC-EEAD, U+EFAE, U+F012-F013, U+F069, U+F077-F078, U+F15A-F15B, U+F28F, U+F3B8, U+F40B, U+F429, U+F937-F949, U+F95C-F98F, U+FA31, U+FD4D, U+FD5D, U+FEBA-FEBE, U+FEC4-FEC5, U+FF36, U+FF9C-FF9E, U+FFB3, U+10266, U+102A7-102AA, U+102E1-102E2, U+10348-10350;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -286,6 +293,13 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
+  src: url("./fonts/tabler-icons.database.woff2?h99ec2394") format("woff2");
+  unicode-range: U+ED7F-ED81, U+EE44-EE45, U+EE6E-EE70, U+EED0-EED1, U+EEF8-EEFA, U+F200, U+F25B-F25D, U+F426, U+FA10-FA20, U+FAF4, U+FAFE-FB00, U+FFAD, U+1031C-10329, U+1039F-103A7;
+}
+@font-face {
+  font-family: "tabler-icons";
+  font-style: normal;
+  font-weight: 400;
   src: url("./fonts/tabler-icons.mood.woff2?hfe0cf392") format("woff2");
   unicode-range: U+EAF3-EAF6, U+EB95, U+EC03-EC04, U+ECBB, U+ED2D, U+ED90, U+EEB5, U+EF96, U+F161, U+F2C5-F2C7, U+F2DE-F2EF, U+F7B3-F7BC, U+FA05-FA06, U+FD37-FD39, U+FF32, U+FFB2;
 }
@@ -295,13 +309,6 @@
   font-weight: 400;
   src: url("./fonts/tabler-icons.zodiac.woff2?h52f52310") format("woff2");
   unicode-range: U+ECAC-ECB7;
-}
-@font-face {
-  font-family: "tabler-icons";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/tabler-icons.database.woff2?h562673cb") format("woff2");
-  unicode-range: U+ED7F-ED81, U+EE44-EE45, U+EE6E-EE70, U+EED0-EED1, U+EEF8-EEFA, U+F200, U+F25B-F25D, U+F426, U+FA10-FA20, U+FAF4, U+FAFE-FB00, U+FFAD;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -751,8 +758,8 @@
   content: "\ea07";
 }
 
-.ti-align-justified:before {
-  content: "\ea08";
+.ti-align-center-justified:before {
+  content: "\103f8";
 }
 
 .ti-align-left:before {
@@ -763,12 +770,20 @@
   content: "\ff00";
 }
 
+.ti-align-left-justified:before {
+  content: "\ea08";
+}
+
 .ti-align-right:before {
   content: "\ea0a";
 }
 
 .ti-align-right-2:before {
   content: "\1028e";
+}
+
+.ti-align-right-justified:before {
+  content: "\103f7";
 }
 
 .ti-alpha:before {
@@ -2143,8 +2158,16 @@
   content: "\fb4b";
 }
 
+.ti-basket-flame:before {
+  content: "\103f6";
+}
+
 .ti-basket-heart:before {
   content: "\fb4c";
+}
+
+.ti-basket-key:before {
+  content: "\103f5";
 }
 
 .ti-basket-minus:before {
@@ -2177,6 +2200,10 @@
 
 .ti-basket-share:before {
   content: "\fb53";
+}
+
+.ti-basket-spark:before {
+  content: "\103f4";
 }
 
 .ti-basket-star:before {
@@ -2359,8 +2386,16 @@
   content: "\f819";
 }
 
+.ti-bell-flame:before {
+  content: "\103f3";
+}
+
 .ti-bell-heart:before {
   content: "\f81a";
+}
+
+.ti-bell-key:before {
+  content: "\103f2";
 }
 
 .ti-bell-minus:before {
@@ -2405,6 +2440,10 @@
 
 .ti-bell-share:before {
   content: "\f81f";
+}
+
+.ti-bell-spark:before {
+  content: "\103f1";
 }
 
 .ti-bell-star:before {
@@ -2615,8 +2654,44 @@
   content: "\fc8a";
 }
 
+.ti-bookmark-bolt:before {
+  content: "\103f0";
+}
+
+.ti-bookmark-cancel:before {
+  content: "\103ef";
+}
+
+.ti-bookmark-check:before {
+  content: "\103ee";
+}
+
+.ti-bookmark-code:before {
+  content: "\103ed";
+}
+
+.ti-bookmark-cog:before {
+  content: "\103ec";
+}
+
+.ti-bookmark-dollar:before {
+  content: "\103eb";
+}
+
+.ti-bookmark-down:before {
+  content: "\103ea";
+}
+
 .ti-bookmark-edit:before {
   content: "\fa5e";
+}
+
+.ti-bookmark-exclamation:before {
+  content: "\103e9";
+}
+
+.ti-bookmark-heart:before {
+  content: "\103e8";
 }
 
 .ti-bookmark-minus:before {
@@ -2627,12 +2702,40 @@
   content: "\eced";
 }
 
+.ti-bookmark-pause:before {
+  content: "\103e7";
+}
+
+.ti-bookmark-pin:before {
+  content: "\103e6";
+}
+
 .ti-bookmark-plus:before {
   content: "\fa60";
 }
 
 .ti-bookmark-question:before {
   content: "\fa61";
+}
+
+.ti-bookmark-search:before {
+  content: "\103e5";
+}
+
+.ti-bookmark-share:before {
+  content: "\103e4";
+}
+
+.ti-bookmark-star:before {
+  content: "\103e3";
+}
+
+.ti-bookmark-up:before {
+  content: "\103e2";
+}
+
+.ti-bookmark-x:before {
+  content: "\103e1";
 }
 
 .ti-bookmarks:before {
@@ -4611,6 +4714,10 @@
   content: "\ebe2";
 }
 
+.ti-building-bolt:before {
+  content: "\103e0";
+}
+
 .ti-building-bridge:before {
   content: "\ea4b";
 }
@@ -4627,6 +4734,10 @@
   content: "\ff50";
 }
 
+.ti-building-cancel:before {
+  content: "\103df";
+}
+
 .ti-building-carousel:before {
   content: "\ed87";
 }
@@ -4635,12 +4746,20 @@
   content: "\ed88";
 }
 
+.ti-building-check:before {
+  content: "\103de";
+}
+
 .ti-building-church:before {
   content: "\ea4c";
 }
 
 .ti-building-circus:before {
   content: "\f4bf";
+}
+
+.ti-building-code:before {
+  content: "\103dd";
 }
 
 .ti-building-cog:before {
@@ -4655,12 +4774,24 @@
   content: "\ee1b";
 }
 
+.ti-building-dollar:before {
+  content: "\103dc";
+}
+
+.ti-building-down:before {
+  content: "\103db";
+}
+
 .ti-building-eiffel-tower:before {
   content: "\10251";
 }
 
 .ti-building-estate:before {
   content: "\f5a5";
+}
+
+.ti-building-exclamation:before {
+  content: "\103da";
 }
 
 .ti-building-factory:before {
@@ -4673,6 +4804,10 @@
 
 .ti-building-fortress:before {
   content: "\ed89";
+}
+
+.ti-building-heart:before {
+  content: "\103d9";
 }
 
 .ti-building-hospital:before {
@@ -4699,12 +4834,32 @@
   content: "\fefd";
 }
 
+.ti-building-pause:before {
+  content: "\103d8";
+}
+
 .ti-building-pavilion:before {
   content: "\ebf7";
 }
 
+.ti-building-pin:before {
+  content: "\103d7";
+}
+
 .ti-building-plus:before {
   content: "\10060";
+}
+
+.ti-building-question:before {
+  content: "\103d6";
+}
+
+.ti-building-search:before {
+  content: "\103d5";
+}
+
+.ti-building-share:before {
+  content: "\103d4";
 }
 
 .ti-building-skyscraper:before {
@@ -4715,6 +4870,10 @@
   content: "\f641";
 }
 
+.ti-building-star:before {
+  content: "\103d3";
+}
+
 .ti-building-store:before {
   content: "\ea4e";
 }
@@ -4723,12 +4882,20 @@
   content: "\f5a6";
 }
 
+.ti-building-up:before {
+  content: "\103d2";
+}
+
 .ti-building-warehouse:before {
   content: "\ebe3";
 }
 
 .ti-building-wind-turbine:before {
   content: "\f4c0";
+}
+
+.ti-building-x:before {
+  content: "\103d1";
 }
 
 .ti-buildings:before {
@@ -4851,8 +5018,16 @@
   content: "\f829";
 }
 
+.ti-calendar-flame:before {
+  content: "\103d0";
+}
+
 .ti-calendar-heart:before {
   content: "\f82a";
+}
+
+.ti-calendar-key:before {
+  content: "\103cf";
 }
 
 .ti-calendar-minus:before {
@@ -4901,6 +5076,10 @@
 
 .ti-calendar-smile:before {
   content: "\fd1e";
+}
+
+.ti-calendar-spark:before {
+  content: "\103ce";
 }
 
 .ti-calendar-star:before {
@@ -5247,8 +5426,40 @@
   content: "\ee25";
 }
 
+.ti-cash-banknote-bolt:before {
+  content: "\103cd";
+}
+
+.ti-cash-banknote-cancel:before {
+  content: "\103cc";
+}
+
+.ti-cash-banknote-check:before {
+  content: "\103cb";
+}
+
+.ti-cash-banknote-code:before {
+  content: "\103ca";
+}
+
+.ti-cash-banknote-cog:before {
+  content: "\103c9";
+}
+
+.ti-cash-banknote-dollar:before {
+  content: "\103c8";
+}
+
+.ti-cash-banknote-down:before {
+  content: "\103c7";
+}
+
 .ti-cash-banknote-edit:before {
   content: "\10149";
+}
+
+.ti-cash-banknote-exclamation:before {
+  content: "\103c6";
 }
 
 .ti-cash-banknote-heart:before {
@@ -5271,16 +5482,80 @@
   content: "\ee24";
 }
 
+.ti-cash-banknote-pause:before {
+  content: "\103c5";
+}
+
+.ti-cash-banknote-pin:before {
+  content: "\103c4";
+}
+
 .ti-cash-banknote-plus:before {
   content: "\10144";
+}
+
+.ti-cash-banknote-question:before {
+  content: "\103c3";
+}
+
+.ti-cash-banknote-search:before {
+  content: "\103c2";
+}
+
+.ti-cash-banknote-share:before {
+  content: "\103c1";
+}
+
+.ti-cash-banknote-star:before {
+  content: "\103c0";
+}
+
+.ti-cash-banknote-up:before {
+  content: "\103bf";
+}
+
+.ti-cash-banknote-x:before {
+  content: "\103be";
+}
+
+.ti-cash-bolt:before {
+  content: "\103bd";
+}
+
+.ti-cash-cancel:before {
+  content: "\103bc";
+}
+
+.ti-cash-check:before {
+  content: "\103bb";
+}
+
+.ti-cash-code:before {
+  content: "\103ba";
+}
+
+.ti-cash-cog:before {
+  content: "\103b9";
 }
 
 .ti-cash-coin:before {
   content: "\1029e";
 }
 
+.ti-cash-dollar:before {
+  content: "\103b8";
+}
+
+.ti-cash-down:before {
+  content: "\103b7";
+}
+
 .ti-cash-edit:before {
   content: "\10143";
+}
+
+.ti-cash-exclamation:before {
+  content: "\103b6";
 }
 
 .ti-cash-heart:before {
@@ -5303,12 +5578,44 @@
   content: "\f105";
 }
 
+.ti-cash-pause:before {
+  content: "\103b5";
+}
+
+.ti-cash-pin:before {
+  content: "\103b4";
+}
+
 .ti-cash-plus:before {
   content: "\1013e";
 }
 
+.ti-cash-question:before {
+  content: "\103b3";
+}
+
 .ti-cash-register:before {
   content: "\fee6";
+}
+
+.ti-cash-search:before {
+  content: "\103b2";
+}
+
+.ti-cash-share:before {
+  content: "\103b1";
+}
+
+.ti-cash-star:before {
+  content: "\103b0";
+}
+
+.ti-cash-up:before {
+  content: "\103af";
+}
+
+.ti-cash-x:before {
+  content: "\103ae";
 }
 
 .ti-cast:before {
@@ -6559,6 +6866,10 @@
   content: "\f847";
 }
 
+.ti-clock-flame:before {
+  content: "\103ad";
+}
+
 .ti-clock-heart:before {
   content: "\f7c4";
 }
@@ -6611,6 +6922,10 @@
   content: "\f31e";
 }
 
+.ti-clock-key:before {
+  content: "\103ac";
+}
+
 .ti-clock-minus:before {
   content: "\f848";
 }
@@ -6653,6 +6968,10 @@
 
 .ti-clock-shield:before {
   content: "\f7c8";
+}
+
+.ti-clock-spark:before {
+  content: "\103ab";
 }
 
 .ti-clock-star:before {
@@ -6731,12 +7050,20 @@
   content: "\f852";
 }
 
+.ti-cloud-flame:before {
+  content: "\103aa";
+}
+
 .ti-cloud-fog:before {
   content: "\ecd9";
 }
 
 .ti-cloud-heart:before {
   content: "\f853";
+}
+
+.ti-cloud-key:before {
+  content: "\103a9";
 }
 
 .ti-cloud-lock:before {
@@ -6789,6 +7116,10 @@
 
 .ti-cloud-snow:before {
   content: "\ea73";
+}
+
+.ti-cloud-spark:before {
+  content: "\103a8";
 }
 
 .ti-cloud-star:before {
@@ -7711,12 +8042,32 @@
   content: "\ea88";
 }
 
+.ti-database-bolt:before {
+  content: "\103a7";
+}
+
+.ti-database-cancel:before {
+  content: "\103a6";
+}
+
+.ti-database-check:before {
+  content: "\103a5";
+}
+
+.ti-database-code:before {
+  content: "\103a4";
+}
+
 .ti-database-cog:before {
   content: "\fa10";
 }
 
 .ti-database-dollar:before {
   content: "\fa11";
+}
+
+.ti-database-down:before {
+  content: "\103a3";
 }
 
 .ti-database-edit:before {
@@ -7751,8 +8102,20 @@
   content: "\ee70";
 }
 
+.ti-database-pause:before {
+  content: "\103a2";
+}
+
+.ti-database-pin:before {
+  content: "\103a1";
+}
+
 .ti-database-plus:before {
   content: "\fa17";
+}
+
+.ti-database-question:before {
+  content: "\103a0";
 }
 
 .ti-database-search:before {
@@ -7769,6 +8132,10 @@
 
 .ti-database-star:before {
   content: "\fa1a";
+}
+
+.ti-database-up:before {
+  content: "\1039f";
 }
 
 .ti-database-x:before {
@@ -7915,8 +8282,16 @@
   content: "\f865";
 }
 
+.ti-device-desktop-flame:before {
+  content: "\1039e";
+}
+
 .ti-device-desktop-heart:before {
   content: "\f866";
+}
+
+.ti-device-desktop-key:before {
+  content: "\1039d";
 }
 
 .ti-device-desktop-minus:before {
@@ -7949,6 +8324,10 @@
 
 .ti-device-desktop-share:before {
   content: "\f86d";
+}
+
+.ti-device-desktop-spark:before {
+  content: "\1039c";
 }
 
 .ti-device-desktop-star:before {
@@ -8019,8 +8398,16 @@
   content: "\f878";
 }
 
+.ti-device-imac-flame:before {
+  content: "\1039b";
+}
+
 .ti-device-imac-heart:before {
   content: "\f879";
+}
+
+.ti-device-imac-key:before {
+  content: "\1039a";
 }
 
 .ti-device-imac-minus:before {
@@ -8053,6 +8440,10 @@
 
 .ti-device-imac-share:before {
   content: "\f881";
+}
+
+.ti-device-imac-spark:before {
+  content: "\10399";
 }
 
 .ti-device-imac-star:before {
@@ -8103,6 +8494,10 @@
   content: "\f88c";
 }
 
+.ti-device-ipad-flame:before {
+  content: "\10398";
+}
+
 .ti-device-ipad-heart:before {
   content: "\f88d";
 }
@@ -8143,8 +8538,16 @@
   content: "\f895";
 }
 
+.ti-device-ipad-horizontal-flame:before {
+  content: "\10397";
+}
+
 .ti-device-ipad-horizontal-heart:before {
   content: "\f896";
+}
+
+.ti-device-ipad-horizontal-key:before {
+  content: "\10396";
 }
 
 .ti-device-ipad-horizontal-minus:before {
@@ -8179,6 +8582,10 @@
   content: "\f89e";
 }
 
+.ti-device-ipad-horizontal-spark:before {
+  content: "\10395";
+}
+
 .ti-device-ipad-horizontal-star:before {
   content: "\f89f";
 }
@@ -8189,6 +8596,10 @@
 
 .ti-device-ipad-horizontal-x:before {
   content: "\f8a1";
+}
+
+.ti-device-ipad-key:before {
+  content: "\10394";
 }
 
 .ti-device-ipad-minus:before {
@@ -8221,6 +8632,10 @@
 
 .ti-device-ipad-share:before {
   content: "\f8a9";
+}
+
+.ti-device-ipad-spark:before {
+  content: "\10393";
 }
 
 .ti-device-ipad-star:before {
@@ -8287,8 +8702,16 @@
   content: "\f8b4";
 }
 
+.ti-device-mobile-flame:before {
+  content: "\10392";
+}
+
 .ti-device-mobile-heart:before {
   content: "\f8b5";
+}
+
+.ti-device-mobile-key:before {
+  content: "\10391";
 }
 
 .ti-device-mobile-message:before {
@@ -8329,6 +8752,10 @@
 
 .ti-device-mobile-share:before {
   content: "\f8bc";
+}
+
+.ti-device-mobile-spark:before {
+  content: "\10390";
 }
 
 .ti-device-mobile-star:before {
@@ -8431,8 +8858,16 @@
   content: "\f8c7";
 }
 
+.ti-device-tablet-flame:before {
+  content: "\1038f";
+}
+
 .ti-device-tablet-heart:before {
   content: "\f8c8";
+}
+
+.ti-device-tablet-key:before {
+  content: "\1038e";
 }
 
 .ti-device-tablet-minus:before {
@@ -8465,6 +8900,10 @@
 
 .ti-device-tablet-share:before {
   content: "\f8cf";
+}
+
+.ti-device-tablet-spark:before {
+  content: "\1038d";
 }
 
 .ti-device-tablet-star:before {
@@ -8543,8 +8982,16 @@
   content: "\f8da";
 }
 
+.ti-device-watch-flame:before {
+  content: "\1038c";
+}
+
 .ti-device-watch-heart:before {
   content: "\f8db";
+}
+
+.ti-device-watch-key:before {
+  content: "\1038b";
 }
 
 .ti-device-watch-minus:before {
@@ -8577,6 +9024,10 @@
 
 .ti-device-watch-share:before {
   content: "\f8e2";
+}
+
+.ti-device-watch-spark:before {
+  content: "\1038a";
 }
 
 .ti-device-watch-star:before {
@@ -8643,8 +9094,16 @@
   content: "\f8ed";
 }
 
+.ti-devices-flame:before {
+  content: "\10389";
+}
+
 .ti-devices-heart:before {
   content: "\f8ee";
+}
+
+.ti-devices-key:before {
+  content: "\10388";
 }
 
 .ti-devices-minus:before {
@@ -8685,6 +9144,10 @@
 
 .ti-devices-share:before {
   content: "\f8f5";
+}
+
+.ti-devices-spark:before {
+  content: "\10387";
 }
 
 .ti-devices-star:before {
@@ -8963,6 +9426,10 @@
   content: "\f900";
 }
 
+.ti-droplet-flame:before {
+  content: "\10386";
+}
+
 .ti-droplet-half:before {
   content: "\ee82";
 }
@@ -8973,6 +9440,10 @@
 
 .ti-droplet-heart:before {
   content: "\f901";
+}
+
+.ti-droplet-key:before {
+  content: "\10385";
 }
 
 .ti-droplet-minus:before {
@@ -9005,6 +9476,10 @@
 
 .ti-droplet-share:before {
   content: "\f908";
+}
+
+.ti-droplet-spark:before {
+  content: "\10384";
 }
 
 .ti-droplet-star:before {
@@ -9703,12 +10178,88 @@
   content: "\fa27";
 }
 
+.ti-file-text-bolt:before {
+  content: "\10383";
+}
+
+.ti-file-text-cancel:before {
+  content: "\10382";
+}
+
+.ti-file-text-check:before {
+  content: "\10381";
+}
+
+.ti-file-text-code:before {
+  content: "\10380";
+}
+
+.ti-file-text-cog:before {
+  content: "\1037f";
+}
+
+.ti-file-text-dollar:before {
+  content: "\1037e";
+}
+
+.ti-file-text-down:before {
+  content: "\1037d";
+}
+
+.ti-file-text-exclamation:before {
+  content: "\1037c";
+}
+
+.ti-file-text-heart:before {
+  content: "\1037b";
+}
+
+.ti-file-text-minus:before {
+  content: "\1037a";
+}
+
+.ti-file-text-pause:before {
+  content: "\10379";
+}
+
+.ti-file-text-pin:before {
+  content: "\10378";
+}
+
+.ti-file-text-plus:before {
+  content: "\10377";
+}
+
+.ti-file-text-question:before {
+  content: "\10376";
+}
+
+.ti-file-text-search:before {
+  content: "\10375";
+}
+
+.ti-file-text-share:before {
+  content: "\10374";
+}
+
 .ti-file-text-shield:before {
   content: "\100f2";
 }
 
 .ti-file-text-spark:before {
   content: "\ffb8";
+}
+
+.ti-file-text-star:before {
+  content: "\10373";
+}
+
+.ti-file-text-up:before {
+  content: "\10372";
+}
+
+.ti-file-text-x:before {
+  content: "\10371";
 }
 
 .ti-file-time:before {
@@ -10363,8 +10914,16 @@
   content: "\f913";
 }
 
+.ti-folder-flame:before {
+  content: "\10370";
+}
+
 .ti-folder-heart:before {
   content: "\f914";
+}
+
+.ti-folder-key:before {
+  content: "\1036f";
 }
 
 .ti-folder-lock:before {
@@ -10409,6 +10968,10 @@
 
 .ti-folder-share:before {
   content: "\f919";
+}
+
+.ti-folder-spark:before {
+  content: "\1036e";
 }
 
 .ti-folder-sparkle:before {
@@ -12711,6 +13274,42 @@
   content: "\eade";
 }
 
+.ti-link-bolt:before {
+  content: "\1036d";
+}
+
+.ti-link-cancel:before {
+  content: "\1036c";
+}
+
+.ti-link-check:before {
+  content: "\1036b";
+}
+
+.ti-link-code:before {
+  content: "\1036a";
+}
+
+.ti-link-cog:before {
+  content: "\10369";
+}
+
+.ti-link-dollar:before {
+  content: "\10368";
+}
+
+.ti-link-down:before {
+  content: "\10367";
+}
+
+.ti-link-exclamation:before {
+  content: "\10366";
+}
+
+.ti-link-heart:before {
+  content: "\10365";
+}
+
 .ti-link-minus:before {
   content: "\fd16";
 }
@@ -12719,8 +13318,40 @@
   content: "\f402";
 }
 
+.ti-link-pause:before {
+  content: "\10364";
+}
+
+.ti-link-pin:before {
+  content: "\10363";
+}
+
 .ti-link-plus:before {
   content: "\fd17";
+}
+
+.ti-link-question:before {
+  content: "\10362";
+}
+
+.ti-link-search:before {
+  content: "\10361";
+}
+
+.ti-link-share:before {
+  content: "\10360";
+}
+
+.ti-link-star:before {
+  content: "\1035f";
+}
+
+.ti-link-up:before {
+  content: "\1035e";
+}
+
+.ti-link-x:before {
+  content: "\1035d";
 }
 
 .ti-list:before {
@@ -12831,8 +13462,16 @@
   content: "\fbb7";
 }
 
+.ti-location-flame:before {
+  content: "\1035c";
+}
+
 .ti-location-heart:before {
   content: "\fbb8";
+}
+
+.ti-location-key:before {
+  content: "\1035b";
 }
 
 .ti-location-minus:before {
@@ -12865,6 +13504,10 @@
 
 .ti-location-share:before {
   content: "\fbbf";
+}
+
+.ti-location-spark:before {
+  content: "\1035a";
 }
 
 .ti-location-star:before {
@@ -12927,8 +13570,16 @@
   content: "\f92b";
 }
 
+.ti-lock-flame:before {
+  content: "\10359";
+}
+
 .ti-lock-heart:before {
   content: "\f92c";
+}
+
+.ti-lock-key:before {
+  content: "\10358";
 }
 
 .ti-lock-minus:before {
@@ -12977,6 +13628,10 @@
 
 .ti-lock-share:before {
   content: "\f933";
+}
+
+.ti-lock-spark:before {
+  content: "\10357";
 }
 
 .ti-lock-square:before {
@@ -13279,8 +13934,16 @@
   content: "\fbcb";
 }
 
+.ti-map-flame:before {
+  content: "\10356";
+}
+
 .ti-map-heart:before {
   content: "\fbcc";
+}
+
+.ti-map-key:before {
+  content: "\10355";
 }
 
 .ti-map-lock:before {
@@ -13343,8 +14006,16 @@
   content: "\f951";
 }
 
+.ti-map-pin-flame:before {
+  content: "\10354";
+}
+
 .ti-map-pin-heart:before {
   content: "\f952";
+}
+
+.ti-map-pin-key:before {
+  content: "\10353";
 }
 
 .ti-map-pin-minus:before {
@@ -13377,6 +14048,10 @@
 
 .ti-map-pin-share:before {
   content: "\f795";
+}
+
+.ti-map-pin-spark:before {
+  content: "\10352";
 }
 
 .ti-map-pin-star:before {
@@ -13429,6 +14104,10 @@
 
 .ti-map-south:before {
   content: "\fc5f";
+}
+
+.ti-map-spark:before {
+  content: "\10351";
 }
 
 .ti-map-star:before {
@@ -13783,8 +14462,16 @@
   content: "\f962";
 }
 
+.ti-message-2-flame:before {
+  content: "\10350";
+}
+
 .ti-message-2-heart:before {
   content: "\f963";
+}
+
+.ti-message-2-key:before {
+  content: "\1034f";
 }
 
 .ti-message-2-minus:before {
@@ -13817,6 +14504,10 @@
 
 .ti-message-2-share:before {
   content: "\f077";
+}
+
+.ti-message-2-spark:before {
+  content: "\1034e";
 }
 
 .ti-message-2-sparkle:before {
@@ -13891,8 +14582,16 @@
   content: "\f977";
 }
 
+.ti-message-circle-flame:before {
+  content: "\1034d";
+}
+
 .ti-message-circle-heart:before {
   content: "\f978";
+}
+
+.ti-message-circle-key:before {
+  content: "\1034c";
 }
 
 .ti-message-circle-minus:before {
@@ -13925,6 +14624,10 @@
 
 .ti-message-circle-share:before {
   content: "\f97f";
+}
+
+.ti-message-circle-spark:before {
+  content: "\1034b";
 }
 
 .ti-message-circle-star:before {
@@ -13967,12 +14670,20 @@
   content: "\f986";
 }
 
+.ti-message-flame:before {
+  content: "\1034a";
+}
+
 .ti-message-forward:before {
   content: "\f28f";
 }
 
 .ti-message-heart:before {
   content: "\f987";
+}
+
+.ti-message-key:before {
+  content: "\10349";
 }
 
 .ti-message-language:before {
@@ -14017,6 +14728,10 @@
 
 .ti-message-share:before {
   content: "\f078";
+}
+
+.ti-message-spark:before {
+  content: "\10348";
 }
 
 .ti-message-sparkle:before {
@@ -14547,8 +15262,16 @@
   content: "\fbdd";
 }
 
+.ti-music-flame:before {
+  content: "\10347";
+}
+
 .ti-music-heart:before {
   content: "\fbde";
+}
+
+.ti-music-key:before {
+  content: "\10346";
 }
 
 .ti-music-minus:before {
@@ -14581,6 +15304,10 @@
 
 .ti-music-share:before {
   content: "\fbe5";
+}
+
+.ti-music-spark:before {
+  content: "\10345";
 }
 
 .ti-music-star:before {
@@ -14639,8 +15366,16 @@
   content: "\fbf1";
 }
 
+.ti-navigation-flame:before {
+  content: "\10344";
+}
+
 .ti-navigation-heart:before {
   content: "\fbf2";
+}
+
+.ti-navigation-key:before {
+  content: "\10343";
 }
 
 .ti-navigation-minus:before {
@@ -14681,6 +15416,10 @@
 
 .ti-navigation-south:before {
   content: "\fcbc";
+}
+
+.ti-navigation-spark:before {
+  content: "\10342";
 }
 
 .ti-navigation-star:before {
@@ -15555,8 +16294,16 @@
   content: "\fc05";
 }
 
+.ti-pencil-flame:before {
+  content: "\10341";
+}
+
 .ti-pencil-heart:before {
   content: "\fc06";
+}
+
+.ti-pencil-key:before {
+  content: "\10340";
 }
 
 .ti-pencil-minus:before {
@@ -15593,6 +16340,10 @@
 
 .ti-pencil-share:before {
   content: "\fc0b";
+}
+
+.ti-pencil-spark:before {
+  content: "\1033f";
 }
 
 .ti-pencil-star:before {
@@ -16411,8 +17162,16 @@
   content: "\f9a0";
 }
 
+.ti-pointer-flame:before {
+  content: "\1033e";
+}
+
 .ti-pointer-heart:before {
   content: "\f9a1";
+}
+
+.ti-pointer-key:before {
+  content: "\1033d";
 }
 
 .ti-pointer-minus:before {
@@ -16445,6 +17204,10 @@
 
 .ti-pointer-share:before {
   content: "\f9a9";
+}
+
+.ti-pointer-spark:before {
+  content: "\1033c";
 }
 
 .ti-pointer-star:before {
@@ -17803,12 +18566,20 @@
   content: "\f9c6";
 }
 
+.ti-shield-flame:before {
+  content: "\1033b";
+}
+
 .ti-shield-half:before {
   content: "\f358";
 }
 
 .ti-shield-heart:before {
   content: "\f9c7";
+}
+
+.ti-shield-key:before {
+  content: "\1033a";
 }
 
 .ti-shield-lock:before {
@@ -17845,6 +18616,10 @@
 
 .ti-shield-share:before {
   content: "\f9ce";
+}
+
+.ti-shield-spark:before {
+  content: "\10339";
 }
 
 .ti-shield-star:before {
@@ -17891,12 +18666,36 @@
   content: "\f5f8";
 }
 
+.ti-shopping-bag-bolt:before {
+  content: "\10338";
+}
+
+.ti-shopping-bag-cancel:before {
+  content: "\10337";
+}
+
 .ti-shopping-bag-check:before {
   content: "\fc16";
 }
 
+.ti-shopping-bag-code:before {
+  content: "\10336";
+}
+
+.ti-shopping-bag-cog:before {
+  content: "\10335";
+}
+
 .ti-shopping-bag-discount:before {
   content: "\fc17";
+}
+
+.ti-shopping-bag-dollar:before {
+  content: "\10334";
+}
+
+.ti-shopping-bag-down:before {
+  content: "\10333";
 }
 
 .ti-shopping-bag-edit:before {
@@ -17915,12 +18714,36 @@
   content: "\fc1a";
 }
 
+.ti-shopping-bag-pause:before {
+  content: "\10332";
+}
+
+.ti-shopping-bag-pin:before {
+  content: "\10331";
+}
+
 .ti-shopping-bag-plus:before {
   content: "\fc1b";
 }
 
+.ti-shopping-bag-question:before {
+  content: "\10330";
+}
+
 .ti-shopping-bag-search:before {
   content: "\fc1c";
+}
+
+.ti-shopping-bag-share:before {
+  content: "\1032f";
+}
+
+.ti-shopping-bag-star:before {
+  content: "\1032e";
+}
+
+.ti-shopping-bag-up:before {
+  content: "\1032d";
 }
 
 .ti-shopping-bag-x:before {
@@ -17971,8 +18794,16 @@
   content: "\fb60";
 }
 
+.ti-shopping-cart-flame:before {
+  content: "\1032c";
+}
+
 .ti-shopping-cart-heart:before {
   content: "\fb61";
+}
+
+.ti-shopping-cart-key:before {
+  content: "\1032b";
 }
 
 .ti-shopping-cart-minus:before {
@@ -18005,6 +18836,10 @@
 
 .ti-shopping-cart-share:before {
   content: "\fb68";
+}
+
+.ti-shopping-cart-spark:before {
+  content: "\1032a";
 }
 
 .ti-shopping-cart-star:before {
@@ -19319,6 +20154,26 @@
   content: "\f25b";
 }
 
+.ti-table-bolt:before {
+  content: "\10329";
+}
+
+.ti-table-cancel:before {
+  content: "\10328";
+}
+
+.ti-table-check:before {
+  content: "\10327";
+}
+
+.ti-table-code:before {
+  content: "\10326";
+}
+
+.ti-table-cog:before {
+  content: "\10325";
+}
+
 .ti-table-column:before {
   content: "\faff";
 }
@@ -19327,8 +20182,16 @@
   content: "\100ba";
 }
 
+.ti-table-dollar:before {
+  content: "\10324";
+}
+
 .ti-table-down:before {
   content: "\fa1c";
+}
+
+.ti-table-exclamation:before {
+  content: "\10323";
 }
 
 .ti-table-export:before {
@@ -19355,12 +20218,28 @@
   content: "\f25c";
 }
 
+.ti-table-pause:before {
+  content: "\10322";
+}
+
+.ti-table-pin:before {
+  content: "\10321";
+}
+
 .ti-table-plus:before {
   content: "\fa1f";
 }
 
+.ti-table-question:before {
+  content: "\10320";
+}
+
 .ti-table-row:before {
   content: "\fb00";
+}
+
+.ti-table-search:before {
+  content: "\1031f";
 }
 
 .ti-table-share:before {
@@ -19375,12 +20254,60 @@
   content: "\ffad";
 }
 
+.ti-table-star:before {
+  content: "\1031e";
+}
+
+.ti-table-up:before {
+  content: "\1031d";
+}
+
+.ti-table-x:before {
+  content: "\1031c";
+}
+
 .ti-tabs:before {
   content: "\10287";
 }
 
 .ti-tag:before {
   content: "\10096";
+}
+
+.ti-tag-bolt:before {
+  content: "\1031b";
+}
+
+.ti-tag-cancel:before {
+  content: "\1031a";
+}
+
+.ti-tag-check:before {
+  content: "\10319";
+}
+
+.ti-tag-code:before {
+  content: "\10318";
+}
+
+.ti-tag-cog:before {
+  content: "\10317";
+}
+
+.ti-tag-dollar:before {
+  content: "\10316";
+}
+
+.ti-tag-down:before {
+  content: "\10315";
+}
+
+.ti-tag-exclamation:before {
+  content: "\10314";
+}
+
+.ti-tag-heart:before {
+  content: "\10313";
 }
 
 .ti-tag-minus:before {
@@ -19391,12 +20318,44 @@
   content: "\efc0";
 }
 
+.ti-tag-pause:before {
+  content: "\10312";
+}
+
+.ti-tag-pin:before {
+  content: "\10311";
+}
+
 .ti-tag-plus:before {
   content: "\10097";
 }
 
+.ti-tag-question:before {
+  content: "\10310";
+}
+
+.ti-tag-search:before {
+  content: "\1030f";
+}
+
+.ti-tag-share:before {
+  content: "\1030e";
+}
+
+.ti-tag-star:before {
+  content: "\1030d";
+}
+
 .ti-tag-starred:before {
   content: "\fc99";
+}
+
+.ti-tag-up:before {
+  content: "\1030c";
+}
+
+.ti-tag-x:before {
+  content: "\1030b";
 }
 
 .ti-tags:before {
@@ -20427,16 +21386,84 @@
   content: "\ebf2";
 }
 
+.ti-users-bolt:before {
+  content: "\1030a";
+}
+
+.ti-users-cancel:before {
+  content: "\10309";
+}
+
+.ti-users-check:before {
+  content: "\10308";
+}
+
+.ti-users-code:before {
+  content: "\10307";
+}
+
+.ti-users-cog:before {
+  content: "\10306";
+}
+
+.ti-users-dollar:before {
+  content: "\10305";
+}
+
+.ti-users-down:before {
+  content: "\10304";
+}
+
+.ti-users-exclamation:before {
+  content: "\10303";
+}
+
 .ti-users-group:before {
   content: "\fa21";
+}
+
+.ti-users-heart:before {
+  content: "\10302";
 }
 
 .ti-users-minus:before {
   content: "\fa0e";
 }
 
+.ti-users-pause:before {
+  content: "\10301";
+}
+
+.ti-users-pin:before {
+  content: "\10300";
+}
+
 .ti-users-plus:before {
   content: "\fa0f";
+}
+
+.ti-users-question:before {
+  content: "\102ff";
+}
+
+.ti-users-search:before {
+  content: "\102fe";
+}
+
+.ti-users-share:before {
+  content: "\102fd";
+}
+
+.ti-users-star:before {
+  content: "\102fc";
+}
+
+.ti-users-up:before {
+  content: "\102fb";
+}
+
+.ti-users-x:before {
+  content: "\102fa";
 }
 
 .ti-uv-index:before {
@@ -21007,8 +22034,16 @@
   content: "\f9e0";
 }
 
+.ti-world-flame:before {
+  content: "\102f9";
+}
+
 .ti-world-heart:before {
   content: "\f9e1";
+}
+
+.ti-world-key:before {
+  content: "\102f8";
 }
 
 .ti-world-latitude:before {
@@ -21057,6 +22092,10 @@
 
 .ti-world-share:before {
   content: "\f9e8";
+}
+
+.ti-world-spark:before {
+  content: "\102f7";
 }
 
 .ti-world-star:before {
@@ -21533,4 +22572,8 @@
 
 .ti-brand-adobe-after-effect:before {
   content: "\ff2a";
+}
+
+.ti-align-justified:before {
+  content: "\ea08";
 }
