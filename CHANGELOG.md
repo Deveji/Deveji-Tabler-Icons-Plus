@@ -1,5 +1,37 @@
 # Changelog
 
+## 3.53.0
+
+- 6,630 icons (5,573 outline + 1,057 filled)
+- Added 18 new icons
+
+### Tabler Icons release notes
+
+### 18 new icons:
+
+- `outline/bed-pin`
+- `outline/bike-pin`
+- `outline/briefcase-pin`
+- `outline/building-hospital-pin`
+- `outline/building-store-pin`
+- `outline/bus-pin`
+- `outline/car-pin`
+- `outline/coffee-pin`
+- `outline/gas-station-pin`
+- `outline/home-pin`
+- `outline/package-pin`
+- `outline/parking-pin`
+- `outline/phone-pin`
+- `outline/plane-pin`
+- `outline/school-pin`
+- `outline/tent-pin`
+- `outline/tools-kitchen-2-pin`
+- `outline/truck-delivery-pin`
+
+### Fixes and improvements
+
+- **Preact:** Added Preact 11 support to `@tabler/icons-preact`: wider `preact` peer range and fixed `IconProps` type. (#1748)
+
 ## 3.52.0
 
 - 6,612 icons (5,555 outline + 1,057 filled)

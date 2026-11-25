@@ -1,5 +1,5 @@
 /*!
- * Tabler Icons 3.52.0 by tabler - https://tabler.io
+ * Tabler Icons 3.53.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/main/LICENSE
  */
 @font-face {
@@ -27,8 +27,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.buildings.woff2?h4161bcd7") format("woff2");
-  unicode-range: U+EA49-EA4D, U+EBF7, U+ED26, U+ED87-ED8A, U+EE1B-EE1C, U+EF06, U+EF2A, U+EF48, U+EF7A, U+EF80, U+EF9E, U+EFE7, U+F05E, U+F0FF, U+F129, U+F145, U+F1A7, U+F1C9, U+F1D8, U+F2CA-F2CB, U+F336-F347, U+F350-F356, U+F3BD-F3BE, U+F41B, U+F43C, U+F4BE-F4C0, U+F504-F505, U+F5A5-F5A6, U+F641, U+F64A, U+FA57, U+FC77, U+FCA1, U+FEFD, U+FF3A, U+FF50, U+FFA9, U+FFB5, U+10060-10062, U+10160, U+10204, U+10234, U+1023B, U+10251, U+1028A, U+102E3-102E4, U+103D1-103E0;
+  src: url("./fonts/tabler-icons.buildings.woff2?h6138ebf0") format("woff2");
+  unicode-range: U+EA49-EA4D, U+EBF7, U+ED26, U+ED87-ED8A, U+EE1B-EE1C, U+EF06, U+EF2A, U+EF48, U+EF7A, U+EF80, U+EF9E, U+EFE7, U+F05E, U+F0FF, U+F129, U+F145, U+F1A7, U+F1C9, U+F1D8, U+F2CA-F2CB, U+F336-F347, U+F350-F356, U+F3BD-F3BE, U+F41B, U+F43C, U+F4BE-F4C0, U+F504-F505, U+F5A5-F5A6, U+F641, U+F64A, U+FA57, U+FC77, U+FCA1, U+FEFD, U+FF3A, U+FF50, U+FFA9, U+FFB5, U+10060-10062, U+10160, U+10204, U+10234, U+1023B, U+10251, U+1028A, U+102E3-102E4, U+103D1-103E0, U+10401, U+10406-10407;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -55,15 +55,15 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.vehicles.woff2?hb76eaf8b") format("woff2");
-  unicode-range: U+EA36, U+EB6F, U+EB99-EB9A, U+EBE4, U+EBE8-EBE9, U+EBF0, U+EBF5, U+EC0D, U+EC6C, U+EC7B-EC7D, U+EC83-EC84, U+ECAA-ECAB, U+ECBC, U+ECC1-ECC2, U+ED79, U+ED7C, U+ED86, U+ED8D-ED8E, U+ED93-ED97, U+EDFE, U+EE07, U+EE1D, U+EE26, U+EE7E, U+EEB6, U+EF00, U+EF03, U+EF25, U+EF27, U+EF7E, U+EF98, U+EF9C, U+EFA4, U+F0A2, U+F0B8, U+F0C7, U+F109, U+F120, U+F137, U+F170, U+F17A, U+F1DB, U+F1ED, U+F23E, U+F270, U+F2D4, U+F3CE, U+F3F1, U+F423, U+F425, U+F42A-F42B, U+F431, U+F43E-F43F, U+F4A6, U+F4CC, U+F4FD, U+F5F7, U+FA25, U+FC89, U+FC8B, U+FDB3-FDB8, U+10074, U+10221, U+10229, U+1022F-10230, U+10244, U+1024F-10250;
+  src: url("./fonts/tabler-icons.vehicles.woff2?hdb025c87") format("woff2");
+  unicode-range: U+EA36, U+EB6F, U+EB99-EB9A, U+EBE4, U+EBE8-EBE9, U+EBF0, U+EBF5, U+EC0D, U+EC6C, U+EC7B-EC7D, U+EC83-EC84, U+ECAA-ECAB, U+ECBC, U+ECC1-ECC2, U+ED79, U+ED7C, U+ED86, U+ED8D-ED8E, U+ED93-ED97, U+EDFE, U+EE07, U+EE1D, U+EE26, U+EE7E, U+EEB6, U+EF00, U+EF03, U+EF25, U+EF27, U+EF7E, U+EF98, U+EF9C, U+EFA4, U+F0A2, U+F0B8, U+F0C7, U+F109, U+F120, U+F137, U+F170, U+F17A, U+F1DB, U+F1ED, U+F23E, U+F270, U+F2D4, U+F3CE, U+F3F1, U+F423, U+F425, U+F42A-F42B, U+F431, U+F43E-F43F, U+F4A6, U+F4CC, U+F4FD, U+F5F7, U+FA25, U+FC89, U+FC8B, U+FDB3-FDB8, U+10074, U+10221, U+10229, U+1022F-10230, U+10244, U+1024F-10250, U+103FD, U+10402, U+10404-10405, U+10409;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.e-commerce.woff2?h1a4dfa7f") format("woff2");
-  unicode-range: U+EB34, U+EBBD, U+EBE1, U+EC0A, U+EC4C, U+ED11, U+EE1E, U+EE24, U+EE7C, U+EE9A, U+EEDC, U+EEE1, U+EF2F-EF30, U+EF47, U+EF86, U+EFC0-EFC1, U+EFD2, U+F07E, U+F0B6, U+F0D1, U+F105, U+F13E, U+F16C, U+F1A2, U+F1A4, U+F1C4, U+F1DA, U+F26C, U+F285, U+F2BE-F2C3, U+F3AA, U+F3C2, U+F3D6, U+F3E6-F3E7, U+F3F3, U+F4A0, U+F4DF, U+F506, U+F509, U+F564, U+F661, U+FB43-FB6B, U+FC16-FC1D, U+FC99, U+FD0D, U+FD33, U+FD66, U+FD68-FD6B, U+FD6F-FD73, U+FD82, U+FDA2, U+FEE6, U+FF10, U+FFA2, U+10097, U+10138-10149, U+1022E, U+10283-10286, U+1029E, U+1030B-1031B, U+1032A-10338, U+103AE-103CD, U+103F4-103F6;
+  src: url("./fonts/tabler-icons.e-commerce.woff2?h55eb69b3") format("woff2");
+  unicode-range: U+EB34, U+EBBD, U+EBE1, U+EC0A, U+EC4C, U+ED11, U+EE1E, U+EE24, U+EE7C, U+EE9A, U+EEDC, U+EEE1, U+EF2F-EF30, U+EF47, U+EF86, U+EFC0-EFC1, U+EFD2, U+F07E, U+F0B6, U+F0D1, U+F105, U+F13E, U+F16C, U+F1A2, U+F1A4, U+F1C4, U+F1DA, U+F26C, U+F285, U+F2BE-F2C3, U+F3AA, U+F3C2, U+F3D6, U+F3E6-F3E7, U+F3F3, U+F4A0, U+F4DF, U+F506, U+F509, U+F564, U+F661, U+FB43-FB6B, U+FC16-FC1D, U+FC99, U+FD0D, U+FD33, U+FD66, U+FD68-FD6B, U+FD6F-FD73, U+FD82, U+FDA2, U+FEE6, U+FF10, U+FFA2, U+10097, U+10138-10149, U+1022E, U+10283-10286, U+1029E, U+1030B-1031B, U+1032A-10338, U+103AE-103CD, U+103F4-103F6, U+103F9, U+10400;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -90,8 +90,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.food.woff2?hb3481bc1") format("woff2");
-  unicode-range: U+EAB7-EAB8, U+EAC2, U+EAFB, U+EB8A, U+ED64, U+EDB8, U+EDBB, U+EE91, U+EE9F, U+EF0B, U+EF0D-EF0E, U+EF10, U+EF12-EF17, U+EF21, U+EF26, U+EF28-EF29, U+EF2E, U+EF81, U+EFA1, U+EFA3, U+EFA9, U+EFCC, U+F00F, U+F02F, U+F0BB, U+F0C5, U+F0D7, U+F101, U+F104, U+F106, U+F10D, U+F11F, U+F148, U+F157, U+F165, U+F16F, U+F175, U+F179, U+F21C-F21D, U+F248, U+F264, U+F2D6, U+F35B-F35C, U+F386, U+F3A5, U+F3C8, U+F3CB, U+F3D0, U+F3D4, U+F3F5, U+F40A, U+F40F, U+F412, U+F42D, U+F4C8, U+F4FA, U+F500, U+F50A, U+F552, U+F57A, U+FAE9-FAEB, U+FC61, U+FC7A, U+FCB4, U+FD2B, U+FD8E, U+FD90-FD91, U+FD9C-FD9E, U+FDB1, U+FEB5, U+FEB9, U+FF51-FF52, U+100A8-100A9, U+100BD, U+101A0, U+10239, U+1024E, U+10253;
+  src: url("./fonts/tabler-icons.food.woff2?h2c159fe3") format("woff2");
+  unicode-range: U+EAB7-EAB8, U+EAC2, U+EAFB, U+EB8A, U+ED64, U+EDB8, U+EDBB, U+EE91, U+EE9F, U+EF0B, U+EF0D-EF0E, U+EF10, U+EF12-EF17, U+EF21, U+EF26, U+EF28-EF29, U+EF2E, U+EF81, U+EFA1, U+EFA3, U+EFA9, U+EFCC, U+F00F, U+F02F, U+F0BB, U+F0C5, U+F0D7, U+F101, U+F104, U+F106, U+F10D, U+F11F, U+F148, U+F157, U+F165, U+F16F, U+F175, U+F179, U+F21C-F21D, U+F248, U+F264, U+F2D6, U+F35B-F35C, U+F386, U+F3A5, U+F3C8, U+F3CB, U+F3D0, U+F3D4, U+F3F5, U+F40A, U+F40F, U+F412, U+F42D, U+F4C8, U+F4FA, U+F500, U+F50A, U+F552, U+F57A, U+FAE9-FAEB, U+FC61, U+FC7A, U+FCB4, U+FD2B, U+FD8E, U+FD90-FD91, U+FD9C-FD9E, U+FDB1, U+FEB5, U+FEB9, U+FF51-FF52, U+100A8-100A9, U+100BD, U+101A0, U+10239, U+1024E, U+10253, U+103FA, U+10403;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -125,8 +125,8 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.devices-2.woff2?h34621aef") format("woff2");
-  unicode-range: U+F882-F8F8, U+F9F8-F9FD, U+FA59, U+FAE6-FAE7, U+FC58-FC59, U+FCA2, U+FF13-FF1D, U+FFAF, U+FFB1, U+FFBD, U+100AE-100B0, U+100B6, U+1022B-1022D, U+10236, U+10238, U+1023A, U+1023C, U+10274, U+1028B, U+10299-1029A, U+1029F-102A0, U+102B7, U+10387-1039E;
+  src: url("./fonts/tabler-icons.devices-2.woff2?h753cf29a") format("woff2");
+  unicode-range: U+F882-F8F8, U+F9F8-F9FD, U+FA59, U+FAE6-FAE7, U+FC58-FC59, U+FCA2, U+FF13-FF1D, U+FFAF, U+FFB1, U+FFBD, U+100AE-100B0, U+100B6, U+1022B-1022D, U+10236, U+10238, U+1023A, U+1023C, U+10274, U+1028B, U+10299-1029A, U+1029F-102A0, U+102B7, U+10387-1039E, U+103FE;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -202,15 +202,15 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.map-1.woff2?h7898727c") format("woff2");
-  unicode-range: U+EA8E, U+EAB9, U+EAE0, U+EB03, U+EB35, U+EB4E, U+EB56-EB57, U+EB76, U+EC08, U+EC0F-EC10, U+EC2F, U+EC4D, U+EC6B, U+ECA4-ECA6, U+ECDD, U+ECF3, U+ED2E-ED2F, U+ED39, U+ED5E-ED60, U+ED7A, U+ED7D, U+ED85, U+EDEB, U+EE8C-EE8D, U+EE90, U+EEC1, U+EED3, U+EEFB, U+EF01, U+EF09-EF0A, U+EF3D, U+EF79, U+EF82, U+EF8A-EF8B, U+F014, U+F016-F018, U+F06A-F06D, U+F07F-F080, U+F09B, U+F0B7, U+F0D5, U+F0F7, U+F100, U+F10E, U+F116, U+F12C-F12D, U+F134, U+F139, U+F155, U+F15C, U+F160, U+F172, U+F174, U+F17B, U+F191, U+F193-F194, U+F197, U+F19A, U+F1AD, U+F1B5-F1B6, U+F1B8-F1B9, U+F1C2, U+F1C8, U+F1CA, U+F1DC-F1DE, U+F263, U+F295, U+F2A7, U+F2C4, U+F2C8, U+F3A9, U+F3EC, U+F408, U+F413, U+F41C, U+F41F, U+F435, U+F4B6, U+F57F-F580, U+F5A7, U+F795, U+F79B-F79C, U+F94A-F95B, U+F9D9-F9E2;
+  src: url("./fonts/tabler-icons.map-1.woff2?hb08a9acf") format("woff2");
+  unicode-range: U+EA8E, U+EAB9, U+EAE0, U+EB03, U+EB35, U+EB4E, U+EB56-EB57, U+EB76, U+EC08, U+EC0F-EC10, U+EC2F, U+EC4D, U+EC6B, U+ECA4-ECA6, U+ECDD, U+ECF3, U+ED2E-ED2F, U+ED39, U+ED5E-ED60, U+ED7A, U+ED7D, U+ED85, U+EDEB, U+EE8C-EE8D, U+EE90, U+EEC1, U+EED3, U+EEFB, U+EF01, U+EF09-EF0A, U+EF3D, U+EF79, U+EF82, U+EF8A-EF8B, U+F014, U+F016-F018, U+F06A-F06D, U+F07F-F080, U+F09B, U+F0B7, U+F0D5, U+F0F7, U+F100, U+F10E, U+F116, U+F12C-F12D, U+F134, U+F139, U+F155, U+F15C, U+F160, U+F172, U+F174, U+F17B, U+F191, U+F193-F194, U+F197, U+F19A, U+F1AD, U+F1B5-F1B6, U+F1B8-F1B9, U+F1C2, U+F1C8, U+F1CA, U+F1DC-F1DE, U+F263, U+F295, U+F2A7, U+F2C4, U+F2C8, U+F3A9, U+F3EC, U+F408, U+F413, U+F41C, U+F41F, U+F435, U+F4B6, U+F57F-F580, U+F5A7, U+F795, U+F79B-F79C, U+F94A-F95B, U+F9D9-F9E4;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.map-2.woff2?h5868a995") format("woff2");
-  unicode-range: U+F9E3-F9EB, U+FAE8, U+FAEC, U+FB01, U+FB04-FB06, U+FB8A-FB8E, U+FB90-FB9D, U+FBAF-FBB3, U+FBB5-FBD4, U+FBE9-FBFC, U+FC48, U+FC5D-FC60, U+FC79, U+FCA9-FCAE, U+FCBA-FCBD, U+FEB4, U+FED6, U+FFB7, U+101E9, U+10202-10203, U+10227, U+10298, U+102C8, U+102CD, U+102D7, U+102E7-102E8, U+102F7-102F9, U+10342-10344, U+10351-10356, U+1035A-1035C;
+  src: url("./fonts/tabler-icons.map-2.woff2?hb8decb51") format("woff2");
+  unicode-range: U+F9E5-F9EB, U+FAE8, U+FAEC, U+FB01, U+FB04-FB06, U+FB8A-FB8E, U+FB90-FB9D, U+FBAF-FBB3, U+FBB5-FBD4, U+FBE9-FBFC, U+FC48, U+FC5D-FC60, U+FC79, U+FCA9-FCAE, U+FCBA-FCBD, U+FEB4, U+FED6, U+FFB7, U+101E9, U+10202-10203, U+10227, U+10298, U+102C8, U+102CD, U+102D7, U+102E7-102E8, U+102F7-102F9, U+10342-10344, U+10351-10356, U+1035A-1035C, U+103FB-103FC, U+103FF, U+1040A;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -223,15 +223,15 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.design-1.woff2?hd12e8096") format("woff2");
-  unicode-range: U+EA02, U+EA2A, U+EA3B-EA44, U+EA47, U+EA50, U+EA85-EA86, U+EAA7-EAA8, U+EAAF, U+EABC, U+EAC8-EAD9, U+EADB, U+EAE3, U+EB00, U+EB1A-EB1B, U+EB2D, U+EB2F, U+EB39, U+EB61, U+EB7C, U+EB88-EB89, U+EB9C, U+EBB8, U+EBCA, U+EBDB, U+EBE6, U+EC13-EC14, U+EC3F-EC40, U+ECA8-ECA9, U+ECC5, U+ECEC, U+EDB9, U+EE0A-EE0C, U+EE17-EE18, U+EE46-EE47, U+EE50, U+EE7B, U+EE81-EE83, U+EE85, U+EE92, U+EE9D-EE9E, U+EEA1, U+EEA7-EEA8, U+EEAF-EEB0, U+EEC6-EEC9, U+EECF, U+EED2, U+EED5, U+EED9-EEDA, U+EEF3-EEF6, U+EF1D, U+EF1F-EF20, U+EF22-EF23, U+EF87, U+EF8C, U+EF91, U+EF94-EF95, U+EF9D, U+EFA5, U+EFAB-EFAC, U+EFC6, U+EFD0, U+EFF8, U+EFFB, U+F006-F007, U+F00E, U+F02B, U+F05F, U+F09E, U+F0AE, U+F0B4-F0B5, U+F0C2, U+F0D2-F0D3, U+F0D6, U+F0FE, U+F102-F103, U+F107, U+F11D-F11E, U+F135, U+F13C, U+F14B, U+F14D, U+F14F-F151, U+F159, U+F16D-F16E, U+F173, U+F182, U+F195-F196, U+F19B, U+F1A0, U+F1A3, U+F1B0, U+F1B7, U+F1BE-F1BF, U+F1D9, U+F1EB-F1EC, U+F234-F235, U+F289, U+F28B-F28E, U+F290-F291, U+F2A3;
+  src: url("./fonts/tabler-icons.design-1.woff2?h45972d5f") format("woff2");
+  unicode-range: U+EA02, U+EA2A, U+EA3B-EA44, U+EA47, U+EA50, U+EA85-EA86, U+EAA7-EAA8, U+EAAF, U+EABC, U+EAC8-EAD9, U+EADB, U+EAE3, U+EB00, U+EB1A-EB1B, U+EB2D, U+EB2F, U+EB39, U+EB61, U+EB7C, U+EB88-EB89, U+EB9C, U+EBB8, U+EBCA, U+EBDB, U+EBE6, U+EC13-EC14, U+EC3F-EC40, U+ECA8-ECA9, U+ECC5, U+ECEC, U+EDB9, U+EE0A-EE0C, U+EE17-EE18, U+EE46-EE47, U+EE50, U+EE7B, U+EE81-EE83, U+EE85, U+EE92, U+EE9D-EE9E, U+EEA1, U+EEA7-EEA8, U+EEAF-EEB0, U+EEC6-EEC9, U+EECF, U+EED2, U+EED5, U+EED9-EEDA, U+EEF3-EEF6, U+EF1D, U+EF1F-EF20, U+EF22-EF23, U+EF87, U+EF8C, U+EF91, U+EF94-EF95, U+EF9D, U+EFA5, U+EFAB-EFAC, U+EFC6, U+EFD0, U+EFF8, U+EFFB, U+F006-F007, U+F00E, U+F02B, U+F05F, U+F09E, U+F0AE, U+F0B4-F0B5, U+F0C2, U+F0D2-F0D3, U+F0D6, U+F0FE, U+F102-F103, U+F107, U+F11D-F11E, U+F135, U+F13C, U+F14B, U+F14D, U+F14F-F151, U+F159, U+F16D-F16E, U+F173, U+F182, U+F195-F196, U+F19B, U+F1A0, U+F1A3, U+F1B0, U+F1B7, U+F1BE-F1BF, U+F1D9, U+F1EB-F1EC, U+F234-F235, U+F289, U+F28B-F28E, U+F290-F291, U+F2A3, U+F2A8;
 }
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.design-2.woff2?hcae9372a") format("woff2");
-  unicode-range: U+F2A8-F2AB, U+F2CE-F2D1, U+F2D5, U+F369, U+F383, U+F388-F389, U+F3A7, U+F3AB, U+F3B7, U+F3C6-F3C7, U+F3C9-F3CA, U+F3CC, U+F3D9, U+F3FA, U+F4BD, U+F4C6, U+F4C9, U+F4CD-F4CE, U+F507-F508, U+F510, U+F51E-F525, U+F565, U+F56A, U+F570-F575, U+F579, U+F586, U+F59C-F59E, U+F5A8, U+F626, U+F659-F65A, U+F7A0-F7A1, U+F8F9-F90B, U+FA63-FA65, U+FA7D, U+FBFD-FC0E, U+FC14, U+FC64, U+FCA4-FCA6, U+FCB1-FCB2, U+FCB9, U+FD2C, U+FD31, U+FD3A, U+FD3D, U+FD50-FD56, U+FD62-FD65, U+FDA1, U+FDAB, U+FDB2, U+FDBA-FDBE, U+FEA9-FEAA, U+FEB0, U+FEC6, U+FEFE, U+FF0F, U+FF20-FF22, U+FF45-FF48, U+101FC-101FE, U+10201, U+10256, U+10259, U+1025C, U+10263, U+1027C, U+10288, U+10291, U+10293, U+1029D, U+102A1-102A5, U+102CA-102CB, U+102D3, U+1033F-10341, U+10384-10386;
+  src: url("./fonts/tabler-icons.design-2.woff2?h416ac34d") format("woff2");
+  unicode-range: U+F2A9-F2AB, U+F2CE-F2D1, U+F2D5, U+F369, U+F383, U+F388-F389, U+F3A7, U+F3AB, U+F3B7, U+F3C6-F3C7, U+F3C9-F3CA, U+F3CC, U+F3D9, U+F3FA, U+F4BD, U+F4C6, U+F4C9, U+F4CD-F4CE, U+F507-F508, U+F510, U+F51E-F525, U+F565, U+F56A, U+F570-F575, U+F579, U+F586, U+F59C-F59E, U+F5A8, U+F626, U+F659-F65A, U+F7A0-F7A1, U+F8F9-F90B, U+FA63-FA65, U+FA7D, U+FBFD-FC0E, U+FC14, U+FC64, U+FCA4-FCA6, U+FCB1-FCB2, U+FCB9, U+FD2C, U+FD31, U+FD3A, U+FD3D, U+FD50-FD56, U+FD62-FD65, U+FDA1, U+FDAB, U+FDB2, U+FDBA-FDBE, U+FEA9-FEAA, U+FEB0, U+FEC6, U+FEFE, U+FF0F, U+FF20-FF22, U+FF45-FF48, U+101FC-101FE, U+10201, U+10256, U+10259, U+1025C, U+10263, U+1027C, U+10288, U+10291, U+10293, U+1029D, U+102A1-102A5, U+102CA-102CB, U+102D3, U+1033F-10341, U+10384-10386, U+10408;
 }
 @font-face {
   font-family: "tabler-icons";
@@ -2342,6 +2342,10 @@
   content: "\f100";
 }
 
+.ti-bed-pin:before {
+  content: "\1040a";
+}
+
 .ti-beer:before {
   content: "\efa1";
 }
@@ -2476,6 +2480,10 @@
 
 .ti-bike-off:before {
   content: "\f0b8";
+}
+
+.ti-bike-pin:before {
+  content: "\10409";
 }
 
 .ti-binary:before {
@@ -4574,6 +4582,10 @@
   content: "\f3cc";
 }
 
+.ti-briefcase-pin:before {
+  content: "\10408";
+}
+
 .ti-brightness:before {
   content: "\eb7f";
 }
@@ -4814,6 +4826,10 @@
   content: "\ea4d";
 }
 
+.ti-building-hospital-pin:before {
+  content: "\10407";
+}
+
 .ti-building-lighthouse:before {
   content: "\ed8a";
 }
@@ -4878,6 +4894,10 @@
   content: "\ea4e";
 }
 
+.ti-building-store-pin:before {
+  content: "\10406";
+}
+
 .ti-building-tunnel:before {
   content: "\f5a6";
 }
@@ -4924,6 +4944,10 @@
 
 .ti-bus-off:before {
   content: "\f3ce";
+}
+
+.ti-bus-pin:before {
+  content: "\10405";
 }
 
 .ti-bus-stop:before {
@@ -5344,6 +5368,10 @@
 
 .ti-car-off-road:before {
   content: "\10230";
+}
+
+.ti-car-pin:before {
+  content: "\10404";
 }
 
 .ti-car-suspension:before {
@@ -7212,6 +7240,10 @@
 
 .ti-coffee-off:before {
   content: "\f106";
+}
+
+.ti-coffee-pin:before {
+  content: "\10403";
 }
 
 .ti-coffin:before {
@@ -11118,6 +11150,10 @@
   content: "\f137";
 }
 
+.ti-gas-station-pin:before {
+  content: "\10402";
+}
+
 .ti-gauge:before {
   content: "\eab1";
 }
@@ -12152,6 +12188,10 @@
 
 .ti-home-off:before {
   content: "\f145";
+}
+
+.ti-home-pin:before {
+  content: "\10401";
 }
 
 .ti-home-plus:before {
@@ -16126,6 +16166,10 @@
   content: "\f16c";
 }
 
+.ti-package-pin:before {
+  content: "\10400";
+}
+
 .ti-packages:before {
   content: "\f2c9";
 }
@@ -16212,6 +16256,10 @@
 
 .ti-parking-off:before {
   content: "\f172";
+}
+
+.ti-parking-pin:before {
+  content: "\103ff";
 }
 
 .ti-password:before {
@@ -16562,6 +16610,10 @@
   content: "\eb08";
 }
 
+.ti-phone-pin:before {
+  content: "\103fe";
+}
+
 .ti-phone-plus:before {
   content: "\ec06";
 }
@@ -16868,6 +16920,10 @@
 
 .ti-plane-off:before {
   content: "\f17a";
+}
+
+.ti-plane-pin:before {
+  content: "\103fd";
 }
 
 .ti-plane-tilt:before {
@@ -18188,6 +18244,10 @@
 
 .ti-school-off:before {
   content: "\f19a";
+}
+
+.ti-school-pin:before {
+  content: "\103fc";
 }
 
 .ti-scissors:before {
@@ -20498,6 +20558,10 @@
   content: "\f435";
 }
 
+.ti-tent-pin:before {
+  content: "\103fb";
+}
+
 .ti-terminal:before {
   content: "\ebdc";
 }
@@ -20808,6 +20872,10 @@
 
 .ti-tools-kitchen-2-off:before {
   content: "\f1b5";
+}
+
+.ti-tools-kitchen-2-pin:before {
+  content: "\103fa";
 }
 
 .ti-tools-kitchen-3:before {
@@ -21140,6 +21208,10 @@
 
 .ti-truck-delivery:before {
   content: "\ec4b";
+}
+
+.ti-truck-delivery-pin:before {
+  content: "\103f9";
 }
 
 .ti-truck-loading:before {
